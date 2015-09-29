@@ -1,6 +1,9 @@
 {
 :lang :iraqw
 :sgpref "irq"
+:datasource "Mous1993"
+:geodemoURL "http://www.ethnologue.com/language/irk"
+:geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in "
 :schemata {
 :category [:Case]
 	  :conjClass [:Conj1, :Conj2, :Conj2a, :Conj2b, :Conj3a, :Conj3b, :Conj3c, :Conj3d, :Conj3e, :Irreg, :Person1, :Person2, :cc2a, :cc2b, :cc3a, :cc3b, :cc3c, :cc3d, :cc3e]
