@@ -82,7 +82,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "káh", "a"],
 	    [:Common, :Singular, :Person2, "kát", "a"],
 	    [:Masc, :Singular, :Person3, "káhi ~ káy", "I"],
@@ -120,7 +120,7 @@
 	    :polarity :Subordiate,
 	    :pos :Verb,
 	    :tam :Present,
-	    :token-selector :Common,
+	    :token-note-selector :Common,
 	    :morphClass :TenseFormation}
     :terms [[:person, :token]  ;; schema
 	    [:Common, "-a"],
@@ -133,7 +133,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token, :token-suffix]  ;; schema
+    :terms [[:number, :token, :token-note-suffix]  ;; schema
 	    [:Singular, "huwang", "-ang"],
 	    [:Plural, "_NULL", "_NULL"]]
     }
@@ -147,7 +147,7 @@
 	    :pos :Verb,
 	    :tam :PresQ,
 	    :morphClass :TenseFormation}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "dôohla", "a"],
 	    [:Singular, :Person2, "dôhla", "a"],
 	    [:Singular, :Person3, "dôohli", "I"],
@@ -163,7 +163,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "dôohla", "a"],
 	    [:Singular, :Person2, "dôhla", "a"],
 	    [:Singular, :Person3, "dôohli", "I"],
@@ -197,7 +197,7 @@
 	    :pos :Verb,
 	    :tam :Present,
 	    :morphClass :TenseFormation}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "dóohl+a+ká goes_to doohlaaká", "a"],
 	    [:Common, :Singular, :Person2, "dóhl+a+ká goes_to dohlká", "a"],
 	    [:Masc, :Singular, :Person3, "doohl+i+ká goes_to doohliiká", "I"],
@@ -253,7 +253,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-selector :Common,
+	    :token-note-selector :Common,
 	    :morphClass :TenseFormation}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "dóohl"],
@@ -325,7 +325,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "firîimi", "ga"],
 	    [:Singular, :Person2, "firîindi", "ga"],
 	    [:Singular, :Person3, "fîrni", "aa"],
@@ -343,7 +343,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :RelativePast,
-	    :token-selector :ta-,
+	    :token-note-selector :ta-,
 	    :morphClass :TenseFormation}
     :terms [[:token]  ;; schema
 	    ["past"]]
@@ -358,7 +358,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-selector :M-,
+	    :token-note-selector :M-,
 	    :morphClass :TenseFormation}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "doohlaar"],
@@ -411,7 +411,7 @@
 	    :pos :Verb,
 	    :tam :Past,
 	    :morphClass :TenseFormation}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "dóohl", "Aga"],
 	    [:Common, :Singular, :Person2, "dóhl", "Aga"],
 	    [:Masc, :Singular, :Person3, "dóohl", "aa"],
@@ -427,7 +427,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "dóohl", "a"],
 	    [:Common, :Singular, :Person2, "dóhl", "a"],
 	    [:Masc, :Singular, :Person3, "doohl", "I"],
@@ -445,7 +445,7 @@
 	    :pos :Verb,
 	    :tam :Present,
 	    :morphClass :TenseFormation}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "dóohl", "a"],
 	    [:Common, :Singular, :Person2, "dóhl", "a"],
 	    [:Masc, :Singular, :Person3, "doohl", "I"],
@@ -535,7 +535,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "dôohli", "ga"],
 	    [:Singular, :Person2, "dôhli", "ga"],
 	    [:Singular, :Person3, "dôohli", "aa"],
@@ -570,7 +570,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "tlâwa", "a"],
 	    [:Singular, :Person2, "tlêera", "a"],
 	    [:Singular, :Person3, "tlâya", "I"],
@@ -608,7 +608,7 @@
 	    :pos :Verb,
 	    :tam :Past,
 	    :morphClass :TenseFormation}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "dóohl+i+ká goes_to doohliiká", "Aga"],
 	    [:Common, :Singular, :Person2, "dóhl+i+ká goes_to dohlká", "Aga"],
 	    [:Masc, :Singular, :Person3, "dóohl+i+ká goes_to doohliiká", "aa"],
@@ -640,7 +640,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:imprtvClass, :number, :token, :token-suffix]  ;; schema
+    :terms [[:imprtvClass, :number, :token, :token-note-suffix]  ;; schema
 	    [:Base, :Singular, "dóohl", "-Ø"],
 	    [:Base, :Plural, "_NULL", "_NULL"],
 	    [:Object, :Singular, "doohleek", "-eek"],
@@ -675,7 +675,7 @@
 	    :pos :Verb,
 	    :tam :PastQ,
 	    :morphClass :TenseFormation}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "dôohli", "ga"],
 	    [:Singular, :Person2, "dôhli", "ga"],
 	    [:Singular, :Person3, "dôohli", "aa"],
@@ -690,7 +690,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Common, "deer", "a"],
 	    [:Singular, :Person3, "deer", "I"],
 	    [:Plural, :Person3, "_NULL", "I"]]
@@ -702,7 +702,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperative}
-    :terms [[:number, :token, :token-suffix]  ;; schema
+    :terms [[:number, :token, :token-note-suffix]  ;; schema
 	    [:Singular, "doohlaar", "-aar"],
 	    [:Plural, "_NULL", "_NULL"]]
     }
@@ -715,7 +715,7 @@
 	    :pos :Verb,
 	    :tam :RelativePresent,
 	    :morphClass :TenseFormation}
-    :terms [[:gender, :number, :person, :token, :token-selector]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-selector]  ;; schema
 	    [:Common, :Singular, :Person1, "doohl", "ni"],
 	    [:Common, :Singular, :Person2, "dohl", "ta"],
 	    [:Masc, :Singular, :Person3, "doohli", "I"],
@@ -731,7 +731,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "tlâwi", "ga"],
 	    [:Singular, :Person2, "tlêeri", "ga"],
 	    [:Singular, :Person3, "tlâyi", "aa"],
@@ -822,7 +822,7 @@
 	    :polarity :Subordiate,
 	    :pos :Verb,
 	    :tam :Past,
-	    :token-selector :Common,
+	    :token-note-selector :Common,
 	    :morphClass :TenseFormation}
     :terms [[:token]  ;; schema
 	    ["-i"]]
@@ -896,7 +896,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
-    :terms [[:number, :person, :token, :token-selector]  ;; schema
+    :terms [[:number, :person, :token, :token-note-selector]  ;; schema
 	    [:Singular, :Person1, "firîima", "a"],
 	    [:Singular, :Person2, "firîinda", "a"],
 	    [:Singular, :Person3, "fîrna", "I"],
@@ -906,20 +906,20 @@
     }}
 :muterms #{
     {:label "iraqw-VAffSelectorForms2"
-    :note "Mous1993 p.130 (9)."
+    :note "Mous1993 p.130 (9).The template note is: persObe + selBE + selMood + selTense"
     :common {:morpheme :SELECTORFORMSAFF2,
 	    :persObj :Person3,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :morphClass :SelectorForms2}
-    :terms [[:selectorBE, :selectorMood, :selectorTense, :token-persObj, :token-selBE, :token-selMood, :token-selTense, :token, :token]  ;; schema
-	    [:Independent, :Common, :Past, "g-", "⊤", "⊤", "-na", "g- + ⊤ + ⊤ + -na", "g- + ⊤ + ⊤ + -na"],
-	    [:Independent, :Common, :Expectational, "g-", "⊤", "⊤", "-n", "g- + ⊤ + ⊤ + -n"],
-	    [:Independent, :Common, :Consecutive, "g-", "⊤", "⊤", "-ri", "g- + ⊤ + ⊤ + -ri"],
-	    [:Dependent, :Common, :Consecutive2, "g-", "⊤", "⊤", "-ay", "g- + ⊤ + ⊤ + -ay"],
-	    [:Dependent, :Common, :Background, "ng-", "⊤", "⊤", "-wa", "ng- + ⊤ + ⊤ + -wa"],
-	    [:Independent, :Conditional, :Common, "ng-", "⊤", "bar", "⊤", "ng- + ⊤ + bar + ⊤"],
-	    [:Independent, :Concessive, :Common, "ng-", "⊤", "tam", "⊤", "ng- + ⊤ + tam + ⊤"]]
+    :terms [[:selectorBE, :selectorMood, :selectorTense, :token-note-sel, :token-selTense, :token]  ;; schema
+	    [:Independent, :Common, :Past, "g- + ⊤ + ⊤ + -na", "g- + ⊤ + ⊤ + -na",],
+	    [:Independent, :Common, :Expectational, "g- + ⊤ + ⊤ + -n", "g- + ⊤ + ⊤ + -n"],
+	    [:Independent, :Common, :Consecutive, "g- + ⊤ + ⊤ + -ri", "g- + ⊤ + ⊤ + -ri"],
+	    [:Dependent, :Common, :Consecutive2, "g- + ⊤ + ⊤ + -ay", "g- + ⊤ + ⊤ + -ay"],
+	    [:Dependent, :Common, :Background, "ng- + ⊤ + ⊤ + -wa", "ng- + ⊤ + ⊤ + -wa"],
+	    [:Independent, :Conditional, :Common, "ng- + ⊤ + bar + ⊤", "ng- + ⊤ + bar + ⊤"],
+	    [:Independent, :Concessive, :Common, "ng- + ⊤ + tam + ⊤", "ng- + ⊤ + tam + ⊤"]]
     }
     {:label "iraqw-PInd"
     :note "Mous1993 p.112"
