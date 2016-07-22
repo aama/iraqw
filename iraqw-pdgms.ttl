@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/iraqw//iraqw-pdgms.edn
+#../aama-data/data/iraqw/iraqw-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -13,6 +13,7 @@
 
 aama:Iraqw a aamas:Language .
 aama:Iraqw rdfs:label "Iraqw" .
+aama:Iraqw aamas:lpref "irq" .
 aama:Iraqw aamas:dataSource "Mous1993" .
 aama:Iraqw aamas:geodemoURL "http://www.ethnologue.com/language/irk" .
 aama:Iraqw aamas:geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in " .
@@ -1037,7 +1038,7 @@ irq:iraqw-VAffImprtvMarker-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.164 (32%%33)." 
 	.
 
-aama:IDaf01fa3a-71bd-480d-a39b-fb92fe7159ae a aamas:Term ;
+aama:ID85ae4e4e-7a6b-470f-84f7-f0b901d81c14 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -1051,7 +1052,7 @@ aama:IDaf01fa3a-71bd-480d-a39b-fb92fe7159ae a aamas:Term ;
 	irq:imprtvClass irq:Base ;
 	.
 
-aama:ID0457d81f-8a9c-4e86-b08f-72889b1e06d7 a aamas:Term ;
+aama:IDcb29407e-fe9d-4a9d-811d-e2a562c78fa3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -1065,7 +1066,7 @@ aama:ID0457d81f-8a9c-4e86-b08f-72889b1e06d7 a aamas:Term ;
 	irq:imprtvClass irq:Base ;
 	.
 
-aama:ID2e0011e3-2a53-458f-bb44-618eda3fb3a5 a aamas:Term ;
+aama:IDc2c24451-9d3b-4dfe-a0f3-d409d2f90dc3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -1079,7 +1080,7 @@ aama:ID2e0011e3-2a53-458f-bb44-618eda3fb3a5 a aamas:Term ;
 	irq:imprtvClass irq:Hither ;
 	.
 
-aama:IDbb2ad983-439f-453f-b63f-685b65fff3a6 a aamas:Term ;
+aama:ID2d6d59ec-965b-48f8-b26b-50d413366129 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -1093,7 +1094,7 @@ aama:IDbb2ad983-439f-453f-b63f-685b65fff3a6 a aamas:Term ;
 	irq:imprtvClass irq:Hither ;
 	.
 
-aama:ID5e78b946-4e72-4acc-9a82-cc14f7e6cce9 a aamas:Term ;
+aama:IDfd9bf423-261f-4bbf-b552-1472470aacaa a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -1107,7 +1108,7 @@ aama:ID5e78b946-4e72-4acc-9a82-cc14f7e6cce9 a aamas:Term ;
 	irq:imprtvClass irq:Object ;
 	.
 
-aama:ID8d4d2df4-8d09-4ddf-a50a-3b571a0c9387 a aamas:Term ;
+aama:ID593269f9-abd9-4d45-a0bd-3d1c4cd85701 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -1128,7 +1129,7 @@ irq:iraqw-VAffImprtvMarker-huuw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.164 (32%%33)." 
 	.
 
-aama:ID6909e449-69ef-4f81-9e44-e678976f67d2 a aamas:Term ;
+aama:ID92c42662-6570-479b-8fc0-29cb1f343c38 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-huuw ;
 	irq:imprtvClass irq:HitherObj ;
@@ -1142,7 +1143,7 @@ aama:ID6909e449-69ef-4f81-9e44-e678976f67d2 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID9dd6d012-41f7-4739-9922-b09baa6f365c a aamas:Term ;
+aama:ID30106583-d360-4c61-b6e7-149ecfb54771 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VAffImprtvMarker-huuw ;
 	irq:imprtvClass irq:HitherObj ;
@@ -1164,7 +1165,7 @@ irq:iraqw-VConj1AffPres-koom a aamas:Termcluster ;
             iraqw-VPresConj3e-doohl." 
 	.
 
-aama:ID7369d629-251a-451f-9850-516da1d125a2 a aamas:Term ;
+aama:ID27c88029-931e-4a57-8b5a-ecf529c238d3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1179,7 +1180,7 @@ aama:ID7369d629-251a-451f-9850-516da1d125a2 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDbd89670c-6896-4812-9fff-6c25fb741b65 a aamas:Term ;
+aama:IDd59a25f7-0101-4c93-a2cb-7903c3bd0ab0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1194,7 +1195,7 @@ aama:IDbd89670c-6896-4812-9fff-6c25fb741b65 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID992d7736-6e27-4b51-9241-2ef1134670da a aamas:Term ;
+aama:ID08c03aed-afb1-4ce7-a4d2-5efebd53c73e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1209,7 +1210,7 @@ aama:ID992d7736-6e27-4b51-9241-2ef1134670da a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd0447302-2e8e-48d5-91d3-f8b7be406125 a aamas:Term ;
+aama:IDa4ded1c4-1e92-42ea-8ba5-3a2ce3631b7e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1224,7 +1225,7 @@ aama:IDd0447302-2e8e-48d5-91d3-f8b7be406125 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDfe2751c4-443b-4811-9df4-4b897a2981f1 a aamas:Term ;
+aama:ID2ed5250f-6044-42d7-9290-77ab57fbc4d9 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1239,7 +1240,7 @@ aama:IDfe2751c4-443b-4811-9df4-4b897a2981f1 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID1bb318a5-62ef-40c6-b82d-3b78cc4db4ce a aamas:Term ;
+aama:ID6df82bd9-579d-47c2-9fb1-d48c164fdbf3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1254,7 +1255,7 @@ aama:ID1bb318a5-62ef-40c6-b82d-3b78cc4db4ce a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID24660db2-464c-465d-8112-be238346d4b7 a aamas:Term ;
+aama:ID62b57540-4f6c-418f-81ff-954bf3eac8dd a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1AffPres-koom ;
 	irq:conjClass irq:Conj1 ;
@@ -1276,7 +1277,7 @@ irq:iraqw-VConj1NegPastTenseFormation2-firiim a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.169 (35)." 
 	.
 
-aama:ID52f65738-fbfe-4b1d-8e63-df8692127628 a aamas:Term ;
+aama:IDf721c88b-3df2-4205-b380-0acd8d3abca1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1291,7 +1292,7 @@ aama:ID52f65738-fbfe-4b1d-8e63-df8692127628 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID004dcadc-6649-47cf-a889-f1d75fb7a2d0 a aamas:Term ;
+aama:ID61fb86d1-4578-470d-8f4b-ab807eb164bf a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1306,7 +1307,7 @@ aama:ID004dcadc-6649-47cf-a889-f1d75fb7a2d0 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID354a248e-4873-4cfa-b4fe-1679549d2f9d a aamas:Term ;
+aama:ID87bb7eab-1257-4a82-b611-8000f2b9030e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1321,7 +1322,7 @@ aama:ID354a248e-4873-4cfa-b4fe-1679549d2f9d a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDcf319ea7-18ba-4ab8-aa86-bbc07f96f383 a aamas:Term ;
+aama:ID6b8ebdb0-cba6-44aa-8848-985614b962ba a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1336,7 +1337,7 @@ aama:IDcf319ea7-18ba-4ab8-aa86-bbc07f96f383 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID6bf83a98-7842-46b6-971a-0ca4ae799175 a aamas:Term ;
+aama:ID819c3641-3a28-40fb-8f37-202a53efd661 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1351,7 +1352,7 @@ aama:ID6bf83a98-7842-46b6-971a-0ca4ae799175 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID3f3149f3-0295-4322-87ed-133ef9392a77 a aamas:Term ;
+aama:IDe4436003-328d-4f8e-8fea-6d5f786b1a24 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1366,7 +1367,7 @@ aama:ID3f3149f3-0295-4322-87ed-133ef9392a77 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID3188a0ac-a4f5-4e15-a37f-76bfcaf223c4 a aamas:Term ;
+aama:ID61693d3c-6347-428c-9281-5ed39991a78d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPastTenseFormation2-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1388,7 +1389,7 @@ irq:iraqw-VConj1NegPresTenseFormation1-firiim a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule%%which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3." 
 	.
 
-aama:IDa2b88c2d-1d38-409d-8170-5f91130f3eba a aamas:Term ;
+aama:ID91fe4519-f333-45e9-a660-00660a96d106 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1403,7 +1404,7 @@ aama:IDa2b88c2d-1d38-409d-8170-5f91130f3eba a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID2965909e-4c4f-4a62-a61a-42c8fdcb6cc8 a aamas:Term ;
+aama:IDee6a755f-ef29-41b7-883e-b1fda53b9747 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1418,7 +1419,7 @@ aama:ID2965909e-4c4f-4a62-a61a-42c8fdcb6cc8 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID65b3cb8d-075d-44c2-acfe-122efa752766 a aamas:Term ;
+aama:IDe724ce1e-3b8f-4adb-b5a0-794f20d6f686 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1433,7 +1434,7 @@ aama:ID65b3cb8d-075d-44c2-acfe-122efa752766 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID2ec7c812-c6dc-42e3-b616-ccce2c02aeed a aamas:Term ;
+aama:ID1f20a26e-16e2-4c84-b904-ca859a5163a5 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1448,7 +1449,7 @@ aama:ID2ec7c812-c6dc-42e3-b616-ccce2c02aeed a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID57bc84c8-0288-44a8-813b-89cd51e1fbad a aamas:Term ;
+aama:ID09587200-1cca-4e52-bf75-3f84f0f0831d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1463,7 +1464,7 @@ aama:ID57bc84c8-0288-44a8-813b-89cd51e1fbad a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID14775f6a-f760-4ab1-b6ec-1a7d5bc313ca a aamas:Term ;
+aama:ID9daceafb-fdb6-4091-ab32-b52bf344f53b a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1478,7 +1479,7 @@ aama:ID14775f6a-f760-4ab1-b6ec-1a7d5bc313ca a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID937993df-d3da-4be9-a6d5-1ac2f68c1587 a aamas:Term ;
+aama:ID58663d93-ef29-456e-b06a-f7356a133fe1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj1NegPresTenseFormation1-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -1500,7 +1501,7 @@ irq:iraqw-VConj2AffPast-tlaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.170 (36)." 
 	.
 
-aama:ID007b5f18-0da7-43bb-8571-4922b621d3bf a aamas:Term ;
+aama:ID97b36ef7-a8ef-4442-8124-62bbd4fbecf4 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1515,7 +1516,7 @@ aama:ID007b5f18-0da7-43bb-8571-4922b621d3bf a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID16aaab55-8273-438b-8bf2-0e6a0e7d4568 a aamas:Term ;
+aama:ID9a52e1ce-9d97-40b5-b4a6-f68121edede3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1530,7 +1531,7 @@ aama:ID16aaab55-8273-438b-8bf2-0e6a0e7d4568 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID647f7b44-1f4c-4b3d-9842-ab69d89ee646 a aamas:Term ;
+aama:IDeb22dd5d-999e-4f9c-a4ac-ecce2c66f5d7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1545,7 +1546,7 @@ aama:ID647f7b44-1f4c-4b3d-9842-ab69d89ee646 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID747d1959-767a-4d7a-ba07-24e886108924 a aamas:Term ;
+aama:IDa09df89f-7f78-479b-8df7-4311e00bfd5c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1560,7 +1561,7 @@ aama:ID747d1959-767a-4d7a-ba07-24e886108924 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID32278fff-8dd1-430f-8b1b-87f3241e429a a aamas:Term ;
+aama:ID79505365-a439-4064-9259-cb3f1f245a5d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1575,7 +1576,7 @@ aama:ID32278fff-8dd1-430f-8b1b-87f3241e429a a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID4e5eff9d-d512-4bec-9c8b-1f2f59f73e9a a aamas:Term ;
+aama:ID7cfb1022-e930-4bb9-89b1-a706485d1953 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1597,7 +1598,7 @@ irq:iraqw-VConj2AffPres-deer a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.163 (31)." 
 	.
 
-aama:ID9883e064-1242-4cf5-8fc3-f209b055a299 a aamas:Term ;
+aama:IDdd7358cb-719a-4288-a592-97949ff0ab26 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPres-deer ;
 	irq:conjClass irq:Conj2 ;
@@ -1612,7 +1613,7 @@ aama:ID9883e064-1242-4cf5-8fc3-f209b055a299 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID1ae05b74-3907-4281-8db4-fa9105916fbd a aamas:Term ;
+aama:IDf234dc17-e508-4660-a6bd-0c4b2cec7f21 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPres-deer ;
 	irq:conjClass irq:Conj2 ;
@@ -1627,7 +1628,7 @@ aama:ID1ae05b74-3907-4281-8db4-fa9105916fbd a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd7461e55-4527-4b85-b4b5-7a14aa8820dc a aamas:Term ;
+aama:IDba599f19-c7a3-4887-baf4-b3184bc0bca7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2AffPres-deer ;
 	irq:conjClass irq:Conj2 ;
@@ -1649,7 +1650,7 @@ irq:iraqw-VConj2NegPastTenseFormation2-tlaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.169 (35)." 
 	.
 
-aama:ID28e827ff-af1a-4da5-8af7-5a3e362c846d a aamas:Term ;
+aama:IDf90aa72f-ddfc-42ab-8371-574421620ed1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1664,7 +1665,7 @@ aama:ID28e827ff-af1a-4da5-8af7-5a3e362c846d a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID7aa6cfbf-3f63-4ecc-a88f-032bf7339435 a aamas:Term ;
+aama:ID6b4c3832-5bcf-40ad-a19c-42c0aa380ac7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1679,7 +1680,7 @@ aama:ID7aa6cfbf-3f63-4ecc-a88f-032bf7339435 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID08ec9e9f-0d38-4624-92db-b7d08c760b05 a aamas:Term ;
+aama:IDa0e3d608-d9de-46a9-b1e9-ef7201013ec7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1694,7 +1695,7 @@ aama:ID08ec9e9f-0d38-4624-92db-b7d08c760b05 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID8671cd10-7d7d-4a08-a629-5002b648d9c6 a aamas:Term ;
+aama:ID537bc554-9151-4206-b37b-9e6771f0d1b0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1709,7 +1710,7 @@ aama:ID8671cd10-7d7d-4a08-a629-5002b648d9c6 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID1576cc6a-4e8d-4da7-ae19-dad797808357 a aamas:Term ;
+aama:ID907e202c-c550-4dbd-8ecb-8f1b219a1d6a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1724,7 +1725,7 @@ aama:ID1576cc6a-4e8d-4da7-ae19-dad797808357 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID82d66e3a-1e55-4ed1-85d9-3e66288bcf47 a aamas:Term ;
+aama:ID74ba3b1f-bab3-46a2-80bf-0136ba9485ad a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1739,7 +1740,7 @@ aama:ID82d66e3a-1e55-4ed1-85d9-3e66288bcf47 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID772a1a2a-6136-491a-a59f-1efe5391e89f a aamas:Term ;
+aama:IDc02ba88a-39ca-490b-9360-26d720aff55d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPastTenseFormation2-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1761,7 +1762,7 @@ irq:iraqw-VConj2NegPresTenseFormation1-tlaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule%%which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3." 
 	.
 
-aama:IDd26a5d81-633d-45a5-8f8d-7be288d22fb3 a aamas:Term ;
+aama:ID7d681cf9-bb88-48fb-bbd2-f98e4682e8c3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1776,7 +1777,7 @@ aama:IDd26a5d81-633d-45a5-8f8d-7be288d22fb3 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDefb6bbe0-1125-4180-ac4b-388907f47809 a aamas:Term ;
+aama:ID592cf169-6308-438f-b71b-e31d3c218fc2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1791,7 +1792,7 @@ aama:IDefb6bbe0-1125-4180-ac4b-388907f47809 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID0cb22a67-1c8d-4a10-8333-2f8da72f8b33 a aamas:Term ;
+aama:IDfd08fb55-52b6-458e-b8c6-726eff0e6031 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1806,7 +1807,7 @@ aama:ID0cb22a67-1c8d-4a10-8333-2f8da72f8b33 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDacbe711b-5307-441c-86cd-0205757ee932 a aamas:Term ;
+aama:ID16cbf66e-d9ed-4c39-9de9-959699891f24 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1821,7 +1822,7 @@ aama:IDacbe711b-5307-441c-86cd-0205757ee932 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDc93f731d-46a8-4fbb-8249-870cf40c6505 a aamas:Term ;
+aama:ID592a7a4b-d1e5-407e-b6d6-4da7d6d37315 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1836,7 +1837,7 @@ aama:IDc93f731d-46a8-4fbb-8249-870cf40c6505 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID736cf4fb-cb97-4572-abb8-3b5615a9276a a aamas:Term ;
+aama:ID22a45f32-0166-4d1e-b814-f0a659e9b50a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1851,7 +1852,7 @@ aama:ID736cf4fb-cb97-4572-abb8-3b5615a9276a a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID8567bbd0-282f-466f-8811-5969dd36686b a aamas:Term ;
+aama:ID99e7eafd-be92-4246-8bc2-042087ba9346 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2NegPresTenseFormation1-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -1873,7 +1874,7 @@ irq:iraqw-VConj2aAffPres-maw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all verbs with inchoative suffix -uw). Minimal selector as in iraqw-VPresConj3e-doohl." 
 	.
 
-aama:ID75f21c7d-8c23-4868-a43e-ddf73332023a a aamas:Term ;
+aama:ID3c1e7789-4dee-4997-ad0c-7b7252ecbacc a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1888,7 +1889,7 @@ aama:ID75f21c7d-8c23-4868-a43e-ddf73332023a a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe0d1b4d1-5558-4fcd-b759-eb1fd44cacdb a aamas:Term ;
+aama:IDfd82e641-7777-4cbd-9666-0c3f4072591f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1903,7 +1904,7 @@ aama:IDe0d1b4d1-5558-4fcd-b759-eb1fd44cacdb a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID291366e8-ddfa-4985-97c0-d0508c4010ac a aamas:Term ;
+aama:ID23a79d60-81f8-4dba-8c57-780efc340769 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1918,7 +1919,7 @@ aama:ID291366e8-ddfa-4985-97c0-d0508c4010ac a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID11f0568e-35cd-4373-9967-a601b500fdcb a aamas:Term ;
+aama:ID5be5ad3f-70c0-4eb0-9edf-b88c3454e7b9 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1933,7 +1934,7 @@ aama:ID11f0568e-35cd-4373-9967-a601b500fdcb a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDc56448a7-e57d-459e-b7b7-8a1abe20f295 a aamas:Term ;
+aama:ID8f502d21-4e82-4ae8-942b-eba5603cf5ca a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1948,7 +1949,7 @@ aama:IDc56448a7-e57d-459e-b7b7-8a1abe20f295 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDb0e5b39a-2c91-4d42-9219-1c401d914cf1 a aamas:Term ;
+aama:ID4bd080b2-9fb4-40a1-9a64-8749cd66b5af a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1963,7 +1964,7 @@ aama:IDb0e5b39a-2c91-4d42-9219-1c401d914cf1 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID1f91a1b8-6da2-48ba-84db-b2edc40148b3 a aamas:Term ;
+aama:ID9fb20bb7-5f50-4c8e-9cda-9aa1357372df a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2aAffPres-maw ;
 	irq:conjClass irq:Conj2a ;
@@ -1985,7 +1986,7 @@ irq:iraqw-VConj2bAffPres-xwaylu a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all verbs with inchoative suffix -uw). Minimal selector as in iraqw-VPresConj3e-doohl." 
 	.
 
-aama:IDf4917bf9-a42d-4a3e-a1cc-9bd3604eaf0c a aamas:Term ;
+aama:IDd5c2dc49-ed37-483f-bf98-81e74b5d6cab a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2000,7 +2001,7 @@ aama:IDf4917bf9-a42d-4a3e-a1cc-9bd3604eaf0c a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID336b37a4-3847-4237-bf88-87aeea3ac0ad a aamas:Term ;
+aama:ID5d7a5f63-25ce-4494-a364-779f52b5a82a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2015,7 +2016,7 @@ aama:ID336b37a4-3847-4237-bf88-87aeea3ac0ad a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd812e5ce-c12e-4efd-81f3-7f826e95d079 a aamas:Term ;
+aama:ID4665b19d-8742-4b25-bb06-610de753cfaf a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2030,7 +2031,7 @@ aama:IDd812e5ce-c12e-4efd-81f3-7f826e95d079 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID577e5ad3-89fa-43e4-852d-f1c67e7ea429 a aamas:Term ;
+aama:ID3ab89c4e-69b7-4f39-b9de-ea8c812b22eb a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2045,7 +2046,7 @@ aama:ID577e5ad3-89fa-43e4-852d-f1c67e7ea429 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID44c18f36-1ea0-4426-b6e6-95dd5a103753 a aamas:Term ;
+aama:ID0e086dda-608b-4f04-bf07-07f02527a746 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2060,7 +2061,7 @@ aama:ID44c18f36-1ea0-4426-b6e6-95dd5a103753 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDe4e5c4ad-4291-4742-b34a-f802ba9e9e5e a aamas:Term ;
+aama:ID07ec774d-5f20-4894-8cf7-abf63132f7d2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2075,7 +2076,7 @@ aama:IDe4e5c4ad-4291-4742-b34a-f802ba9e9e5e a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID7d9792da-ee03-4fa0-abe3-907b31deb430 a aamas:Term ;
+aama:ID7bb556e2-828d-4d51-a693-c984a9bc9db0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj2bAffPres-xwaylu ;
 	irq:conjClass irq:Conj2b ;
@@ -2097,7 +2098,7 @@ irq:iraqw-VConj3aAffPres-looh a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person singular.(p.157) See (25) p. 158%%for verbs with vowel shortening preceding the 1.PL suffix%%and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below." 
 	.
 
-aama:ID4d76cca2-a0d0-41d0-9ddb-fdb5cf765557 a aamas:Term ;
+aama:IDb0806120-c9a7-43ca-bad1-3fa9501b8278 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2112,7 +2113,7 @@ aama:ID4d76cca2-a0d0-41d0-9ddb-fdb5cf765557 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID94a98a9c-ccbe-4e22-984e-0d78f71a653c a aamas:Term ;
+aama:ID018093f1-5ede-4df5-a265-5c30c81dd492 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2127,7 +2128,7 @@ aama:ID94a98a9c-ccbe-4e22-984e-0d78f71a653c a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDfc7e333a-37d2-4887-a68a-45fd550276ea a aamas:Term ;
+aama:IDb861784f-3dc9-4e44-a346-8642b89202f4 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2142,7 +2143,7 @@ aama:IDfc7e333a-37d2-4887-a68a-45fd550276ea a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID3abdc1f6-07df-4d37-9781-026689284044 a aamas:Term ;
+aama:ID55b3401e-7c54-4533-99c5-2ed096d56e22 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2157,7 +2158,7 @@ aama:ID3abdc1f6-07df-4d37-9781-026689284044 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDa4c98e09-4c96-46ea-8b4d-bf28aaf8227a a aamas:Term ;
+aama:ID99adefe3-2f17-4046-a49d-a67b5d757b35 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2172,7 +2173,7 @@ aama:IDa4c98e09-4c96-46ea-8b4d-bf28aaf8227a a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID7ed77f4c-376d-46ce-a4da-14384750c8ec a aamas:Term ;
+aama:ID0a8e3529-b7b1-4ee2-bc2c-ed78d92517fe a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2187,7 +2188,7 @@ aama:ID7ed77f4c-376d-46ce-a4da-14384750c8ec a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID9d099667-17bf-4bc1-88d8-50737f64fd69 a aamas:Term ;
+aama:ID1de50e84-d038-43c0-bd7e-4c63192942e2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPres-looh ;
 	irq:conjClass irq:Conj3a ;
@@ -2209,7 +2210,7 @@ irq:iraqw-VConj3aAffPresStemFormation-oh a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1%%2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)" 
 	.
 
-aama:ID8285ff20-c531-40af-a7f8-d73fa905bb09 a aamas:Term ;
+aama:IDc78cc397-d3f0-4305-b033-6c923262b083 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2225,7 +2226,7 @@ aama:ID8285ff20-c531-40af-a7f8-d73fa905bb09 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID65c01365-a042-45a5-964f-6ce61ed705b4 a aamas:Term ;
+aama:ID065eed11-577c-4511-a144-5d5400d054ee a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2241,7 +2242,7 @@ aama:ID65c01365-a042-45a5-964f-6ce61ed705b4 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID78e2314d-3fcb-44f9-890d-d9a6f9503a97 a aamas:Term ;
+aama:IDeae76250-6b07-467f-8148-a3f86c81bdbb a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2257,7 +2258,7 @@ aama:ID78e2314d-3fcb-44f9-890d-d9a6f9503a97 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID185320e3-b57d-4351-a549-c64d6c16d8e8 a aamas:Term ;
+aama:ID2995f2fd-b223-4af0-b8cc-83f272743cdf a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2273,7 +2274,7 @@ aama:ID185320e3-b57d-4351-a549-c64d6c16d8e8 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID80cba267-33dd-4fc9-b434-40ef39a7768f a aamas:Term ;
+aama:ID5152c885-14e2-479d-aa04-4232b00b4d98 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2289,7 +2290,7 @@ aama:ID80cba267-33dd-4fc9-b434-40ef39a7768f a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDd2f35068-ff6a-4f5a-bfb0-e4d48bc791f4 a aamas:Term ;
+aama:ID4f2bca23-7b72-4b90-bc05-77f43eed094b a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2305,7 +2306,7 @@ aama:IDd2f35068-ff6a-4f5a-bfb0-e4d48bc791f4 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDe6830bdc-0550-43c8-8b75-90c6ce18d3d3 a aamas:Term ;
+aama:ID9ce3ef93-b12a-4862-89d4-4d9f6453b66e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3aAffPresStemFormation-oh ;
 	irq:conjClass irq:Conj3a ;
@@ -2328,7 +2329,7 @@ irq:iraqw-VConj3bAffPres-tsaweer a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person singular.(p.157) See (25) p. 158%%for verbs with vowel shortening preceding the 1.PL suffix%%and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below." 
 	.
 
-aama:IDa7288243-3ac6-4b03-bdfe-9f4277d21709 a aamas:Term ;
+aama:IDe92821c4-c22c-4cef-9f84-e3a1f3de9d7f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2343,7 +2344,7 @@ aama:IDa7288243-3ac6-4b03-bdfe-9f4277d21709 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDf9bb7d28-376f-49b2-aad5-2385566bd75b a aamas:Term ;
+aama:IDde4905b1-e608-4cf7-b9fb-a356fd1831c1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2358,7 +2359,7 @@ aama:IDf9bb7d28-376f-49b2-aad5-2385566bd75b a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID412ce937-5854-4e23-9244-aadd761d247b a aamas:Term ;
+aama:ID5af89ca4-93ae-4be7-b952-994837e1ac12 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2373,7 +2374,7 @@ aama:ID412ce937-5854-4e23-9244-aadd761d247b a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID004d0ef5-7b68-4243-99b9-ee81bcb8b91e a aamas:Term ;
+aama:ID08b58555-eb88-495d-a2c8-bdbdc7dc8b63 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2388,7 +2389,7 @@ aama:ID004d0ef5-7b68-4243-99b9-ee81bcb8b91e a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID06c7e745-d560-4a91-93eb-9c4832ac0cb0 a aamas:Term ;
+aama:ID25db6ddd-3da4-401c-963d-a03f26e559a0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2403,7 +2404,7 @@ aama:ID06c7e745-d560-4a91-93eb-9c4832ac0cb0 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID40211898-2c15-4ed9-bf9a-d6d491116870 a aamas:Term ;
+aama:ID5e730913-3451-4fd8-9f31-3c36d4becf28 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2418,7 +2419,7 @@ aama:ID40211898-2c15-4ed9-bf9a-d6d491116870 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID0fbda4c6-a202-42d5-9434-3db42ef00e26 a aamas:Term ;
+aama:ID99e2b201-870a-4d63-992d-e3de1cde79bc a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPres-tsaweer ;
 	irq:conjClass irq:Conj3b ;
@@ -2440,7 +2441,7 @@ irq:iraqw-VConj3bAffPresStemFormation-eehar a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1%%2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)" 
 	.
 
-aama:ID610bd903-7947-4f49-a89a-b91ad430b4ae a aamas:Term ;
+aama:ID58f5e7e8-7d43-4e7a-9964-39c3dd3d31ea a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2456,7 +2457,7 @@ aama:ID610bd903-7947-4f49-a89a-b91ad430b4ae a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDed15db3b-4b77-40a9-a8f1-8f05fd63f609 a aamas:Term ;
+aama:ID35724e20-5274-45aa-86f1-946f1b62d999 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2472,7 +2473,7 @@ aama:IDed15db3b-4b77-40a9-a8f1-8f05fd63f609 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID9e9ff1e3-d215-456c-b8da-b49494172b89 a aamas:Term ;
+aama:ID1535f000-aaa9-467c-843a-c13263138679 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2488,7 +2489,7 @@ aama:ID9e9ff1e3-d215-456c-b8da-b49494172b89 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID146e0032-da11-4e66-a90d-407c2128ea84 a aamas:Term ;
+aama:ID94694a1b-37e0-4a60-bcb1-ce79d233d3c6 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2504,7 +2505,7 @@ aama:ID146e0032-da11-4e66-a90d-407c2128ea84 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID7c76ef57-704c-4f91-966c-8e54d17ded9a a aamas:Term ;
+aama:IDcd2f2848-19a8-42ee-b27f-59ec718f1709 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2520,7 +2521,7 @@ aama:ID7c76ef57-704c-4f91-966c-8e54d17ded9a a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID8124c5ba-3b46-4358-80c6-fee2be9a4f86 a aamas:Term ;
+aama:ID696a93bf-cf13-42f3-a6e5-b1d2ed6ed4bb a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2536,7 +2537,7 @@ aama:ID8124c5ba-3b46-4358-80c6-fee2be9a4f86 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDdfd9ff6a-ec74-4abd-84f9-c3d330e53dec a aamas:Term ;
+aama:ID8490dd2e-cb63-42ab-a310-8f9492de28b5 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3bAffPresStemFormation-eehar ;
 	irq:conjClass irq:Conj3b ;
@@ -2559,7 +2560,7 @@ irq:iraqw-VConj3cAffPresStemFormation-law a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1%%2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)" 
 	.
 
-aama:IDfc504c6d-5a03-479e-9782-2f7c58f258ef a aamas:Term ;
+aama:ID6f09767c-127a-4099-b8f2-996378b4126a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2575,7 +2576,7 @@ aama:IDfc504c6d-5a03-479e-9782-2f7c58f258ef a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDbc300392-4ca8-4574-a677-0c0ddee924c8 a aamas:Term ;
+aama:IDde5c12b5-468d-4b7d-844c-907ba3be5530 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2591,7 +2592,7 @@ aama:IDbc300392-4ca8-4574-a677-0c0ddee924c8 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID865aa3b6-7264-43fa-b4d8-dfff950e4bd6 a aamas:Term ;
+aama:ID74ad4dba-d1cc-4276-adbe-778552a50744 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2607,7 +2608,7 @@ aama:ID865aa3b6-7264-43fa-b4d8-dfff950e4bd6 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDff5f6634-718a-4cd5-bb2a-68ce2a364c19 a aamas:Term ;
+aama:IDec403819-7c13-4e0b-8b02-95005311cb77 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2623,7 +2624,7 @@ aama:IDff5f6634-718a-4cd5-bb2a-68ce2a364c19 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDda30082b-5cb2-4236-b25f-5ce492f74be8 a aamas:Term ;
+aama:IDe39596d2-c422-429f-b065-be7b07f3abf0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2639,7 +2640,7 @@ aama:IDda30082b-5cb2-4236-b25f-5ce492f74be8 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID3f7c9218-3952-4abd-a505-9c24e305df8d a aamas:Term ;
+aama:ID258aec19-22be-495f-84aa-c56419cf43d3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2655,7 +2656,7 @@ aama:ID3f7c9218-3952-4abd-a505-9c24e305df8d a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID5d574465-8375-4eba-bdef-8c189ca81d02 a aamas:Term ;
+aama:IDfb944465-420a-49ec-a349-1399c7dfe4ca a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3cAffPresStemFormation-law ;
 	irq:conjClass irq:Conj3c ;
@@ -2678,7 +2679,7 @@ irq:iraqw-VConj3dAffPresStemFormation-aay a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1%%2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)" 
 	.
 
-aama:ID6f72a31c-5302-41c4-92ca-ffd7a536ba3d a aamas:Term ;
+aama:ID1f5278c3-d2ea-4f32-863d-a7038595d14c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2694,7 +2695,7 @@ aama:ID6f72a31c-5302-41c4-92ca-ffd7a536ba3d a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDb1128468-dfc6-4150-8016-455d3392bf99 a aamas:Term ;
+aama:ID9da0e14b-4b07-44a0-85d3-cc99b2b8362f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2710,7 +2711,7 @@ aama:IDb1128468-dfc6-4150-8016-455d3392bf99 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID5a6849ff-82ed-40b9-bb2a-c13ead671eeb a aamas:Term ;
+aama:IDb7fe3ae2-5098-4e34-b847-f59932cfe0d2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2726,7 +2727,7 @@ aama:ID5a6849ff-82ed-40b9-bb2a-c13ead671eeb a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID89f4d849-6316-4f1f-acbe-60d8fc735b94 a aamas:Term ;
+aama:IDe09cbd5e-a30c-410b-a3c3-3ff86c8af306 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2742,7 +2743,7 @@ aama:ID89f4d849-6316-4f1f-acbe-60d8fc735b94 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDea3a699b-9d2b-43a6-a37a-0aa2199149b5 a aamas:Term ;
+aama:IDa1c45514-bdde-48ce-9010-373719b5c8c6 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2758,7 +2759,7 @@ aama:IDea3a699b-9d2b-43a6-a37a-0aa2199149b5 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDe788d719-9cc4-4b92-953a-7c266e7c2842 a aamas:Term ;
+aama:ID34846b31-1d8d-42bc-b6e0-4a4baa20e428 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2774,7 +2775,7 @@ aama:IDe788d719-9cc4-4b92-953a-7c266e7c2842 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID776c910f-1ec9-4125-8555-acbe86835def a aamas:Term ;
+aama:ID0d96c7d7-3ebb-4ad7-bde7-39587b736560 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3dAffPresStemFormation-aay ;
 	irq:conjClass irq:Conj3d ;
@@ -2797,7 +2798,7 @@ irq:iraqw-VConj3eAffImprtvTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:IDa9243f25-ef4b-47f3-a9b9-85d16bb05685 a aamas:Term ;
+aama:ID1678cb44-213e-44de-af8c-bbe8417ea29e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffImprtvTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2812,7 +2813,7 @@ aama:IDa9243f25-ef4b-47f3-a9b9-85d16bb05685 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDb2a0c703-4389-4fdc-9c6e-15b62e455ee5 a aamas:Term ;
+aama:ID0299ffb1-125b-41a9-91ca-6813b07229ff a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffImprtvTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2834,7 +2835,7 @@ irq:iraqw-VConj3eAffPast-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.170 (36)." 
 	.
 
-aama:ID5592325f-bae6-4e63-867c-c9071ee7fc86 a aamas:Term ;
+aama:ID3271a95c-7ffd-4193-8241-2651495aad79 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPast-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2849,7 +2850,7 @@ aama:ID5592325f-bae6-4e63-867c-c9071ee7fc86 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID34a81bda-0195-4478-bf2c-e2a2e5c2be97 a aamas:Term ;
+aama:IDb604fbab-d5b0-4194-977f-1b06db1d87aa a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPast-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2864,7 +2865,7 @@ aama:ID34a81bda-0195-4478-bf2c-e2a2e5c2be97 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDb7bea2fd-17d5-401e-99fb-547ce4a1e266 a aamas:Term ;
+aama:ID892c6803-a420-47cd-a03f-cc7835484222 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPast-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2879,7 +2880,7 @@ aama:IDb7bea2fd-17d5-401e-99fb-547ce4a1e266 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe3eb8260-ea30-4dcb-98d5-b58aee8cd81e a aamas:Term ;
+aama:ID6fbb3c17-ec13-41c4-b16b-7690b32d8b6f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPast-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2894,7 +2895,7 @@ aama:IDe3eb8260-ea30-4dcb-98d5-b58aee8cd81e a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDc68da9d1-fd39-472d-81dd-67a74ad90ca9 a aamas:Term ;
+aama:ID224c0b38-347a-4e7e-a4fe-e9396a4fe1d4 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPast-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2909,7 +2910,7 @@ aama:IDc68da9d1-fd39-472d-81dd-67a74ad90ca9 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID56da8b74-fb7c-445f-8a58-702b926ce13a a aamas:Term ;
+aama:IDb1ce5557-a49e-412e-ae78-57e030d01980 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPast-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2931,7 +2932,7 @@ irq:iraqw-VConj3eAffPastTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:ID5aa0c007-221f-4531-b6d1-cf2b5aaea0e1 a aamas:Term ;
+aama:ID2f8a7840-4d5a-4f90-aa92-c346d97ddf8b a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2947,7 +2948,7 @@ aama:ID5aa0c007-221f-4531-b6d1-cf2b5aaea0e1 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID88cdd911-eddc-48e2-8b45-01b22cbce98f a aamas:Term ;
+aama:IDb9202cf0-277b-4be1-8fab-3c7632333893 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2963,7 +2964,7 @@ aama:ID88cdd911-eddc-48e2-8b45-01b22cbce98f a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe2eb101e-6c6a-414e-9aad-f433230ae2a0 a aamas:Term ;
+aama:ID10687b6e-3a0b-4316-a23f-596cdfaf336a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2979,7 +2980,7 @@ aama:IDe2eb101e-6c6a-414e-9aad-f433230ae2a0 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd352f49c-5ce6-4c31-9ebd-c4a89cc6a3ad a aamas:Term ;
+aama:IDac03e1b7-8f50-4889-b27f-e41d57e7926f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -2995,7 +2996,7 @@ aama:IDd352f49c-5ce6-4c31-9ebd-c4a89cc6a3ad a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDed55f10e-7e81-496f-b4f1-43dc9ca59170 a aamas:Term ;
+aama:ID6c1f38a2-60f2-4a70-bf9b-506834953521 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3011,7 +3012,7 @@ aama:IDed55f10e-7e81-496f-b4f1-43dc9ca59170 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDf6800175-966b-46f2-918c-3d5592ca6d56 a aamas:Term ;
+aama:ID0bb3a4cc-1dec-4d6f-b7d1-61fc51b928e5 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3027,7 +3028,7 @@ aama:IDf6800175-966b-46f2-918c-3d5592ca6d56 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDe7215034-b946-40cc-9802-7095de864de2 a aamas:Term ;
+aama:ID159ddb02-4210-4626-8c25-cc74c0f8dae0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3050,7 +3051,7 @@ irq:iraqw-VConj3eAffPres-laaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person  singular.(p.157) See (25) p. 158%%for verbs with vowel shortening preceding the 1.PL   suffix%%and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below." 
 	.
 
-aama:IDaa84cc49-a543-4a78-9a33-b5754951aba8 a aamas:Term ;
+aama:ID5125093e-7efc-4149-893e-6252f92c7024 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3065,7 +3066,7 @@ aama:IDaa84cc49-a543-4a78-9a33-b5754951aba8 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID09b1dadb-6f5f-4181-98fe-dfeb828c39cf a aamas:Term ;
+aama:ID4f87e6b2-4a0c-45c3-b722-a5e2e17c819f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3080,7 +3081,7 @@ aama:ID09b1dadb-6f5f-4181-98fe-dfeb828c39cf a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDac021cff-7747-42ab-966c-9d12ab0a58c3 a aamas:Term ;
+aama:ID29d933fc-b8e3-4ad9-a312-0153cc89e5b1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3095,7 +3096,7 @@ aama:IDac021cff-7747-42ab-966c-9d12ab0a58c3 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID0bdea737-2015-4cd1-99b8-c47e691154b8 a aamas:Term ;
+aama:IDb9248f01-9794-43d8-b849-7451fe9cb118 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3110,7 +3111,7 @@ aama:ID0bdea737-2015-4cd1-99b8-c47e691154b8 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDafed7431-9f32-421c-b339-1d63558a28d3 a aamas:Term ;
+aama:ID66cf5c78-13a0-48bb-b5e6-70286d890ddd a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3125,7 +3126,7 @@ aama:IDafed7431-9f32-421c-b339-1d63558a28d3 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDf2300215-0803-49da-b608-f6d7ba35787b a aamas:Term ;
+aama:IDc06b566f-c2aa-4180-aa3f-f6395bcddb77 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3140,7 +3141,7 @@ aama:IDf2300215-0803-49da-b608-f6d7ba35787b a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDafc286b8-0b98-4755-9fd6-6d2b9975eb0f a aamas:Term ;
+aama:ID259ef1e1-44bd-495c-82f1-4bc927bfcde4 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPres-laaw ;
 	irq:conjClass irq:Conj3e ;
@@ -3162,7 +3163,7 @@ irq:iraqw-VConj3eAffPresQTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:IDbb5db413-e04e-49e7-b5d0-050fea574cf4 a aamas:Term ;
+aama:ID3baaca5b-3bed-49f8-b396-c1849eb25e5a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresQTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3178,7 +3179,7 @@ aama:IDbb5db413-e04e-49e7-b5d0-050fea574cf4 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDc680d16e-e30b-4ff7-aabc-4211404371cf a aamas:Term ;
+aama:IDb55100b9-faf1-4820-b727-69700fc42fd5 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresQTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3194,7 +3195,7 @@ aama:IDc680d16e-e30b-4ff7-aabc-4211404371cf a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDf28f8e7e-12e1-41c0-92bd-ad9ca481690d a aamas:Term ;
+aama:ID79b80e6f-635a-4d7d-bdbe-ae9ccd8c7c1c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresQTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3210,7 +3211,7 @@ aama:IDf28f8e7e-12e1-41c0-92bd-ad9ca481690d a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID2d38e502-ec33-4bab-8d11-c406399393bb a aamas:Term ;
+aama:IDf2c507ff-f63f-4d75-9770-f8eedd006217 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresQTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3226,7 +3227,7 @@ aama:ID2d38e502-ec33-4bab-8d11-c406399393bb a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDf4da664f-e47c-4db1-864b-d43ac72a2dd2 a aamas:Term ;
+aama:IDd692d415-7f0f-4566-a61d-f2f49684435e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresQTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3242,7 +3243,7 @@ aama:IDf4da664f-e47c-4db1-864b-d43ac72a2dd2 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDde001d3a-062d-4743-a3b0-993880d1d6ec a aamas:Term ;
+aama:ID23f69a02-d962-4e6b-8239-3f6f0966e086 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresQTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3265,7 +3266,7 @@ irq:iraqw-VConj3eAffPresStemFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 (20). [Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1%%2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)]" 
 	.
 
-aama:ID3a611415-5c7f-43b9-9a9c-d77fcb87b278 a aamas:Term ;
+aama:IDc499df0b-bf40-4141-8089-f32ca2de7e21 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3282,7 +3283,7 @@ aama:ID3a611415-5c7f-43b9-9a9c-d77fcb87b278 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDa68d6464-67c6-4b3a-a049-f78a5d15b8bc a aamas:Term ;
+aama:IDfeedec10-1d5e-43b8-9ae4-1c806895860d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3299,7 +3300,7 @@ aama:IDa68d6464-67c6-4b3a-a049-f78a5d15b8bc a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID5c3eed13-4da8-4566-81ec-e9ae27973f41 a aamas:Term ;
+aama:ID4d62f7aa-c65f-49ee-8ddb-7a232689375d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3316,7 +3317,7 @@ aama:ID5c3eed13-4da8-4566-81ec-e9ae27973f41 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe97d4416-d9d7-485e-a9aa-da88e1a3300d a aamas:Term ;
+aama:IDaf1f9cfb-8e1f-4b4d-8997-52a5a5f64926 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3333,7 +3334,7 @@ aama:IDe97d4416-d9d7-485e-a9aa-da88e1a3300d a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd714cd54-fdda-415c-8cad-c9e8dae1e9f4 a aamas:Term ;
+aama:ID1b410d22-fdaa-42b7-9c1f-385c80bda125 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3350,7 +3351,7 @@ aama:IDd714cd54-fdda-415c-8cad-c9e8dae1e9f4 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDcf41df52-25c2-46a5-a58d-f7fd5f2ddcc2 a aamas:Term ;
+aama:ID923f162b-03c6-4524-9fca-008733d5b2e3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3367,7 +3368,7 @@ aama:IDcf41df52-25c2-46a5-a58d-f7fd5f2ddcc2 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDd6ba8da4-cb5b-4a93-9feb-7561177bad90 a aamas:Term ;
+aama:IDecab69c3-8c62-4c14-a977-86f4d91f071f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffPresStemFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3391,7 +3392,7 @@ irq:iraqw-VConj3eAffRelPastTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:IDe70c246a-ceae-4267-82b5-14f63aa01ee3 a aamas:Term ;
+aama:ID8401b5f7-cf1f-4857-9c59-9e9e8893ff77 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPastTenseFormation-doohl ;
 	irq:person irq:PersonC ;
@@ -3413,7 +3414,7 @@ irq:iraqw-VConj3eAffRelPresTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:IDa070edc4-3f81-49d5-8b2a-debe06be2e86 a aamas:Term ;
+aama:ID9baf00a7-5e45-4a7c-b1b7-a5f118d46f44 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3429,7 +3430,7 @@ aama:IDa070edc4-3f81-49d5-8b2a-debe06be2e86 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID7a62e6d3-e287-455b-9a62-67462f5e297f a aamas:Term ;
+aama:ID21e8b912-8770-4ccf-b106-9ac33484dc34 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3445,7 +3446,7 @@ aama:ID7a62e6d3-e287-455b-9a62-67462f5e297f a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID465f81b8-62ac-4f54-a7f9-82aaa8a4809b a aamas:Term ;
+aama:IDf3942317-b46c-45f3-9ab1-f77c29315ef2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3461,7 +3462,7 @@ aama:ID465f81b8-62ac-4f54-a7f9-82aaa8a4809b a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID626b5cf1-5f7e-4df9-9cd7-d25d2a7dbf77 a aamas:Term ;
+aama:ID636c7c8a-a8c5-4582-97f8-f2fc1e23b240 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3477,7 +3478,7 @@ aama:ID626b5cf1-5f7e-4df9-9cd7-d25d2a7dbf77 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID52dce524-8ef2-4014-8eb7-f11219213474 a aamas:Term ;
+aama:ID61120c51-a48b-475f-8518-a5452e3ad53c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3493,7 +3494,7 @@ aama:ID52dce524-8ef2-4014-8eb7-f11219213474 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID56a91216-bd26-4549-8e1a-a74f6c520e23 a aamas:Term ;
+aama:IDa8325b0b-afd7-405b-81cf-4e607212f0ce a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3509,7 +3510,7 @@ aama:ID56a91216-bd26-4549-8e1a-a74f6c520e23 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID98567cea-86b5-4ecd-b621-83a1828b5dd9 a aamas:Term ;
+aama:ID4f9d2488-c381-40e0-bda2-0d85d8c76aeb a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eAffRelPresTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3532,7 +3533,7 @@ irq:iraqw-VConj3eNegImprtvTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p. 164 (32%%33) [Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká]" 
 	.
 
-aama:ID5da7fa54-4b40-46d0-954b-bb0c75cfd910 a aamas:Term ;
+aama:ID4b1b1915-2d99-4ba4-958d-cf8600574909 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegImprtvTenseFormation-doohl ;
 	irq:person irq:Person2 ;
@@ -3549,7 +3550,7 @@ aama:ID5da7fa54-4b40-46d0-954b-bb0c75cfd910 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID812a7aa2-e7d2-4105-967b-eb3309841863 a aamas:Term ;
+aama:IDb4b013d3-f1cd-4262-9dab-ec4889438109 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegImprtvTenseFormation-doohl ;
 	irq:person irq:Person2 ;
@@ -3573,7 +3574,7 @@ irq:iraqw-VConj3eNegPastTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.162 (30) [p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká]" 
 	.
 
-aama:IDf4612176-2b13-4bea-9461-d73a7f62c7e1 a aamas:Term ;
+aama:ID4e3a4c73-c112-458a-b203-38e33d313809 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3589,7 +3590,7 @@ aama:IDf4612176-2b13-4bea-9461-d73a7f62c7e1 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID243d6406-f3ed-487e-9261-9b0284739f11 a aamas:Term ;
+aama:IDa95a028f-1910-4f27-b223-2fa18335da49 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3605,7 +3606,7 @@ aama:ID243d6406-f3ed-487e-9261-9b0284739f11 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID6c53ba4c-5aaf-456d-8c03-0b28df3aef89 a aamas:Term ;
+aama:IDda72f3e4-badc-41d2-a835-a12901a56c32 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3621,7 +3622,7 @@ aama:ID6c53ba4c-5aaf-456d-8c03-0b28df3aef89 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDddbaa6e8-ba19-436e-a6b6-7fe8bee419d9 a aamas:Term ;
+aama:IDa209a133-fbf2-4271-8003-9d11bbf48e46 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3637,7 +3638,7 @@ aama:IDddbaa6e8-ba19-436e-a6b6-7fe8bee419d9 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID9b878207-9f8d-4d7e-b400-06ab34072277 a aamas:Term ;
+aama:IDd3a0e703-5926-47e9-b895-e09b21afae84 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3653,7 +3654,7 @@ aama:ID9b878207-9f8d-4d7e-b400-06ab34072277 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID83639d03-3998-4ee7-bcaa-523f0bf9af32 a aamas:Term ;
+aama:ID0653f3c2-005c-4dda-ba90-5b7bb74eb9c1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3669,7 +3670,7 @@ aama:ID83639d03-3998-4ee7-bcaa-523f0bf9af32 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID87c0ada2-77b2-4c27-944b-76d1c99a4af9 a aamas:Term ;
+aama:IDcd35e932-f67a-4aac-909e-08e81d85733f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPastTenseFormation-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3692,7 +3693,7 @@ irq:iraqw-VConj3eNegPresTenseFormation1-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule%%which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3." 
 	.
 
-aama:IDca4acba7-be30-4cf6-b182-506dc5bf7692 a aamas:Term ;
+aama:IDd4e7429a-d0a5-4ee1-835e-e7d1b1f2347b a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3708,7 +3709,7 @@ aama:IDca4acba7-be30-4cf6-b182-506dc5bf7692 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd2356a51-0bc8-4351-9d7e-0529c9bb498f a aamas:Term ;
+aama:ID408f7572-3f22-4014-8e69-7e05e8e25371 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3724,7 +3725,7 @@ aama:IDd2356a51-0bc8-4351-9d7e-0529c9bb498f a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID5d0580c0-a512-4362-8a46-b0b6aa3ec872 a aamas:Term ;
+aama:ID697d1a20-0817-4c29-bbd5-cdc3d3a418e4 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3740,7 +3741,7 @@ aama:ID5d0580c0-a512-4362-8a46-b0b6aa3ec872 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID751c28a0-e2d9-46af-8bdf-5ad65ad44c43 a aamas:Term ;
+aama:ID8aec2310-957f-4ce3-87ba-99609d73ee33 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3756,7 +3757,7 @@ aama:ID751c28a0-e2d9-46af-8bdf-5ad65ad44c43 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe0b5ea87-0518-44e9-ba58-560628c4cf1d a aamas:Term ;
+aama:ID8d6fdd12-e716-4eae-9399-a03eb2938aff a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3772,7 +3773,7 @@ aama:IDe0b5ea87-0518-44e9-ba58-560628c4cf1d a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID4109cc80-3557-4ec2-9c49-71ce3be4c633 a aamas:Term ;
+aama:ID035cd415-2fda-466f-88c4-e1f6ee055e96 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3788,7 +3789,7 @@ aama:ID4109cc80-3557-4ec2-9c49-71ce3be4c633 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID8ffc806c-0772-4d53-a510-1dfd3e7d1849 a aamas:Term ;
+aama:IDcbb1bb77-e5b6-47d6-8e39-3993ceb7f2fa a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eNegPresTenseFormation1-doohl ;
 	irq:conjClass irq:Conj3e ;
@@ -3811,7 +3812,7 @@ irq:iraqw-VConj3eSubordPastTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:ID7a06f32b-3bf9-4f99-bbdb-ba8f57a2e419 a aamas:Term ;
+aama:ID06306ffb-2c0a-4688-b21b-1f27849d9939 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eSubordPastTenseFormation-doohl ;
 	irq:number irq:Common ;
@@ -3833,7 +3834,7 @@ irq:iraqw-VConj3eSubordPresTenseFormation-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká" 
 	.
 
-aama:ID74d784c4-6619-4113-a026-9f40253ee06e a aamas:Term ;
+aama:ID8e20dd22-b51f-4abd-9a43-e66af2a12991 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eSubordPresTenseFormation-doohl ;
 	irq:number irq:NumC ;
@@ -3849,7 +3850,7 @@ aama:ID74d784c4-6619-4113-a026-9f40253ee06e a aamas:Term ;
 	irq:person irq:Person3 ;
 	.
 
-aama:ID4832dc71-3fde-4f06-ae51-6e4a716e3227 a aamas:Term ;
+aama:ID82251527-1c8e-4694-a9fa-e5314314f96a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VConj3eSubordPresTenseFormation-doohl ;
 	irq:number irq:NumC ;
@@ -3872,7 +3873,7 @@ irq:iraqw-VIndicativeConj1AffPast-firiim a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.162 (29)." 
 	.
 
-aama:ID457540c3-09f0-4292-99e7-b6c690339179 a aamas:Term ;
+aama:IDc92d3c11-033a-4f2e-b094-365fb612914c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3887,7 +3888,7 @@ aama:ID457540c3-09f0-4292-99e7-b6c690339179 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDda4fc637-a105-43d2-8297-55643c4ce393 a aamas:Term ;
+aama:ID84ac61f3-a8a6-4e4d-baf2-50cb422935c9 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3902,7 +3903,7 @@ aama:IDda4fc637-a105-43d2-8297-55643c4ce393 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID4abaa235-5b2e-41f0-b138-cf2f2681774f a aamas:Term ;
+aama:ID1bbdb090-2108-45fa-ac81-ce15dd5f4532 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3917,7 +3918,7 @@ aama:ID4abaa235-5b2e-41f0-b138-cf2f2681774f a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDb987c02b-04a9-4469-a1e5-fd1b7e6e40e8 a aamas:Term ;
+aama:ID750b26a0-aecb-47ff-80f1-c071e0451bbf a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3932,7 +3933,7 @@ aama:IDb987c02b-04a9-4469-a1e5-fd1b7e6e40e8 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDab34ebca-010f-4b00-a1ef-876804624e31 a aamas:Term ;
+aama:ID0b1c0f91-0ceb-43fb-8f67-f2a40024e29b a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3947,7 +3948,7 @@ aama:IDab34ebca-010f-4b00-a1ef-876804624e31 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDfc8ef639-40bd-4d2b-83cc-e904852f7716 a aamas:Term ;
+aama:IDbc638566-6633-4a49-b851-f09ef054e517 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3962,7 +3963,7 @@ aama:IDfc8ef639-40bd-4d2b-83cc-e904852f7716 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID717010c8-1524-4d9c-84ec-ba24c9afce29 a aamas:Term ;
+aama:ID0b571973-dc04-474e-a7b1-bd69e9ec2272 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -3984,7 +3985,7 @@ irq:iraqw-VIndicativeConj2AffPast-tlaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.162 (29)." 
 	.
 
-aama:ID382de650-2574-4d4f-9b57-8f9231622953 a aamas:Term ;
+aama:ID42bc8d7d-df29-4c30-8976-d1fa6bf5bde7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -3999,7 +4000,7 @@ aama:ID382de650-2574-4d4f-9b57-8f9231622953 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID49b5e02b-3555-4ed5-9c36-a9a8d09d0623 a aamas:Term ;
+aama:IDd13437fb-9efd-431b-b46c-34b19bd4f1e3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4014,7 +4015,7 @@ aama:ID49b5e02b-3555-4ed5-9c36-a9a8d09d0623 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID4c90093c-d7dd-4c68-9f4c-8f81098a9af6 a aamas:Term ;
+aama:IDea064006-87dc-4429-88d7-caf949ac5356 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4029,7 +4030,7 @@ aama:ID4c90093c-d7dd-4c68-9f4c-8f81098a9af6 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID06c3afc6-6e49-44ae-9606-554b53cb80cd a aamas:Term ;
+aama:IDd7febc65-8fce-43cf-94b0-fe1acaf80802 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4044,7 +4045,7 @@ aama:ID06c3afc6-6e49-44ae-9606-554b53cb80cd a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDa2e14f83-6fb6-4de2-b52f-ead7ebd226cb a aamas:Term ;
+aama:ID5177c5e5-7acc-4aca-a598-eb78e8bd3e27 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4059,7 +4060,7 @@ aama:IDa2e14f83-6fb6-4de2-b52f-ead7ebd226cb a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID3b729732-bb51-44ec-bb2a-7e53bd8b6bc3 a aamas:Term ;
+aama:ID23368c8b-5e48-432a-b140-f38476fb31ee a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4074,7 +4075,7 @@ aama:ID3b729732-bb51-44ec-bb2a-7e53bd8b6bc3 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID37f9f588-7ae9-41a8-9e29-ce1f2dc47519 a aamas:Term ;
+aama:ID2f78d2f4-9874-49c0-8745-a5871d8a97d6 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIndicativeConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4096,7 +4097,7 @@ irq:iraqw-VIrregAffPres-kah a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.163 (31)." 
 	.
 
-aama:IDa41a0592-9fe4-44a1-b1a9-0c0d02779735 a aamas:Term ;
+aama:ID8be77d89-8564-436d-8aab-9ee6002e04ac a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4112,7 +4113,7 @@ aama:IDa41a0592-9fe4-44a1-b1a9-0c0d02779735 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDdf377e76-fb5a-48c7-bc75-a40888af2dc2 a aamas:Term ;
+aama:IDcabc2b12-6353-4704-82db-b3fe661fe636 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4128,7 +4129,7 @@ aama:IDdf377e76-fb5a-48c7-bc75-a40888af2dc2 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID962fbc85-1025-4af2-8dd6-a5d9a885bca7 a aamas:Term ;
+aama:ID8ab6e475-59da-483c-aafd-7c7fca58bb6c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4144,7 +4145,7 @@ aama:ID962fbc85-1025-4af2-8dd6-a5d9a885bca7 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDdbf2a42f-2508-4a6e-84ec-15df9a99066b a aamas:Term ;
+aama:ID75da2d1a-c50b-4cee-90c7-58d55af3a27b a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4160,7 +4161,7 @@ aama:IDdbf2a42f-2508-4a6e-84ec-15df9a99066b a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDc1b4bd1c-ab34-424c-9b81-833bd0d636de a aamas:Term ;
+aama:ID2127c060-c033-48a2-8b44-da15b10a8af3 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4176,7 +4177,7 @@ aama:IDc1b4bd1c-ab34-424c-9b81-833bd0d636de a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID26c60e42-8b27-4428-9bf1-93841f84d609 a aamas:Term ;
+aama:IDef3d34a4-b831-44e1-af50-0e8389089ba0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4192,7 +4193,7 @@ aama:ID26c60e42-8b27-4428-9bf1-93841f84d609 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDf0b7e241-ea82-41b8-9e62-3d6b16d95660 a aamas:Term ;
+aama:ID151b7ec4-6aab-485d-8448-e5f73dcc3233 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VIrregAffPres-kah ;
 	irq:conjClass irq:Irreg ;
@@ -4215,7 +4216,7 @@ irq:iraqw-VParticiple-doohl a aamas:Termcluster ;
 	rdfs:comment "Mous1993 pp.165-166." 
 	.
 
-aama:IDfab6ef00-5a37-4e0c-820d-69a1217c3288 a aamas:Term ;
+aama:ID87632da0-38c7-4748-b6ad-2dd6f7200df9 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4227,7 +4228,7 @@ aama:IDfab6ef00-5a37-4e0c-820d-69a1217c3288 a aamas:Term ;
 	irq:genderHead irq:HeadCommon ;
 	.
 
-aama:ID22ad5f9a-d37b-4f6c-b34f-9fcfa8d8955c a aamas:Term ;
+aama:ID351bf3df-6fe1-4a96-af97-97c399460303 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4239,7 +4240,7 @@ aama:ID22ad5f9a-d37b-4f6c-b34f-9fcfa8d8955c a aamas:Term ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:ID526556e7-7d96-4f6d-b597-20d6d9c1326a a aamas:Term ;
+aama:ID4adc6796-b269-458a-a061-cb0e77ced3e5 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4251,7 +4252,7 @@ aama:ID526556e7-7d96-4f6d-b597-20d6d9c1326a a aamas:Term ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:ID7ac833b7-203b-49c5-909d-a129da9e27b6 a aamas:Term ;
+aama:ID402868fe-9d7c-43ff-aa3d-afb03fae1711 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4263,7 +4264,7 @@ aama:ID7ac833b7-203b-49c5-909d-a129da9e27b6 a aamas:Term ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:ID9378f3e8-ee99-466d-a0c3-7eef24213f72 a aamas:Term ;
+aama:ID93c64db3-c7cd-40f7-bcc9-37c30ace771f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4275,7 +4276,7 @@ aama:ID9378f3e8-ee99-466d-a0c3-7eef24213f72 a aamas:Term ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:IDffdbe480-4b43-4010-ae49-decc75d849df a aamas:Term ;
+aama:IDd3cf0cac-c4b3-4338-a1a9-9eadb1a3c234 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4287,7 +4288,7 @@ aama:IDffdbe480-4b43-4010-ae49-decc75d849df a aamas:Term ;
 	irq:genderHead irq:HeadNeut ;
 	.
 
-aama:ID21b1a8fc-7d88-42d0-beb8-a4649c56c67c a aamas:Term ;
+aama:ID264f8801-c91a-4baf-bcd2-8a0a54bf9eb2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VParticiple-doohl ;
 	aamas:lexeme aama:Iraqw-doohl ;
@@ -4306,7 +4307,7 @@ irq:iraqw-VQConj1AffPast-firiim a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.170 (36)." 
 	.
 
-aama:ID4e59298b-d66e-4284-ab4c-00a426f608eb a aamas:Term ;
+aama:IDf364f59a-4fd6-42b1-be59-ede85c784879 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4321,7 +4322,7 @@ aama:ID4e59298b-d66e-4284-ab4c-00a426f608eb a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe46c9f19-fcf3-4d8f-90f1-bf5af57a5241 a aamas:Term ;
+aama:IDc70e04b5-5040-4e5e-9598-c5d58b7ff06e a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4336,7 +4337,7 @@ aama:IDe46c9f19-fcf3-4d8f-90f1-bf5af57a5241 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID68ca0b0c-fff0-46c8-981a-2884e0300082 a aamas:Term ;
+aama:IDb8b17c2b-eed6-48f4-9ef5-770b4975a4db a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4351,7 +4352,7 @@ aama:ID68ca0b0c-fff0-46c8-981a-2884e0300082 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID0ab43f36-c4df-468e-a2d1-8461ef282a7e a aamas:Term ;
+aama:IDd008d9e0-072b-420f-bcd5-6dcb657662d1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4366,7 +4367,7 @@ aama:ID0ab43f36-c4df-468e-a2d1-8461ef282a7e a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID5cc28f21-0588-45ff-8451-5abe5a94069e a aamas:Term ;
+aama:ID7fd27d96-ab44-45e3-8315-837c1120e8b1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4381,7 +4382,7 @@ aama:ID5cc28f21-0588-45ff-8451-5abe5a94069e a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDf94a0f60-fe2d-457d-8408-2a2e4401743d a aamas:Term ;
+aama:IDe088b605-e6e7-4a50-800e-c1a30ddc8bc2 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4403,7 +4404,7 @@ irq:iraqw-VQConj1AffPres-firiim a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.170 (36)." 
 	.
 
-aama:IDaab15088-dd5a-4b58-ae73-43419e03e6f9 a aamas:Term ;
+aama:IDa1b14ad6-47f1-48aa-9a6a-4b0c0d97571d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPres-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4418,7 +4419,7 @@ aama:IDaab15088-dd5a-4b58-ae73-43419e03e6f9 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID954413d9-8c5a-4b99-a19c-39cc53fb9e7c a aamas:Term ;
+aama:ID3a5adef5-f899-471a-b580-5186c387126c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPres-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4433,7 +4434,7 @@ aama:ID954413d9-8c5a-4b99-a19c-39cc53fb9e7c a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID8b37c0e1-1f1e-41af-b13f-22f4e2a9da07 a aamas:Term ;
+aama:ID58b47084-29b7-47e8-a93e-f59524e1435c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPres-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4448,7 +4449,7 @@ aama:ID8b37c0e1-1f1e-41af-b13f-22f4e2a9da07 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDd3f218cd-1f77-457d-9cfb-d168b68e9eea a aamas:Term ;
+aama:IDf92a4f46-402d-42af-b7ca-28b71161fa10 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPres-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4463,7 +4464,7 @@ aama:IDd3f218cd-1f77-457d-9cfb-d168b68e9eea a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDae27a937-bd36-481b-b6a7-e8b5fc8afeee a aamas:Term ;
+aama:ID32bdc8a1-449f-4988-ae24-27f469e35c6d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPres-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4478,7 +4479,7 @@ aama:IDae27a937-bd36-481b-b6a7-e8b5fc8afeee a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDf37c1465-8dc2-424f-b579-a147ac4c1607 a aamas:Term ;
+aama:ID15b80177-1805-46db-96e5-0d233d49aa0c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj1AffPres-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4500,7 +4501,7 @@ irq:iraqw-VQConj2AffPast-tlaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.170 (36)." 
 	.
 
-aama:IDa798c3c8-c777-4a0a-af5c-546830b4278e a aamas:Term ;
+aama:ID5e9ff847-559b-4169-b893-7b557dd232ca a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4515,7 +4516,7 @@ aama:IDa798c3c8-c777-4a0a-af5c-546830b4278e a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDa7ae787e-63c6-4de9-be7a-a20db7110716 a aamas:Term ;
+aama:ID567ff20f-0b79-48dc-a7b3-350eef12035a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4530,7 +4531,7 @@ aama:IDa7ae787e-63c6-4de9-be7a-a20db7110716 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDbaaa1331-7808-40ba-b4ca-75f76a4acc06 a aamas:Term ;
+aama:ID36719f83-9c88-4997-a910-0c7a19caed7c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4545,7 +4546,7 @@ aama:IDbaaa1331-7808-40ba-b4ca-75f76a4acc06 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID050f45fe-aeb2-4eb9-bd3b-1621fc470bc7 a aamas:Term ;
+aama:ID984d4d90-7071-4438-93ae-0c9df77dc8f1 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4560,7 +4561,7 @@ aama:ID050f45fe-aeb2-4eb9-bd3b-1621fc470bc7 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID32bef0bb-8378-40f0-8d08-d34260740aa4 a aamas:Term ;
+aama:ID91202bd9-4f6c-4592-81c2-ab13bb5faa84 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4575,7 +4576,7 @@ aama:ID32bef0bb-8378-40f0-8d08-d34260740aa4 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDbb72a00a-6fcf-42e7-a059-09cdd7a6ad60 a aamas:Term ;
+aama:ID2c2e21c3-cd2a-4044-bfb2-f0cf30c1fdca a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VQConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4597,7 +4598,7 @@ irq:iraqw-VSubjunctiveConj1AffPast-firiim a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.162 (30)." 
 	.
 
-aama:ID73992f77-4233-45a5-b54a-1474f5f9cf4d a aamas:Term ;
+aama:IDe5a2f0ad-ba7a-4e1c-9dc6-46503e932dab a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4612,7 +4613,7 @@ aama:ID73992f77-4233-45a5-b54a-1474f5f9cf4d a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID674303db-2ef4-4389-bc60-52a05ff47498 a aamas:Term ;
+aama:ID2f5d9380-833e-470a-9ee8-840b0d14b6e7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4627,7 +4628,7 @@ aama:ID674303db-2ef4-4389-bc60-52a05ff47498 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID94fa20da-a860-4036-8815-736ee1986c58 a aamas:Term ;
+aama:ID28a7e4f0-2892-464d-ac71-4884eda4ff9c a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4642,7 +4643,7 @@ aama:ID94fa20da-a860-4036-8815-736ee1986c58 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID779941c2-286e-4b66-84e0-45781baefd2f a aamas:Term ;
+aama:ID3f4342e0-4432-42a4-8021-4ca276e94a95 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4657,7 +4658,7 @@ aama:ID779941c2-286e-4b66-84e0-45781baefd2f a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDb0a2983d-3b3b-4be0-a28e-d3e4a3147dbd a aamas:Term ;
+aama:IDcfe51cd9-0b79-44da-8bc5-344919285fa0 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4672,7 +4673,7 @@ aama:IDb0a2983d-3b3b-4be0-a28e-d3e4a3147dbd a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID7f30e498-ff3f-4624-81e7-340b77debcce a aamas:Term ;
+aama:ID72aa8b58-9504-42fa-b265-079b6152e3db a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4687,7 +4688,7 @@ aama:ID7f30e498-ff3f-4624-81e7-340b77debcce a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDb112292c-5a27-4533-96d6-72f97bc08d45 a aamas:Term ;
+aama:IDbcd21d1a-c2b1-4b74-87aa-d140f22428e7 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj1AffPast-firiim ;
 	irq:conjClass irq:Conj1 ;
@@ -4709,7 +4710,7 @@ irq:iraqw-VSubjunctiveConj2AffPast-tlaw a aamas:Termcluster ;
 	rdfs:comment "Mous1993 p.162 (30)." 
 	.
 
-aama:ID5b236724-9d99-48a0-99d1-30cfd63ff371 a aamas:Term ;
+aama:ID588041d0-f274-44f7-8bf9-ff3c2924dbfc a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4724,7 +4725,7 @@ aama:ID5b236724-9d99-48a0-99d1-30cfd63ff371 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:IDe7077be6-cb14-4600-bd3e-b3d66feabc50 a aamas:Term ;
+aama:IDb85553a7-ce4b-4756-acd5-40bdb5ea6806 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4739,7 +4740,7 @@ aama:IDe7077be6-cb14-4600-bd3e-b3d66feabc50 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID975500b3-edc7-41a5-b03f-826dc3b6a775 a aamas:Term ;
+aama:IDdaa7584e-2f08-44e7-bed1-1da4df36d17d a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4754,7 +4755,7 @@ aama:ID975500b3-edc7-41a5-b03f-826dc3b6a775 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID56c1c4a4-f7db-4a89-834a-5fad5e896c11 a aamas:Term ;
+aama:ID06fee387-72f5-4f85-8eb7-1c2b2b0fc41a a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4769,7 +4770,7 @@ aama:ID56c1c4a4-f7db-4a89-834a-5fad5e896c11 a aamas:Term ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID5e6e1687-cb8b-4fb6-910c-6e81ca1530ac a aamas:Term ;
+aama:IDdc07b78d-cfc2-4212-bae7-824ce01d3024 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4784,7 +4785,7 @@ aama:ID5e6e1687-cb8b-4fb6-910c-6e81ca1530ac a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:IDa4acfebb-6b36-41a7-904e-f025ecda0811 a aamas:Term ;
+aama:ID3a285333-aff4-48ab-865c-750300942c3f a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4799,7 +4800,7 @@ aama:IDa4acfebb-6b36-41a7-904e-f025ecda0811 a aamas:Term ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID12f4a4dc-ac21-4f73-bbf5-c637acb84df0 a aamas:Term ;
+aama:ID69e481b6-5551-4d14-9ac8-6657de7e6431 a aamas:Term ;
 	aamas:lang aama:Iraqw ;
 	aamas:memberOf irq:iraqw-VSubjunctiveConj2AffPast-tlaw ;
 	irq:conjClass irq:Conj2 ;
@@ -4821,7 +4822,7 @@ irq:iraqw-PInd a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.112" 
 	.
 
-aama:ID138bccf2-eb5c-4fe0-80be-b3d3c4777c1b a aamas:Muterm ;
+aama:IDacea6979-6574-4bb8-a981-ea5463e86323 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4833,7 +4834,7 @@ aama:ID138bccf2-eb5c-4fe0-80be-b3d3c4777c1b a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:ID3ef787fd-d555-4e89-8c6f-329f299e4aef a aamas:Muterm ;
+aama:IDd73a80d4-26b7-4a81-b03a-287fc45d1713 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4845,7 +4846,7 @@ aama:ID3ef787fd-d555-4e89-8c6f-329f299e4aef a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:IDed067efe-2b83-439c-b8e0-4077d603157f a aamas:Muterm ;
+aama:ID7ed90703-ded2-473c-a355-c499abd69364 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4857,7 +4858,7 @@ aama:IDed067efe-2b83-439c-b8e0-4077d603157f a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:IDf14eb168-726a-405a-a9af-ca4e8fffb17e a aamas:Muterm ;
+aama:IDdad9ce5d-bdd8-4365-b69f-397b2ddc4147 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4869,7 +4870,7 @@ aama:IDf14eb168-726a-405a-a9af-ca4e8fffb17e a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:IDdad81ca4-6d7e-40c3-9cbf-799720f85dff a aamas:Muterm ;
+aama:IDfad8ff04-3d53-4dc6-a342-d99db9cc5433 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4881,7 +4882,7 @@ aama:IDdad81ca4-6d7e-40c3-9cbf-799720f85dff a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:ID13d6de55-9f58-4002-bdb8-0f35e7dbaf0f a aamas:Muterm ;
+aama:IDd1ea9290-158e-4447-b87c-408effbb8d51 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4893,7 +4894,7 @@ aama:ID13d6de55-9f58-4002-bdb8-0f35e7dbaf0f a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:IDbb9f2651-ed10-42b1-a608-48d28cf255a6 a aamas:Muterm ;
+aama:ID09a30a38-88aa-4aee-93e8-03714036ea06 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4905,7 +4906,7 @@ aama:IDbb9f2651-ed10-42b1-a608-48d28cf255a6 a aamas:Muterm ;
 	irq:form irq:Full ;
 	.
 
-aama:ID99961a47-0469-46ae-bcaf-0c196f137374 a aamas:Muterm ;
+aama:IDf0f7c2aa-a22a-4cc1-afff-20e54629fc6d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4917,7 +4918,7 @@ aama:ID99961a47-0469-46ae-bcaf-0c196f137374 a aamas:Muterm ;
 	irq:form irq:Short ;
 	.
 
-aama:IDa9b6634c-56b6-4760-8c9b-4480a55503ff a aamas:Muterm ;
+aama:IDf5e70a73-55c2-4c1a-8c8e-988178a252d5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4929,7 +4930,7 @@ aama:IDa9b6634c-56b6-4760-8c9b-4480a55503ff a aamas:Muterm ;
 	irq:form irq:Short ;
 	.
 
-aama:ID4a8bd5a5-26f5-43a6-90ad-0d6472ebb6f6 a aamas:Muterm ;
+aama:ID547b1b68-b9ab-4210-9dd6-86cf0fb21e6d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4941,7 +4942,7 @@ aama:ID4a8bd5a5-26f5-43a6-90ad-0d6472ebb6f6 a aamas:Muterm ;
 	irq:form irq:Short ;
 	.
 
-aama:ID81fa04b1-3a2e-410f-bcc7-104559666948 a aamas:Muterm ;
+aama:ID068d402a-40f3-45ca-9244-7b64a10e57dd a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4953,7 +4954,7 @@ aama:ID81fa04b1-3a2e-410f-bcc7-104559666948 a aamas:Muterm ;
 	irq:form irq:Short ;
 	.
 
-aama:IDd5bcc8ef-19eb-4e35-882a-b5d29dafc31e a aamas:Muterm ;
+aama:IDc4a5ad60-70b0-4d96-85a3-0ad6e54953d7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4965,7 +4966,7 @@ aama:IDd5bcc8ef-19eb-4e35-882a-b5d29dafc31e a aamas:Muterm ;
 	irq:form irq:Short ;
 	.
 
-aama:IDea43c631-907a-456a-b107-ff18084908ba a aamas:Muterm ;
+aama:IDe147cf26-fb0d-4d62-b36d-7563898c51de a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4977,7 +4978,7 @@ aama:IDea43c631-907a-456a-b107-ff18084908ba a aamas:Muterm ;
 	irq:form irq:Short ;
 	.
 
-aama:IDbc744a74-73e4-4bd6-8267-59ab7da0c3bd a aamas:Muterm ;
+aama:ID16d28a07-ff01-49b9-b97e-91ddd76883f3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PInd ;
 	aamas:morpheme aama:Iraqw-PROIND ;
 	irq:pos irq:Pronoun ;
@@ -4996,7 +4997,7 @@ irq:iraqw-PObj a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.114" 
 	.
 
-aama:IDc4e045a9-b432-4649-953f-e693419f35b0 a aamas:Muterm ;
+aama:IDf88ce5e9-2bf7-4387-a56b-464d216ba9f7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5007,7 +5008,7 @@ aama:IDc4e045a9-b432-4649-953f-e693419f35b0 a aamas:Muterm ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID25dd44ed-6fe3-4e3a-91ee-31f48486ed58 a aamas:Muterm ;
+aama:ID6ee81162-ac2d-4a83-995b-8d818d4feeb1 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5018,7 +5019,7 @@ aama:ID25dd44ed-6fe3-4e3a-91ee-31f48486ed58 a aamas:Muterm ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID8942218a-80db-4b89-9ce1-c7a1757a9a6d a aamas:Muterm ;
+aama:ID5b02b56f-135f-4813-9d2f-14fe5bb5952b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5029,7 +5030,7 @@ aama:ID8942218a-80db-4b89-9ce1-c7a1757a9a6d a aamas:Muterm ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID8cd16f8c-926b-43c5-8834-183ee5440a03 a aamas:Muterm ;
+aama:ID32a9333b-b06f-4485-b6f2-2ac6763f9562 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5040,7 +5041,7 @@ aama:ID8cd16f8c-926b-43c5-8834-183ee5440a03 a aamas:Muterm ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID58f38cad-ebc9-4362-a0dd-a0bbff696ea6 a aamas:Muterm ;
+aama:ID19d6fbf3-7422-4bf8-ae5e-86e984884de4 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5051,7 +5052,7 @@ aama:ID58f38cad-ebc9-4362-a0dd-a0bbff696ea6 a aamas:Muterm ;
 	irq:number irq:Singular ;
 	.
 
-aama:ID0a743eea-1c98-4130-8ab0-802c0a83e119 a aamas:Muterm ;
+aama:IDda3a31a6-46b9-4db1-8caa-ecbb9c86aba8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5062,7 +5063,7 @@ aama:ID0a743eea-1c98-4130-8ab0-802c0a83e119 a aamas:Muterm ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID2b46ec7d-651d-4967-8694-88e8b36e66c2 a aamas:Muterm ;
+aama:IDa9f6be58-ea7e-4e96-9c7c-a788632d0713 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5073,7 +5074,7 @@ aama:ID2b46ec7d-651d-4967-8694-88e8b36e66c2 a aamas:Muterm ;
 	irq:number irq:Plural ;
 	.
 
-aama:ID377bc7f8-e9e8-462d-aea2-2d213976d2af a aamas:Muterm ;
+aama:IDfe19cec1-9e49-40f5-9594-e3f234f1db20 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PObj ;
 	aamas:morpheme aama:Iraqw-PROOBJ ;
 	irq:pos irq:Pronoun ;
@@ -5092,7 +5093,7 @@ irq:iraqw-PPers_dem a aamas:MuTermcluster ;
             dá’." 
 	.
 
-aama:IDc99b86c0-398e-454f-82d8-97bf5d93a97e a aamas:Muterm ;
+aama:IDb8c1ffff-2476-44b2-a831-0480a65a417d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5104,7 +5105,7 @@ aama:IDc99b86c0-398e-454f-82d8-97bf5d93a97e a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:ID9a0a9f23-447c-495b-bafb-6a19c04cd81f a aamas:Muterm ;
+aama:IDb6d968a0-62ae-419e-be41-526bebce0732 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5116,7 +5117,7 @@ aama:ID9a0a9f23-447c-495b-bafb-6a19c04cd81f a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:ID990e6202-34fb-412b-85e8-65b164afb652 a aamas:Muterm ;
+aama:ID30afb0d2-be55-43d4-8fbe-d01a9391306e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5128,7 +5129,7 @@ aama:ID990e6202-34fb-412b-85e8-65b164afb652 a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:IDb8c4a890-3352-4b0c-98a4-9892fe7418ed a aamas:Muterm ;
+aama:IDb3e3a30b-6743-47ba-b2e1-74d9cc2b7f18 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5140,7 +5141,7 @@ aama:IDb8c4a890-3352-4b0c-98a4-9892fe7418ed a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:ID20b74d9e-c9c6-4429-bc02-bdcc38ca7c3e a aamas:Muterm ;
+aama:ID3f85f3c1-c990-4a50-999c-e06e39b0609a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5152,7 +5153,7 @@ aama:ID20b74d9e-c9c6-4429-bc02-bdcc38ca7c3e a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:IDe735da4e-460a-4783-ae96-fa2936da7038 a aamas:Muterm ;
+aama:ID0d3e3115-86a0-40e3-b7de-87dc8c4192ec a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5164,7 +5165,7 @@ aama:IDe735da4e-460a-4783-ae96-fa2936da7038 a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:IDf717e80e-60ba-4dc2-ae8f-6c2c039346c4 a aamas:Muterm ;
+aama:ID69a0f836-5549-4034-8af0-df633b32698f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5176,7 +5177,7 @@ aama:IDf717e80e-60ba-4dc2-ae8f-6c2c039346c4 a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:IDa3e46e7e-dca8-4665-a48b-8c072c4eedd6 a aamas:Muterm ;
+aama:IDf8644535-b5f8-44c9-be1e-3969b86234c0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5188,7 +5189,7 @@ aama:IDa3e46e7e-dca8-4665-a48b-8c072c4eedd6 a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:ID4ff423b3-b712-4d03-8bff-73e5eadc5ce8 a aamas:Muterm ;
+aama:ID8c0a8f7f-9221-4fa7-bd93-6bae6f35a4eb a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5200,7 +5201,7 @@ aama:ID4ff423b3-b712-4d03-8bff-73e5eadc5ce8 a aamas:Muterm ;
 	irq:demonstrative irq:Far ;
 	.
 
-aama:IDf7cc9ae7-917c-481f-878a-e3eaa3fc9c27 a aamas:Muterm ;
+aama:ID9fc92e81-6df6-47cb-8e49-c26b39e72e35 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5212,7 +5213,7 @@ aama:IDf7cc9ae7-917c-481f-878a-e3eaa3fc9c27 a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:IDe8c84c0e-2488-4541-9680-ae613f774b79 a aamas:Muterm ;
+aama:ID5cfb6bbc-bf7b-414d-b9e3-3ba92a5dc91a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5224,7 +5225,7 @@ aama:IDe8c84c0e-2488-4541-9680-ae613f774b79 a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:ID1e98f83b-dc75-413a-b570-6679ea5877eb a aamas:Muterm ;
+aama:ID8a3f530c-1706-4451-a15d-f0dd96773804 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5236,7 +5237,7 @@ aama:ID1e98f83b-dc75-413a-b570-6679ea5877eb a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:ID59c9298d-63f9-4a5b-84cf-25fb0db1d846 a aamas:Muterm ;
+aama:ID9ea4bfb6-41b6-49e6-8da9-e13ea0952b39 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5248,7 +5249,7 @@ aama:ID59c9298d-63f9-4a5b-84cf-25fb0db1d846 a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:ID605931f2-d1e4-4c97-af06-11feaa7f287f a aamas:Muterm ;
+aama:ID567641c9-0e0e-4796-85ff-9098df129be4 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5260,7 +5261,7 @@ aama:ID605931f2-d1e4-4c97-af06-11feaa7f287f a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:IDb4efc8f9-b264-4a77-b7d5-79c84c923c25 a aamas:Muterm ;
+aama:IDd83e214b-408f-49ec-86ff-58ac4daf7679 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5272,7 +5273,7 @@ aama:IDb4efc8f9-b264-4a77-b7d5-79c84c923c25 a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:ID4a090c56-a7d6-42d7-8a3e-4d108633262a a aamas:Muterm ;
+aama:IDbbf3aa9c-d5a5-4c55-b72c-87b12b1ad3d3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5284,7 +5285,7 @@ aama:ID4a090c56-a7d6-42d7-8a3e-4d108633262a a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:ID244cb351-ce62-40b8-b668-c36326c0d76c a aamas:Muterm ;
+aama:ID851f8014-4b5b-4a02-a210-3a13f64eeeac a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5296,7 +5297,7 @@ aama:ID244cb351-ce62-40b8-b668-c36326c0d76c a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:IDd905bad1-70d8-4a15-83d1-849641d95963 a aamas:Muterm ;
+aama:IDf0732c1e-a6fb-4d24-97ef-9112ab302d9f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5308,7 +5309,7 @@ aama:IDd905bad1-70d8-4a15-83d1-849641d95963 a aamas:Muterm ;
 	irq:demonstrative irq:Midway ;
 	.
 
-aama:ID2963685f-fc9c-417f-bc0f-659280396b7a a aamas:Muterm ;
+aama:ID627fb5a1-59a1-4b85-910e-18d7f45d3839 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5320,7 +5321,7 @@ aama:ID2963685f-fc9c-417f-bc0f-659280396b7a a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID5db31849-fb6f-4755-bc4c-34f9f1902922 a aamas:Muterm ;
+aama:ID4a6dd6da-9b48-44fd-a4ff-1fd26c6ad93e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5332,7 +5333,7 @@ aama:ID5db31849-fb6f-4755-bc4c-34f9f1902922 a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:IDa36f68b8-500e-4816-b5a8-8acf11f73281 a aamas:Muterm ;
+aama:ID87b59a55-59a6-4f18-b441-b3db7b71174d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5344,7 +5345,7 @@ aama:IDa36f68b8-500e-4816-b5a8-8acf11f73281 a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID1010d822-712f-4920-89ff-203cfc443d5f a aamas:Muterm ;
+aama:IDe68b7541-5abc-4599-9c77-e0e839465064 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5356,7 +5357,7 @@ aama:ID1010d822-712f-4920-89ff-203cfc443d5f a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID916773f5-aead-47b1-a19f-6ea4f33c1cf9 a aamas:Muterm ;
+aama:ID525cb936-0680-4a73-8f6b-5228ddadd7c7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5368,7 +5369,7 @@ aama:ID916773f5-aead-47b1-a19f-6ea4f33c1cf9 a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:IDd74ca2f6-fa7c-4c3d-bfad-d26ad4fc6d90 a aamas:Muterm ;
+aama:IDfc3dcfb3-2fc7-4795-930a-9c853ad2bf52 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5380,7 +5381,7 @@ aama:IDd74ca2f6-fa7c-4c3d-bfad-d26ad4fc6d90 a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID3e8dfcde-9761-48d8-b5d2-65adaab47f8b a aamas:Muterm ;
+aama:IDcfd86bf3-6d28-4f26-b7d7-aefeecd91686 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5392,7 +5393,7 @@ aama:ID3e8dfcde-9761-48d8-b5d2-65adaab47f8b a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID43e722e0-bf8a-424c-ac01-56ca7b771519 a aamas:Muterm ;
+aama:ID3766f9a8-4074-4b62-b6e0-4f4e83e32c37 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5404,7 +5405,7 @@ aama:ID43e722e0-bf8a-424c-ac01-56ca7b771519 a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID194928e1-4718-442a-824d-9ef9509ac73b a aamas:Muterm ;
+aama:IDfebceaad-a147-42d7-95f9-3f8f0a787343 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5416,7 +5417,7 @@ aama:ID194928e1-4718-442a-824d-9ef9509ac73b a aamas:Muterm ;
 	irq:demonstrative irq:Near1 ;
 	.
 
-aama:ID1fc4a525-7e99-4d46-9ec0-0a61bb3ed20e a aamas:Muterm ;
+aama:IDba9e3c50-44df-41a9-9e5b-1b66647b85e7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5428,7 +5429,7 @@ aama:ID1fc4a525-7e99-4d46-9ec0-0a61bb3ed20e a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:IDd6a8d13f-bb15-4b5c-be9e-bffec85ca3aa a aamas:Muterm ;
+aama:ID4ad8be15-1049-4ce8-a245-129a490b8f33 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5440,7 +5441,7 @@ aama:IDd6a8d13f-bb15-4b5c-be9e-bffec85ca3aa a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:IDa9e9ae30-6a14-40b5-84b7-beed5d333968 a aamas:Muterm ;
+aama:ID10b82a8e-88d9-49d0-a916-5ba9fe2ce48c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5452,7 +5453,7 @@ aama:IDa9e9ae30-6a14-40b5-84b7-beed5d333968 a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:IDc70a5cd6-965d-4e43-95c4-a378e227d8fe a aamas:Muterm ;
+aama:ID924c6169-7e81-4c38-919e-eb3ce53fe596 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5464,7 +5465,7 @@ aama:IDc70a5cd6-965d-4e43-95c4-a378e227d8fe a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:ID2312b292-8fa3-4006-8cec-9ea9869c767f a aamas:Muterm ;
+aama:IDc36376ac-0cf6-4449-8a06-056f787e4c30 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5476,7 +5477,7 @@ aama:ID2312b292-8fa3-4006-8cec-9ea9869c767f a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:ID9f007b94-7679-4a47-a09d-e498b559405d a aamas:Muterm ;
+aama:ID7a7743b1-0e64-4794-a83f-c7bf5109b397 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5488,7 +5489,7 @@ aama:ID9f007b94-7679-4a47-a09d-e498b559405d a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:IDf644d2f8-0f9d-455f-939b-88c7edfff3c1 a aamas:Muterm ;
+aama:ID62bb6df9-5248-4a27-9bea-8d647bb4052c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5500,7 +5501,7 @@ aama:IDf644d2f8-0f9d-455f-939b-88c7edfff3c1 a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:ID50a993b6-d15f-48c8-a347-d001512a69e8 a aamas:Muterm ;
+aama:ID153625d4-96f0-468d-85ef-11f5a3cccb10 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5512,7 +5513,7 @@ aama:ID50a993b6-d15f-48c8-a347-d001512a69e8 a aamas:Muterm ;
 	irq:demonstrative irq:Near2 ;
 	.
 
-aama:IDee3386c0-28e3-441a-b7e8-334d2942b258 a aamas:Muterm ;
+aama:ID32393f94-f245-4e2c-bda5-e1ceb164f622 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPers_dem ;
 	aamas:morpheme aama:Iraqw-PRODEM ;
 	irq:pos irq:Pronoun ;
@@ -5531,7 +5532,7 @@ irq:iraqw-PPoss a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.115" 
 	.
 
-aama:ID19612b62-237a-4eeb-ba3f-8001e5991a1f a aamas:Muterm ;
+aama:IDefd09c82-63d5-4bd4-8e30-2a5e2b48768b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5543,7 +5544,7 @@ aama:ID19612b62-237a-4eeb-ba3f-8001e5991a1f a aamas:Muterm ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:ID868ebe03-8054-4071-b593-ea7a5f4b8d40 a aamas:Muterm ;
+aama:ID152740f2-f8af-443c-af52-29df85eca1d9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5555,7 +5556,7 @@ aama:ID868ebe03-8054-4071-b593-ea7a5f4b8d40 a aamas:Muterm ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:ID77b3bfe0-152c-45f3-8183-10fd58ee26a3 a aamas:Muterm ;
+aama:ID850d4c24-c64a-46c1-ab81-377d24b19f31 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5567,7 +5568,7 @@ aama:ID77b3bfe0-152c-45f3-8183-10fd58ee26a3 a aamas:Muterm ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:ID799a7bc9-9b2c-487b-bbca-396b6afd1d41 a aamas:Muterm ;
+aama:ID294a5f3c-16f8-40fe-bc94-008b2b6469be a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5579,7 +5580,7 @@ aama:ID799a7bc9-9b2c-487b-bbca-396b6afd1d41 a aamas:Muterm ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:IDf58e28aa-ca44-4eb5-a687-127cb470ab60 a aamas:Muterm ;
+aama:ID11c787b8-aacf-4175-b754-276bc5d83540 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5591,7 +5592,7 @@ aama:IDf58e28aa-ca44-4eb5-a687-127cb470ab60 a aamas:Muterm ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:IDfecc8f7a-86a1-4261-9a0c-3c8572900335 a aamas:Muterm ;
+aama:ID922a04b4-4ed2-48d8-a0aa-eb431c3bfa20 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5603,7 +5604,7 @@ aama:IDfecc8f7a-86a1-4261-9a0c-3c8572900335 a aamas:Muterm ;
 	irq:genderHead irq:HeadFem ;
 	.
 
-aama:ID8531f2ab-0c10-4e02-be20-ffb0bdaa81f7 a aamas:Muterm ;
+aama:IDa67796cc-6469-424b-b64f-7684290ef807 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5615,7 +5616,7 @@ aama:ID8531f2ab-0c10-4e02-be20-ffb0bdaa81f7 a aamas:Muterm ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:ID00731cd3-8400-4581-996e-babb7c2dd0d7 a aamas:Muterm ;
+aama:ID815ca17e-7888-4003-b3fa-d0c9580f1e3f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5627,7 +5628,7 @@ aama:ID00731cd3-8400-4581-996e-babb7c2dd0d7 a aamas:Muterm ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:ID70244f31-1aa9-4005-a0c1-b181f36d68ef a aamas:Muterm ;
+aama:ID3c4fe2de-aa87-4044-9f78-dd0fd0763441 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5639,7 +5640,7 @@ aama:ID70244f31-1aa9-4005-a0c1-b181f36d68ef a aamas:Muterm ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:IDf7fa60f0-e076-4fd4-a422-823e0e0853ce a aamas:Muterm ;
+aama:IDcbae35cd-b5bd-4706-8946-d448935cf163 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5651,7 +5652,7 @@ aama:IDf7fa60f0-e076-4fd4-a422-823e0e0853ce a aamas:Muterm ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:ID636dd8ed-74aa-43e7-997a-d926b983355e a aamas:Muterm ;
+aama:IDa7c513fe-1d85-4fe7-ab0a-46eb7c12180d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5663,7 +5664,7 @@ aama:ID636dd8ed-74aa-43e7-997a-d926b983355e a aamas:Muterm ;
 	irq:genderHead irq:HeadMasc ;
 	.
 
-aama:IDa276842c-d876-488d-85ae-b2331c217cca a aamas:Muterm ;
+aama:IDbf6b13b9-91dc-462f-a650-d658a5be9233 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-PPoss ;
 	aamas:morpheme aama:Iraqw-PROPOSS ;
 	irq:pos irq:Pronoun ;
@@ -5682,7 +5683,7 @@ irq:iraqw-VAffPresSubjMarker a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.159 (27). See 159-161 and (28)." 
 	.
 
-aama:ID24050e61-48c3-461a-b5c1-85d2ac453a5e a aamas:Muterm ;
+aama:ID109ef86e-f72a-4bd5-ac8a-23a076a3da6a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5697,7 +5698,7 @@ aama:ID24050e61-48c3-461a-b5c1-85d2ac453a5e a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:IDe8f0066f-0161-423c-9835-12084292bbc8 a aamas:Muterm ;
+aama:IDc6e56193-a368-4cf8-82ee-ba03a42dc24c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5712,7 +5713,7 @@ aama:IDe8f0066f-0161-423c-9835-12084292bbc8 a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:IDc231f6b5-d67b-4df1-b2a7-e5c3a89a3c48 a aamas:Muterm ;
+aama:ID2e22b50f-8a73-47d3-be66-ea089a8c60ee a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5727,7 +5728,7 @@ aama:IDc231f6b5-d67b-4df1-b2a7-e5c3a89a3c48 a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:ID0eddc44d-54e4-4990-811c-83ee3df50ed6 a aamas:Muterm ;
+aama:ID1d2a9674-35c1-41cc-bb7d-d718bf332e79 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5742,7 +5743,7 @@ aama:ID0eddc44d-54e4-4990-811c-83ee3df50ed6 a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:ID3ce91b7c-8008-437d-817f-aeff76036021 a aamas:Muterm ;
+aama:ID02a42754-09ec-4981-b9b3-d680d565011e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5757,7 +5758,7 @@ aama:ID3ce91b7c-8008-437d-817f-aeff76036021 a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:ID68f36c18-6947-4c31-856d-b99e80e46f42 a aamas:Muterm ;
+aama:IDb0f5017b-8b37-4ea6-95d3-3db4e2d2951e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5772,7 +5773,7 @@ aama:ID68f36c18-6947-4c31-856d-b99e80e46f42 a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:ID4b1d8824-afef-4ec2-aa3f-b8f134afa0d8 a aamas:Muterm ;
+aama:ID0480f255-a0ea-40c5-a160-fbae13b948a1 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5787,7 +5788,7 @@ aama:ID4b1d8824-afef-4ec2-aa3f-b8f134afa0d8 a aamas:Muterm ;
 	irq:conjClass irq:Conj1 ;
 	.
 
-aama:IDf37f10a4-5935-4400-8898-c628be827399 a aamas:Muterm ;
+aama:ID86269bc8-9afc-40ce-bb22-52bb4bbb9fc5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5802,7 +5803,7 @@ aama:IDf37f10a4-5935-4400-8898-c628be827399 a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:IDb3012150-336e-420a-85e0-6671b20fa22b a aamas:Muterm ;
+aama:ID643507c6-1c13-433f-b773-28380e2581c8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5817,7 +5818,7 @@ aama:IDb3012150-336e-420a-85e0-6671b20fa22b a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:ID3ee141c1-6500-4018-91f5-387db1c4a93b a aamas:Muterm ;
+aama:ID88c4088e-274e-4f7f-8f5b-c6cb7a3038e2 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5832,7 +5833,7 @@ aama:ID3ee141c1-6500-4018-91f5-387db1c4a93b a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:ID2c366c30-9dca-4cf4-aa68-f1386751155e a aamas:Muterm ;
+aama:IDd9b4840e-fe71-4c18-a410-33ee124c7f24 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5847,7 +5848,7 @@ aama:ID2c366c30-9dca-4cf4-aa68-f1386751155e a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:IDec3653da-cc1a-4515-886e-08fe5c1770d9 a aamas:Muterm ;
+aama:IDfd604378-8644-4a9b-9c24-a7f1bd013289 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5862,7 +5863,7 @@ aama:IDec3653da-cc1a-4515-886e-08fe5c1770d9 a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:IDedd54789-37f2-4172-8625-bc6e80dc601c a aamas:Muterm ;
+aama:ID41a34f37-4621-4a30-b722-5f22f6101405 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5877,7 +5878,7 @@ aama:IDedd54789-37f2-4172-8625-bc6e80dc601c a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:ID057cddf1-e865-450e-85f0-3c45bdcc370f a aamas:Muterm ;
+aama:IDa6ebe0b7-440b-4587-ab07-5efba579447c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5892,7 +5893,7 @@ aama:ID057cddf1-e865-450e-85f0-3c45bdcc370f a aamas:Muterm ;
 	irq:conjClass irq:Conj2 ;
 	.
 
-aama:ID1b2e8030-2c50-4403-bfb0-48bc71a26151 a aamas:Muterm ;
+aama:ID334ec0a6-096d-43e6-8add-c58f762de39c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5907,7 +5908,7 @@ aama:ID1b2e8030-2c50-4403-bfb0-48bc71a26151 a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:IDf13a10ac-6836-4d36-81e4-eba3804bffff a aamas:Muterm ;
+aama:ID6b6d27e9-7199-4f12-b2fb-8f8002e319f3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5922,7 +5923,7 @@ aama:IDf13a10ac-6836-4d36-81e4-eba3804bffff a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:ID112a283f-5396-4c98-b952-4764f6bbed14 a aamas:Muterm ;
+aama:ID562f0dba-3c69-4b3f-a34b-fa3a61704091 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5937,7 +5938,7 @@ aama:ID112a283f-5396-4c98-b952-4764f6bbed14 a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:ID1b94a974-5ab8-4300-87f7-c07461abc5a5 a aamas:Muterm ;
+aama:IDfaeede0e-dae9-47ac-a5ba-89a98c90cf92 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5952,7 +5953,7 @@ aama:ID1b94a974-5ab8-4300-87f7-c07461abc5a5 a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:IDd027c0f1-94db-4ca6-ba43-adae27210372 a aamas:Muterm ;
+aama:IDa5697171-b871-4314-960d-31fe72443458 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5967,7 +5968,7 @@ aama:IDd027c0f1-94db-4ca6-ba43-adae27210372 a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:ID70714969-a510-4579-ac13-e19df995ca81 a aamas:Muterm ;
+aama:ID575ec275-e5bb-43d8-83b0-fadad8beba6d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5982,7 +5983,7 @@ aama:ID70714969-a510-4579-ac13-e19df995ca81 a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:IDff464fc0-329f-46ef-b4a6-7d45c2f9647f a aamas:Muterm ;
+aama:IDa0568073-6179-4335-bf51-add90ef26d3b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -5997,7 +5998,7 @@ aama:IDff464fc0-329f-46ef-b4a6-7d45c2f9647f a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:IDf05c261a-311d-48b3-9cdc-ce28f56504f0 a aamas:Muterm ;
+aama:IDf8cf48a7-8d3c-4364-8b56-01585037a149 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6012,7 +6013,7 @@ aama:IDf05c261a-311d-48b3-9cdc-ce28f56504f0 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:IDf83a7c66-abd4-46dd-8bae-648adabdd712 a aamas:Muterm ;
+aama:ID934b5b65-1f2c-4a00-b650-dc8c5c5813d9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6027,7 +6028,7 @@ aama:IDf83a7c66-abd4-46dd-8bae-648adabdd712 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:IDe7f5d252-8a25-4fb3-b9c6-caa984c87ca1 a aamas:Muterm ;
+aama:IDb2dd9d9f-e1f2-47c7-be58-56f3c151ebdc a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6042,7 +6043,7 @@ aama:IDe7f5d252-8a25-4fb3-b9c6-caa984c87ca1 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:ID888e8698-2938-44f7-b889-58acbc2169e5 a aamas:Muterm ;
+aama:ID4dad626e-81ef-446e-bb9a-ea578dcba998 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6057,7 +6058,7 @@ aama:ID888e8698-2938-44f7-b889-58acbc2169e5 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:ID3089f052-487a-4d06-9456-022a01ae1617 a aamas:Muterm ;
+aama:IDdc74cc28-aa69-40b8-8115-a86f09e2fe9d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6072,7 +6073,7 @@ aama:ID3089f052-487a-4d06-9456-022a01ae1617 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:ID0ed94a9a-e0b9-4cca-abe2-05a23721cb2f a aamas:Muterm ;
+aama:ID237cdb66-981d-44d7-b14f-01725abc3a93 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6087,7 +6088,7 @@ aama:ID0ed94a9a-e0b9-4cca-abe2-05a23721cb2f a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:ID4decbb8f-a3ff-4590-85f5-0030efd9eb03 a aamas:Muterm ;
+aama:IDd2fa5578-9da9-4b8d-9e96-3a0ee075e8bb a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6102,7 +6103,7 @@ aama:ID4decbb8f-a3ff-4590-85f5-0030efd9eb03 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:ID9270bb84-abb2-4024-b4f5-5474d4f9b156 a aamas:Muterm ;
+aama:ID712337ec-86b0-49a4-b663-6eb247d9e769 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6117,7 +6118,7 @@ aama:ID9270bb84-abb2-4024-b4f5-5474d4f9b156 a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:IDc86a0eca-d3b9-4e1d-94a9-f8d28549a7f9 a aamas:Muterm ;
+aama:ID7a921e7e-516f-49b7-b25b-5125c418052b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6132,7 +6133,7 @@ aama:IDc86a0eca-d3b9-4e1d-94a9-f8d28549a7f9 a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:IDea421372-d830-42fe-bb2d-f8753c45a782 a aamas:Muterm ;
+aama:ID763ece7c-2760-40cd-9651-83de8d18b0e8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6147,7 +6148,7 @@ aama:IDea421372-d830-42fe-bb2d-f8753c45a782 a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:ID5a94c599-5a1c-4df1-984e-6034eb68b40d a aamas:Muterm ;
+aama:ID4e765275-fb92-44b7-aa0c-79fe2612e664 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6162,7 +6163,7 @@ aama:ID5a94c599-5a1c-4df1-984e-6034eb68b40d a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:IDa2a7723e-d325-4115-a552-172ddff5ac4a a aamas:Muterm ;
+aama:ID72b8427e-18df-42f6-abd8-93b441c304f3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6177,7 +6178,7 @@ aama:IDa2a7723e-d325-4115-a552-172ddff5ac4a a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:ID283d5f6e-1f8a-440c-8067-1d7ad105974e a aamas:Muterm ;
+aama:ID4f8e7c4c-9d58-4213-ba6c-77baadbdf0d5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6192,7 +6193,7 @@ aama:ID283d5f6e-1f8a-440c-8067-1d7ad105974e a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:ID84a492ab-1a78-4738-8a79-b7326783bf55 a aamas:Muterm ;
+aama:ID4f6013f6-5f0b-42c1-8c1a-855cbff8c147 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6207,7 +6208,7 @@ aama:ID84a492ab-1a78-4738-8a79-b7326783bf55 a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:ID5af04d33-dc0a-406f-bca1-b3a070339ea1 a aamas:Muterm ;
+aama:IDe3e01401-c1cd-420a-b48b-afa6b63380f5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6222,7 +6223,7 @@ aama:ID5af04d33-dc0a-406f-bca1-b3a070339ea1 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:IDd6b8345f-5245-435e-a0cb-a7850e8f1325 a aamas:Muterm ;
+aama:ID77c089f1-631e-40a2-8b2d-e57b37363d13 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6237,7 +6238,7 @@ aama:IDd6b8345f-5245-435e-a0cb-a7850e8f1325 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:ID20b4e204-db84-49a4-bd40-48747961a991 a aamas:Muterm ;
+aama:IDe1785edc-b6d5-4699-83d0-4fb96b22d8d1 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6252,7 +6253,7 @@ aama:ID20b4e204-db84-49a4-bd40-48747961a991 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:ID4af1617f-0244-4743-a9c4-c82e1c0bfce4 a aamas:Muterm ;
+aama:IDe44a3adf-83b7-472f-a79d-b2efbb1fbc5d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6267,7 +6268,7 @@ aama:ID4af1617f-0244-4743-a9c4-c82e1c0bfce4 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:IDf8759b3f-29c9-436e-89df-f68c151e1d4c a aamas:Muterm ;
+aama:ID4fc9669e-6342-4e96-8070-87190f932731 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6282,7 +6283,7 @@ aama:IDf8759b3f-29c9-436e-89df-f68c151e1d4c a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:ID1f6572fd-3d21-4e46-92fc-7ec65dea8556 a aamas:Muterm ;
+aama:ID00929cda-eea7-4b8d-a21e-221bd92cd2b0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6297,7 +6298,7 @@ aama:ID1f6572fd-3d21-4e46-92fc-7ec65dea8556 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:ID07f18fcd-ceb5-4091-8409-7ed945160fa9 a aamas:Muterm ;
+aama:ID2ab60759-e778-43af-b592-b8090bdba776 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6312,7 +6313,7 @@ aama:ID07f18fcd-ceb5-4091-8409-7ed945160fa9 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:IDb27d69b8-1f50-4ff7-922c-cccb317495f5 a aamas:Muterm ;
+aama:ID5118e4d7-aa18-49c5-893e-41eb0f80b582 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6327,7 +6328,7 @@ aama:IDb27d69b8-1f50-4ff7-922c-cccb317495f5 a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:ID7b73c148-6ca7-4759-8ed6-6c2d2d753cfb a aamas:Muterm ;
+aama:ID4b849506-016f-47c7-8843-ba45cb15449a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6342,7 +6343,7 @@ aama:ID7b73c148-6ca7-4759-8ed6-6c2d2d753cfb a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:ID1b7d72c3-0ffa-419a-aeeb-88426ec6a230 a aamas:Muterm ;
+aama:IDda68694d-fb8e-4ddf-9728-4ec04d5435f5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6357,7 +6358,7 @@ aama:ID1b7d72c3-0ffa-419a-aeeb-88426ec6a230 a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:ID09db338f-be4d-4d39-82db-3b9dbc420fb1 a aamas:Muterm ;
+aama:ID92b61557-a09f-41d9-a3f3-ed862cf4306a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6372,7 +6373,7 @@ aama:ID09db338f-be4d-4d39-82db-3b9dbc420fb1 a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:IDa5b2b0f6-80c8-40ca-b6ef-cf7b771e708f a aamas:Muterm ;
+aama:IDefa6c6c8-0376-4303-a367-6dda05993975 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6387,7 +6388,7 @@ aama:IDa5b2b0f6-80c8-40ca-b6ef-cf7b771e708f a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:ID196d3ff4-3007-4529-996b-fe02bb3f4c9c a aamas:Muterm ;
+aama:ID7273256a-da3e-4d14-9856-193ad3d4c820 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6402,7 +6403,7 @@ aama:ID196d3ff4-3007-4529-996b-fe02bb3f4c9c a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:IDefc1caa6-5fce-40a7-bb07-b7fc2bae4ebb a aamas:Muterm ;
+aama:ID85ff7fe7-8a2c-4a36-b384-f1525de265cf a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffPresSubjMarker ;
 	aamas:morpheme aama:Iraqw-SUBJMARKER ;
 	irq:mood irq:Indicative ;
@@ -6424,7 +6425,7 @@ irq:iraqw-VAffSelBE a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.143 (13%%14). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms. The perfect form of the hither is na." 
 	.
 
-aama:IDef68db03-ea0f-4deb-993c-a2ac80d97085 a aamas:Muterm ;
+aama:IDc5173191-fdb3-4d80-8b52-bb7aa2449d1c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6440,7 +6441,7 @@ aama:IDef68db03-ea0f-4deb-993c-a2ac80d97085 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID1efa05a8-5908-499e-86c3-9b6ebbf96693 a aamas:Muterm ;
+aama:ID46f66838-d39b-4e8e-b6ae-61329fa8766a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6456,7 +6457,7 @@ aama:ID1efa05a8-5908-499e-86c3-9b6ebbf96693 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID2846d3e3-e5af-453d-b17d-0ab08cc8571a a aamas:Muterm ;
+aama:ID264231a6-4b50-4075-ad6a-902a5fe23fcb a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6472,7 +6473,7 @@ aama:ID2846d3e3-e5af-453d-b17d-0ab08cc8571a a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDb172dbe5-6f35-48f4-a2aa-2dd52c8fa07d a aamas:Muterm ;
+aama:ID59a68934-f47a-44dc-961a-f5356d9b4e69 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6488,7 +6489,7 @@ aama:IDb172dbe5-6f35-48f4-a2aa-2dd52c8fa07d a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDaf665124-f207-41d6-b801-efd3ae91d878 a aamas:Muterm ;
+aama:ID8ce28c4b-481a-4003-ab5f-b0917919709c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6504,7 +6505,7 @@ aama:IDaf665124-f207-41d6-b801-efd3ae91d878 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDca9ca453-8323-4edf-8e2a-adc27bc10469 a aamas:Muterm ;
+aama:ID691798e0-5b64-479b-b3e8-f76e5a9fde90 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6520,7 +6521,7 @@ aama:IDca9ca453-8323-4edf-8e2a-adc27bc10469 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDa4a8d332-9d4e-479e-9a9a-ee31b5619dbb a aamas:Muterm ;
+aama:ID3f524837-4a3e-4eb6-97cb-a0a246ce98e4 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6536,7 +6537,7 @@ aama:IDa4a8d332-9d4e-479e-9a9a-ee31b5619dbb a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDf79bb010-d2d2-49c8-844c-7bdc17b96403 a aamas:Muterm ;
+aama:ID9d63c055-5f20-4231-bd8b-34d537ee8e91 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6552,7 +6553,7 @@ aama:IDf79bb010-d2d2-49c8-844c-7bdc17b96403 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDeb272596-a717-45b5-a6a2-6b2b7551ee24 a aamas:Muterm ;
+aama:ID5a65c891-0cce-423c-8258-e92cf40c6a97 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6568,7 +6569,7 @@ aama:IDeb272596-a717-45b5-a6a2-6b2b7551ee24 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDc11ccfe7-990d-4bda-8348-952c7a7f6429 a aamas:Muterm ;
+aama:ID3a17d358-73ed-44b8-bb97-0a6ea63bf29d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6584,7 +6585,7 @@ aama:IDc11ccfe7-990d-4bda-8348-952c7a7f6429 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID5555d367-8e59-43e8-82a5-281aeb16727f a aamas:Muterm ;
+aama:ID2a9ddfc2-5404-40cb-a3d6-9be1fc700435 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6600,7 +6601,7 @@ aama:ID5555d367-8e59-43e8-82a5-281aeb16727f a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDf7571ad2-6669-4137-bb84-c46db21b97ad a aamas:Muterm ;
+aama:IDefd7c72b-c5e7-44ad-be11-a218e3d4b08d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6616,7 +6617,7 @@ aama:IDf7571ad2-6669-4137-bb84-c46db21b97ad a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID5e9b458c-9b90-4133-86e0-214ae44ca9e3 a aamas:Muterm ;
+aama:IDd151cf77-1301-440e-9eae-16a5396a53ff a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6632,7 +6633,7 @@ aama:ID5e9b458c-9b90-4133-86e0-214ae44ca9e3 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID2384b7af-d26c-487c-9485-cbc787c952e2 a aamas:Muterm ;
+aama:ID0de2238c-5b64-49bf-a672-9e364087b0a1 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6648,7 +6649,7 @@ aama:ID2384b7af-d26c-487c-9485-cbc787c952e2 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID917a6ed2-0de0-4579-bd29-86ac7791b5d3 a aamas:Muterm ;
+aama:IDb0bf0127-21b4-42f5-a49e-91d8484c96a5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6664,7 +6665,7 @@ aama:ID917a6ed2-0de0-4579-bd29-86ac7791b5d3 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID4d6ef7aa-3e0b-49a5-b562-42a0bb15f8a6 a aamas:Muterm ;
+aama:ID44936387-600c-467a-a889-f45e2f0e669c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6680,7 +6681,7 @@ aama:ID4d6ef7aa-3e0b-49a5-b562-42a0bb15f8a6 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID00b75fde-54f4-438e-bf91-c6aaa35579fd a aamas:Muterm ;
+aama:ID1cfb924a-3418-4385-ae08-3b3b07618754 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6696,7 +6697,7 @@ aama:ID00b75fde-54f4-438e-bf91-c6aaa35579fd a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID2259f032-eab0-451c-9c62-54e3d967f31e a aamas:Muterm ;
+aama:IDed49e78c-1dfe-4ce4-80e5-bc7eeb198370 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6712,7 +6713,7 @@ aama:ID2259f032-eab0-451c-9c62-54e3d967f31e a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID336f7616-1676-41e7-9f2d-083319e54acb a aamas:Muterm ;
+aama:ID7f1dd0af-b6fb-4be0-b28f-3df1655d094d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6728,7 +6729,7 @@ aama:ID336f7616-1676-41e7-9f2d-083319e54acb a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID2291f2b6-68a1-40c6-b290-fab1fe60b802 a aamas:Muterm ;
+aama:ID4529fa4d-4be9-495b-aca9-92debc379d02 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6744,7 +6745,7 @@ aama:ID2291f2b6-68a1-40c6-b290-fab1fe60b802 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID5d351d5a-6cbc-41e6-b1e2-54abecdcad11 a aamas:Muterm ;
+aama:ID8327bd7f-8acc-4c0f-b284-52170d349b5f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6760,7 +6761,7 @@ aama:ID5d351d5a-6cbc-41e6-b1e2-54abecdcad11 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID1d2ee22f-1134-414b-9065-d03ec52f6269 a aamas:Muterm ;
+aama:ID61204e4d-422d-4518-8d8b-68d2d35af160 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6776,7 +6777,7 @@ aama:ID1d2ee22f-1134-414b-9065-d03ec52f6269 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID42e25c68-190c-4a3d-b50d-31b8a0712da3 a aamas:Muterm ;
+aama:ID78f8469b-db04-4994-ba5b-a37ceaf096f9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6792,7 +6793,7 @@ aama:ID42e25c68-190c-4a3d-b50d-31b8a0712da3 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID681eca01-4766-4db9-9b38-9c5deb80a291 a aamas:Muterm ;
+aama:ID6db79679-c52d-4761-9db8-2708b061a8be a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6808,7 +6809,7 @@ aama:ID681eca01-4766-4db9-9b38-9c5deb80a291 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:IDc1743304-0085-4362-88b0-2b66e3bac64d a aamas:Muterm ;
+aama:ID55a909b8-1853-4212-ac5f-2cdc6f78b713 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6824,7 +6825,7 @@ aama:IDc1743304-0085-4362-88b0-2b66e3bac64d a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID493bed1c-5468-4af3-b9f1-e7a1c74115e6 a aamas:Muterm ;
+aama:IDc1ef2882-83d2-4578-a62e-015b617b9567 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6840,7 +6841,7 @@ aama:ID493bed1c-5468-4af3-b9f1-e7a1c74115e6 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID0566196c-2ce3-4ac9-aec4-78e10bd90e75 a aamas:Muterm ;
+aama:IDdd693f1c-591d-48a3-99d7-3c7bfb053b92 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6856,7 +6857,7 @@ aama:ID0566196c-2ce3-4ac9-aec4-78e10bd90e75 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID0d0ed1c8-886c-4b96-b35c-6ee5b65dad15 a aamas:Muterm ;
+aama:ID009e4740-8787-444a-b263-35f4168f5c87 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6872,7 +6873,7 @@ aama:ID0d0ed1c8-886c-4b96-b35c-6ee5b65dad15 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID2819fe32-1fc2-4d3b-99e6-a0eb8f625db4 a aamas:Muterm ;
+aama:IDddd3d741-7090-455a-ade0-417cd28ca2ae a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6888,7 +6889,7 @@ aama:ID2819fe32-1fc2-4d3b-99e6-a0eb8f625db4 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID387e2c0c-4bb3-43e0-af42-c51970485048 a aamas:Muterm ;
+aama:IDb4dab973-74dd-4d1d-a7ef-55a770bbf089 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6904,7 +6905,7 @@ aama:ID387e2c0c-4bb3-43e0-af42-c51970485048 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID1b8cea21-ef2a-4451-b083-517067faba43 a aamas:Muterm ;
+aama:ID81d8d6b8-4a9f-40c6-b096-3b628a5e74fa a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6920,7 +6921,7 @@ aama:ID1b8cea21-ef2a-4451-b083-517067faba43 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID79e6b40f-6175-440d-8090-182b70a5abd2 a aamas:Muterm ;
+aama:ID032970cf-d8f5-42b1-aa2d-8714676d641f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6936,7 +6937,7 @@ aama:ID79e6b40f-6175-440d-8090-182b70a5abd2 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID19af5b33-021b-4f1b-92fa-d5db60c35b05 a aamas:Muterm ;
+aama:IDce8ccee8-8f26-47e5-9f56-e1cff166f904 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6952,7 +6953,7 @@ aama:ID19af5b33-021b-4f1b-92fa-d5db60c35b05 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:IDcece867b-577e-47b6-851c-7a5fccbc3226 a aamas:Muterm ;
+aama:ID7733c05c-8bcd-4f12-821f-d11321d71102 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6968,7 +6969,7 @@ aama:IDcece867b-577e-47b6-851c-7a5fccbc3226 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID1313a3a1-6924-4b19-bf81-617b087e3b80 a aamas:Muterm ;
+aama:ID6242d6c5-74b7-4b79-be0c-7fe60304dfea a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -6984,7 +6985,7 @@ aama:ID1313a3a1-6924-4b19-bf81-617b087e3b80 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID8c9b6fef-3cf6-4e1b-93b8-fced2dca853c a aamas:Muterm ;
+aama:ID25d767f7-81cd-4ac5-8170-de8bc0e55e2c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7000,7 +7001,7 @@ aama:ID8c9b6fef-3cf6-4e1b-93b8-fced2dca853c a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDe6529625-18f1-4de7-9d21-eaa88f69d61a a aamas:Muterm ;
+aama:IDdd89a835-b0fc-4b1e-992c-54e89f7e9e09 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7016,7 +7017,7 @@ aama:IDe6529625-18f1-4de7-9d21-eaa88f69d61a a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID49c1fd05-f77a-4f43-9ac0-4531d96da147 a aamas:Muterm ;
+aama:ID2da4df0e-56f9-4280-bbcc-e44ea6b6a42f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7032,7 +7033,7 @@ aama:ID49c1fd05-f77a-4f43-9ac0-4531d96da147 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDff6a792e-05e8-4e89-b624-0d907ea6c023 a aamas:Muterm ;
+aama:IDf9bced20-85de-4418-8dd8-a5b7ed150fe7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7048,7 +7049,7 @@ aama:IDff6a792e-05e8-4e89-b624-0d907ea6c023 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID49f587ce-e21d-410d-8d7e-7feef8b29711 a aamas:Muterm ;
+aama:IDac6b98c6-c2c7-4515-a5c0-eb2e11354e37 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7064,7 +7065,7 @@ aama:ID49f587ce-e21d-410d-8d7e-7feef8b29711 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID50631d95-c440-476d-9f34-f845e12d3806 a aamas:Muterm ;
+aama:ID7169b424-cedf-455a-9171-3cfe661f7066 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7080,7 +7081,7 @@ aama:ID50631d95-c440-476d-9f34-f845e12d3806 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID5fe77a41-a86a-4fbb-84ee-10391d67807a a aamas:Muterm ;
+aama:ID0d31a137-d16a-4dad-8e05-320dda0910cf a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7096,7 +7097,7 @@ aama:ID5fe77a41-a86a-4fbb-84ee-10391d67807a a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID80834b30-ccde-4209-9336-8d4a6bea80ea a aamas:Muterm ;
+aama:ID0c843ba9-d7be-45a6-8fab-2efd50e1b0d8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7112,7 +7113,7 @@ aama:ID80834b30-ccde-4209-9336-8d4a6bea80ea a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDfccb5b8c-1fb8-4215-8de7-de42457539df a aamas:Muterm ;
+aama:ID4355be1b-8b8d-4310-98d6-0379c78e7546 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBE ;
 	aamas:morpheme aama:Iraqw-SELECTORBEAFF ;
 	irq:mood irq:Indicative ;
@@ -7135,7 +7136,7 @@ irq:iraqw-VAffSelBEImpersHit a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.127 (8). impersonal = ‘impersonal’;HIT = ‘hither’" 
 	.
 
-aama:IDb088397e-23d4-46e1-9ab4-d57ed0cdd08b a aamas:Muterm ;
+aama:ID827875e4-95ca-4af5-bc5a-fced8b7beccd a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEImpersHit ;
 	aamas:morpheme aama:Iraqw-SELECTORBEIMPERSHIT ;
 	irq:selectorBE irq:Hither ;
@@ -7151,7 +7152,7 @@ aama:IDb088397e-23d4-46e1-9ab4-d57ed0cdd08b a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDeee5af96-c7e1-4d18-858d-d151dafbf59f a aamas:Muterm ;
+aama:ID966bae2a-e3f9-4470-9f37-da6d5d24c99d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEImpersHit ;
 	aamas:morpheme aama:Iraqw-SELECTORBEIMPERSHIT ;
 	irq:selectorBE irq:Hither ;
@@ -7167,7 +7168,7 @@ aama:IDeee5af96-c7e1-4d18-858d-d151dafbf59f a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDe36e912c-e69f-4d55-afb4-aca013d3bce7 a aamas:Muterm ;
+aama:IDe56ec9eb-df0c-434c-98c0-2828dc42b45a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEImpersHit ;
 	aamas:morpheme aama:Iraqw-SELECTORBEIMPERSHIT ;
 	irq:selectorBE irq:Hither ;
@@ -7183,7 +7184,7 @@ aama:IDe36e912c-e69f-4d55-afb4-aca013d3bce7 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID44b149ce-bef5-405f-b39f-fd35bef59b5f a aamas:Muterm ;
+aama:ID2b5d8bb2-e49e-4a35-86ba-0980eca32bb6 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEImpersHit ;
 	aamas:morpheme aama:Iraqw-SELECTORBEIMPERSHIT ;
 	irq:selectorBE irq:Hither ;
@@ -7206,7 +7207,7 @@ irq:iraqw-VAffSelBENom a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.125 (4)" 
 	.
 
-aama:ID9b4685e1-aad7-4a50-a859-23a741a46002 a aamas:Muterm ;
+aama:ID1157df6b-0a3b-4ee1-8482-f6a380884a13 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBENom ;
 	aamas:morpheme aama:Iraqw-SELECTORBENOM ;
 	irq:mood irq:Indicative ;
@@ -7218,7 +7219,7 @@ aama:ID9b4685e1-aad7-4a50-a859-23a741a46002 a aamas:Muterm ;
 	irq:selectorBE irq:Copula ;
 	.
 
-aama:ID5b552911-6a64-4564-90e2-4686649467b5 a aamas:Muterm ;
+aama:IDdca58e07-813f-4505-b77c-f6cb5502b32b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBENom ;
 	aamas:morpheme aama:Iraqw-SELECTORBENOM ;
 	irq:mood irq:Indicative ;
@@ -7230,7 +7231,7 @@ aama:ID5b552911-6a64-4564-90e2-4686649467b5 a aamas:Muterm ;
 	irq:selectorBE irq:Copula ;
 	.
 
-aama:ID3770d9ac-2cda-40eb-b731-5def5ab51cb5 a aamas:Muterm ;
+aama:ID93a5ec9b-da87-499e-8389-8121dff2e88d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBENom ;
 	aamas:morpheme aama:Iraqw-SELECTORBENOM ;
 	irq:mood irq:Indicative ;
@@ -7242,7 +7243,7 @@ aama:ID3770d9ac-2cda-40eb-b731-5def5ab51cb5 a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:ID98f88fa8-a84f-42e6-983f-b5026f84ce05 a aamas:Muterm ;
+aama:ID88e3edb4-a728-41f6-94fa-42106f9eecab a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBENom ;
 	aamas:morpheme aama:Iraqw-SELECTORBENOM ;
 	irq:mood irq:Indicative ;
@@ -7254,7 +7255,7 @@ aama:ID98f88fa8-a84f-42e6-983f-b5026f84ce05 a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:ID56b10695-4c27-4c0f-abc3-b79bc372c41b a aamas:Muterm ;
+aama:ID184f73ea-2ea5-4e83-9e50-adfea22f73aa a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBENom ;
 	aamas:morpheme aama:Iraqw-SELECTORBENOM ;
 	irq:mood irq:Indicative ;
@@ -7266,7 +7267,7 @@ aama:ID56b10695-4c27-4c0f-abc3-b79bc372c41b a aamas:Muterm ;
 	irq:selectorBE irq:Locative ;
 	.
 
-aama:ID08a72456-bd06-4fcd-a743-4bbae07d16bd a aamas:Muterm ;
+aama:IDc95e1751-aafc-40ec-8c43-8dba198ae5f9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBENom ;
 	aamas:morpheme aama:Iraqw-SELECTORBENOM ;
 	irq:mood irq:Indicative ;
@@ -7285,7 +7286,7 @@ irq:iraqw-VAffSelBEObj a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.127 (6%%7). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms." 
 	.
 
-aama:ID6e18d998-ae7f-43da-9a9d-28be5b3e66a1 a aamas:Muterm ;
+aama:ID2a29b0b5-1696-4383-8420-96cb3cecbc66 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7301,7 +7302,7 @@ aama:ID6e18d998-ae7f-43da-9a9d-28be5b3e66a1 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID020e75d9-685d-4ffe-804b-30a7baa5fb87 a aamas:Muterm ;
+aama:IDeab1f86b-d3fc-47ef-aa70-61b9e16ee768 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7317,7 +7318,7 @@ aama:ID020e75d9-685d-4ffe-804b-30a7baa5fb87 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDfaf3a12a-0f69-452c-a552-4d891a5b9a6e a aamas:Muterm ;
+aama:IDe4774fb1-e7b8-4a7f-850b-4fe7d3c36a16 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7333,7 +7334,7 @@ aama:IDfaf3a12a-0f69-452c-a552-4d891a5b9a6e a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:IDc39ff9fd-67b7-4ffa-91d8-c8ef7efae0db a aamas:Muterm ;
+aama:ID6b4ad837-effd-4101-8e1f-3b63ab419e11 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7349,7 +7350,7 @@ aama:IDc39ff9fd-67b7-4ffa-91d8-c8ef7efae0db a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID77e97985-1507-482a-9c54-7ad078a56e2f a aamas:Muterm ;
+aama:IDafbbbca5-34b7-496e-9c61-f4ef86425e1b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7365,7 +7366,7 @@ aama:ID77e97985-1507-482a-9c54-7ad078a56e2f a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID1f86b4a9-59e8-434a-9193-c92d682301bf a aamas:Muterm ;
+aama:ID8148cb9b-646a-40a6-aed7-5c18ae31b66f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7381,7 +7382,7 @@ aama:ID1f86b4a9-59e8-434a-9193-c92d682301bf a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID7d7a1fb4-2578-4875-8f17-999d4938ad84 a aamas:Muterm ;
+aama:IDd45650bf-6300-463e-b8eb-eaa23a44ea6d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7397,7 +7398,7 @@ aama:ID7d7a1fb4-2578-4875-8f17-999d4938ad84 a aamas:Muterm ;
 	irq:genderObj irq:ObjCommon ;
 	.
 
-aama:ID8b39d77a-41ae-4e42-a8db-1ab987ebb452 a aamas:Muterm ;
+aama:ID07323512-77c6-400b-8d3f-65f401af02f9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7413,7 +7414,7 @@ aama:ID8b39d77a-41ae-4e42-a8db-1ab987ebb452 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID9a0596b3-0947-4043-90ca-3877cfcbb0ef a aamas:Muterm ;
+aama:IDbc5adac3-e802-4485-a3f1-493d3e0f6b8e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7429,7 +7430,7 @@ aama:ID9a0596b3-0947-4043-90ca-3877cfcbb0ef a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID64a1cdf3-98b9-4fec-a234-746187699e90 a aamas:Muterm ;
+aama:ID0bbb813a-ddc3-4226-a6c9-7fb6ee5c6e5c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7445,7 +7446,7 @@ aama:ID64a1cdf3-98b9-4fec-a234-746187699e90 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID5fd0cd9a-64e1-48bd-b8aa-61a64daaed22 a aamas:Muterm ;
+aama:IDca9ef126-a610-4e28-acb9-34055b477cfd a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7461,7 +7462,7 @@ aama:ID5fd0cd9a-64e1-48bd-b8aa-61a64daaed22 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDadf973d2-c3c6-48e4-b08d-b55f75e5bad9 a aamas:Muterm ;
+aama:ID70c62778-ca5f-4b40-8787-ac0e778350e2 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7477,7 +7478,7 @@ aama:IDadf973d2-c3c6-48e4-b08d-b55f75e5bad9 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDf7faba5b-0a8e-4828-aa72-fa045252ea0a a aamas:Muterm ;
+aama:ID4deaa372-b747-4f49-9bb1-de1faf4637c2 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7493,7 +7494,7 @@ aama:IDf7faba5b-0a8e-4828-aa72-fa045252ea0a a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID2d7659f1-2337-4913-b5ce-915af147d8ec a aamas:Muterm ;
+aama:IDebfdf227-af64-455e-8330-c158a65a0284 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7509,7 +7510,7 @@ aama:ID2d7659f1-2337-4913-b5ce-915af147d8ec a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDb3cd4fbe-a2c7-41e9-9bb8-949e399f356e a aamas:Muterm ;
+aama:ID8543b267-24ce-47b4-9951-0aa1801bad72 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7525,7 +7526,7 @@ aama:IDb3cd4fbe-a2c7-41e9-9bb8-949e399f356e a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDdf5d61cc-8943-44bb-9e74-9c90e1111ba2 a aamas:Muterm ;
+aama:ID4832f846-4635-4156-8512-12340f2369ec a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7541,7 +7542,7 @@ aama:IDdf5d61cc-8943-44bb-9e74-9c90e1111ba2 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID122f2c95-1151-469f-9dcf-f9a56ea01ad7 a aamas:Muterm ;
+aama:IDe86019aa-bc1e-45a5-b0a2-dd8ccfa7f33e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7557,7 +7558,7 @@ aama:ID122f2c95-1151-469f-9dcf-f9a56ea01ad7 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID263b3c6a-5662-457b-9f8c-47ba197da35d a aamas:Muterm ;
+aama:ID781196f3-bc5b-41de-8662-a993b96e16d1 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7573,7 +7574,7 @@ aama:ID263b3c6a-5662-457b-9f8c-47ba197da35d a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDf70d0305-b6b6-4c1c-8f10-fb448745ca19 a aamas:Muterm ;
+aama:ID85e2425f-400c-4cda-b227-eb0f97f80554 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7589,7 +7590,7 @@ aama:IDf70d0305-b6b6-4c1c-8f10-fb448745ca19 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:IDb8bed5ad-de90-47ab-8cd8-1bdbbcac9a64 a aamas:Muterm ;
+aama:IDb63b91c6-a6f0-4e13-9b94-9d46186ae520 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7605,7 +7606,7 @@ aama:IDb8bed5ad-de90-47ab-8cd8-1bdbbcac9a64 a aamas:Muterm ;
 	irq:genderObj irq:ObjFem ;
 	.
 
-aama:ID03beda09-4506-404e-a819-91dee4f58e60 a aamas:Muterm ;
+aama:ID290221be-eb72-46a1-91c6-a056b1bbf825 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7621,7 +7622,7 @@ aama:ID03beda09-4506-404e-a819-91dee4f58e60 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID700f842a-0fa8-4fc1-bced-a8ba1667f111 a aamas:Muterm ;
+aama:IDe6d8fefe-5e69-44ca-8205-3356e8905adb a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7637,7 +7638,7 @@ aama:ID700f842a-0fa8-4fc1-bced-a8ba1667f111 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:IDe24ad0e3-d1c8-46ff-bda0-633fc41079d1 a aamas:Muterm ;
+aama:IDb53092e6-9def-4399-8f7f-447f055422c0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7653,7 +7654,7 @@ aama:IDe24ad0e3-d1c8-46ff-bda0-633fc41079d1 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:IDc7e329b1-de3c-479c-87b0-b58313f9054c a aamas:Muterm ;
+aama:ID51c60912-156b-4539-8400-fe830cdc1d6d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7669,7 +7670,7 @@ aama:IDc7e329b1-de3c-479c-87b0-b58313f9054c a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID997244e2-a4f8-4489-bff8-5bce12f5efca a aamas:Muterm ;
+aama:ID470e698a-4648-4124-b878-06f8d5019f72 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7685,7 +7686,7 @@ aama:ID997244e2-a4f8-4489-bff8-5bce12f5efca a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID00823f12-07e7-46e3-8363-8976c4dfcfab a aamas:Muterm ;
+aama:ID1c9780a2-4fcd-4c4c-a118-6484f438d1c0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7701,7 +7702,7 @@ aama:ID00823f12-07e7-46e3-8363-8976c4dfcfab a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID0b57cacb-2ae4-4b2a-9ac0-c724f8f0cc70 a aamas:Muterm ;
+aama:ID72b247b3-20ea-44cc-ad34-4130706e207c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7717,7 +7718,7 @@ aama:ID0b57cacb-2ae4-4b2a-9ac0-c724f8f0cc70 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID8a1ef35e-1293-4496-8d30-f70aa77a2bd3 a aamas:Muterm ;
+aama:IDda16f01a-16be-41b3-974e-869dc85bc3a8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7733,7 +7734,7 @@ aama:ID8a1ef35e-1293-4496-8d30-f70aa77a2bd3 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID785855f0-f4b3-4f09-840d-9aeed86dbba1 a aamas:Muterm ;
+aama:ID6b5bc73c-e8a9-4117-837a-3d5f11e2b866 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7749,7 +7750,7 @@ aama:ID785855f0-f4b3-4f09-840d-9aeed86dbba1 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID843b06ed-9d10-49a9-88d3-4f245e30acbe a aamas:Muterm ;
+aama:ID6ee8f4e4-b22b-4974-ae2d-e1d6f8663259 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7765,7 +7766,7 @@ aama:ID843b06ed-9d10-49a9-88d3-4f245e30acbe a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID99c7b04c-d5f1-493b-bdd6-e1652a3f02ad a aamas:Muterm ;
+aama:ID7ceb840b-da69-46ac-aac1-45ada6d58755 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7781,7 +7782,7 @@ aama:ID99c7b04c-d5f1-493b-bdd6-e1652a3f02ad a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:IDf3aa8c4c-f91d-411a-989d-c839d82feea2 a aamas:Muterm ;
+aama:IDc9862ba1-6a73-414c-b188-9908670ec3ba a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7797,7 +7798,7 @@ aama:IDf3aa8c4c-f91d-411a-989d-c839d82feea2 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:IDab3b8594-17ed-47ec-9b03-0156b62bf912 a aamas:Muterm ;
+aama:IDb0c7e4d1-47e2-49eb-9c51-c3b3cfe69392 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7813,7 +7814,7 @@ aama:IDab3b8594-17ed-47ec-9b03-0156b62bf912 a aamas:Muterm ;
 	irq:genderObj irq:ObjMasc ;
 	.
 
-aama:ID8b1e5bad-c18d-4254-a3d8-a7654d676a73 a aamas:Muterm ;
+aama:ID3ee4e79c-dbac-4572-816a-d889517249ce a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7829,7 +7830,7 @@ aama:ID8b1e5bad-c18d-4254-a3d8-a7654d676a73 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDa19d7533-6577-4867-aead-f36e96d8859c a aamas:Muterm ;
+aama:IDd3972907-5d70-4328-b4b0-87844e0c609e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7845,7 +7846,7 @@ aama:IDa19d7533-6577-4867-aead-f36e96d8859c a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDc67c7157-8234-4c69-a76f-f747d79abc84 a aamas:Muterm ;
+aama:ID0c966a6b-dc63-4dcb-92c4-b9d98e5f2412 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7861,7 +7862,7 @@ aama:IDc67c7157-8234-4c69-a76f-f747d79abc84 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDc7625320-c58f-4725-a037-c5a775b20eb7 a aamas:Muterm ;
+aama:ID992e461a-1637-4be0-9ff2-d25435854e6f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7877,7 +7878,7 @@ aama:IDc7625320-c58f-4725-a037-c5a775b20eb7 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID17f3a756-8109-409b-abdb-059a0d7f7f2e a aamas:Muterm ;
+aama:ID2282be5d-a34c-4a0a-9d6e-35ab0e695384 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7893,7 +7894,7 @@ aama:ID17f3a756-8109-409b-abdb-059a0d7f7f2e a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID53c1a373-f00e-400f-8b8a-2ade3c2197a9 a aamas:Muterm ;
+aama:ID9faefc80-50ef-44cb-bed9-90dbff6e9eee a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7909,7 +7910,7 @@ aama:ID53c1a373-f00e-400f-8b8a-2ade3c2197a9 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID8abae26e-95ce-4ebd-8e89-f92e5c8c3205 a aamas:Muterm ;
+aama:ID6328bd52-803e-436a-9269-a92ea4d41bf9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7925,7 +7926,7 @@ aama:ID8abae26e-95ce-4ebd-8e89-f92e5c8c3205 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDd470a7f0-0f0d-4012-881e-4bbd7efddf89 a aamas:Muterm ;
+aama:ID44e632a5-7fbf-43c7-b70b-4529613dff17 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7941,7 +7942,7 @@ aama:IDd470a7f0-0f0d-4012-881e-4bbd7efddf89 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID7b0ab565-bacd-4e91-9344-1d22e78f53ba a aamas:Muterm ;
+aama:ID94196722-c3ad-441b-b63d-c87ddbbf815f a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7957,7 +7958,7 @@ aama:ID7b0ab565-bacd-4e91-9344-1d22e78f53ba a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:IDa005abf2-885d-40d9-b682-fed1b8f21551 a aamas:Muterm ;
+aama:IDfb6dfedd-9138-4b53-9cac-bc245dd267f7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7973,7 +7974,7 @@ aama:IDa005abf2-885d-40d9-b682-fed1b8f21551 a aamas:Muterm ;
 	irq:genderObj irq:ObjNeut ;
 	.
 
-aama:ID7980433f-0594-4217-aa6b-89fc5229f7e6 a aamas:Muterm ;
+aama:IDa1a0a3d5-1760-42d3-b2ea-785e430c85da a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEObj ;
 	aamas:morpheme aama:Iraqw-SELECTORBEOBJ ;
 	irq:mood irq:Indicative ;
@@ -7996,7 +7997,7 @@ irq:iraqw-VAffSelBEVerb a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.125 (5). Independent paradigm same as locative." 
 	.
 
-aama:ID17da2f7e-4052-4034-8b36-1c8c20e70fed a aamas:Muterm ;
+aama:IDeda4807b-7b06-4539-ac34-3a926859521b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8009,7 +8010,7 @@ aama:ID17da2f7e-4052-4034-8b36-1c8c20e70fed a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:ID52b31d07-f7f7-4744-b431-981c12b0fb70 a aamas:Muterm ;
+aama:ID3d684c3f-fc97-4249-84be-0bf931b78612 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8022,7 +8023,7 @@ aama:ID52b31d07-f7f7-4744-b431-981c12b0fb70 a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:IDedc737ce-c3ed-4d79-b403-8d6a5597bc61 a aamas:Muterm ;
+aama:ID0639a7f8-8cd3-45de-913c-7c94d80691f1 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8035,7 +8036,7 @@ aama:IDedc737ce-c3ed-4d79-b403-8d6a5597bc61 a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:IDaa69ff29-c730-48bd-9dd1-ca6e4c2b5a4c a aamas:Muterm ;
+aama:IDd1fccfc9-1764-4e34-8ffc-3d9d698b6a7c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8048,7 +8049,7 @@ aama:IDaa69ff29-c730-48bd-9dd1-ca6e4c2b5a4c a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:ID464656e6-8008-4ace-bdf8-eeb37324708c a aamas:Muterm ;
+aama:ID50850b17-f29f-430f-aeda-60af22beaec3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8061,7 +8062,7 @@ aama:ID464656e6-8008-4ace-bdf8-eeb37324708c a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:ID7187e4c6-ea83-4297-97ad-70cafa55b8cc a aamas:Muterm ;
+aama:ID6cace39f-b4a8-4524-857b-7597f7d8c9b2 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8074,7 +8075,7 @@ aama:ID7187e4c6-ea83-4297-97ad-70cafa55b8cc a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:IDab4f5aca-ac19-4697-85ea-7a2d80326e07 a aamas:Muterm ;
+aama:ID6ffac616-6438-4a23-945f-c5be2012c2e3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8087,7 +8088,7 @@ aama:IDab4f5aca-ac19-4697-85ea-7a2d80326e07 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:ID9d5f7e72-0435-4da0-b94d-48dc4efc32de a aamas:Muterm ;
+aama:ID7b1eef2e-d259-4cbf-a04f-ab9c21923bcb a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8100,7 +8101,7 @@ aama:ID9d5f7e72-0435-4da0-b94d-48dc4efc32de a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:IDbccbd665-b3fb-4cdb-8927-ae66a4362d8d a aamas:Muterm ;
+aama:IDa5886dab-9fe7-4464-abc3-de0ea105eb58 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8113,7 +8114,7 @@ aama:IDbccbd665-b3fb-4cdb-8927-ae66a4362d8d a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:ID8647fe7c-4906-4d9f-8f33-e9b12f08abe3 a aamas:Muterm ;
+aama:IDc4d9713f-a9f9-420d-9311-afb7df035344 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8126,7 +8127,7 @@ aama:ID8647fe7c-4906-4d9f-8f33-e9b12f08abe3 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:ID252b49b1-417c-48e6-b4e7-f92322314874 a aamas:Muterm ;
+aama:IDd8686fa0-5dfe-4dd7-a186-04f4b8c265a6 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8139,7 +8140,7 @@ aama:ID252b49b1-417c-48e6-b4e7-f92322314874 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:IDb10eb388-4bde-4f19-86c6-6680491c561a a aamas:Muterm ;
+aama:ID4d84c43a-f497-47bd-ae77-ba30873e8551 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelBEVerb ;
 	aamas:morpheme aama:Iraqw-SELECTORBEVERBAFF ;
 	irq:mood irq:Indicative ;
@@ -8159,7 +8160,7 @@ irq:iraqw-VAffSelector a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.142 (12)." 
 	.
 
-aama:IDb13e3166-1153-4c42-8955-36e29affd649 a aamas:Muterm ;
+aama:ID627a3952-5113-4c41-a0a1-c81be607ce2b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8173,7 +8174,7 @@ aama:IDb13e3166-1153-4c42-8955-36e29affd649 a aamas:Muterm ;
 	irq:numSubj irq:SubjPlural ;
 	.
 
-aama:IDc4d658ab-5323-4375-888a-e9ee7e169665 a aamas:Muterm ;
+aama:ID088d47c3-7d5b-4a6d-a830-e75f70b1e8a8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8187,7 +8188,7 @@ aama:IDc4d658ab-5323-4375-888a-e9ee7e169665 a aamas:Muterm ;
 	irq:numSubj irq:SubjPlural ;
 	.
 
-aama:ID0696f66c-446c-4e07-9f6a-e5174c9bebc2 a aamas:Muterm ;
+aama:IDc9090e94-eda9-474d-8015-d14dd0ba25e9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8201,7 +8202,7 @@ aama:ID0696f66c-446c-4e07-9f6a-e5174c9bebc2 a aamas:Muterm ;
 	irq:numSubj irq:SubjPlural ;
 	.
 
-aama:IDe88ebbda-c1a0-4c8e-80c0-56c0ed9e426f a aamas:Muterm ;
+aama:ID324a9267-6e70-4198-bf2a-2ee7b24e1fd0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8215,7 +8216,7 @@ aama:IDe88ebbda-c1a0-4c8e-80c0-56c0ed9e426f a aamas:Muterm ;
 	irq:numSubj irq:SubjPlural ;
 	.
 
-aama:IDfb7b13a5-ea45-4be3-b12e-2bba2086b737 a aamas:Muterm ;
+aama:ID02b083e6-91d1-46c4-96ef-75bca99cfb9b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8229,7 +8230,7 @@ aama:IDfb7b13a5-ea45-4be3-b12e-2bba2086b737 a aamas:Muterm ;
 	irq:numSubj irq:SubjPlural ;
 	.
 
-aama:IDb9a7378d-7f2d-46cb-8633-5a7b3258e916 a aamas:Muterm ;
+aama:ID3e98f953-5276-45f3-9918-4230ab6516d0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8243,7 +8244,7 @@ aama:IDb9a7378d-7f2d-46cb-8633-5a7b3258e916 a aamas:Muterm ;
 	irq:numSubj irq:SubjPlural ;
 	.
 
-aama:ID202634ae-663f-4e05-bb58-355cdecf3feb a aamas:Muterm ;
+aama:ID24bcf424-e6cb-4787-8347-26f218ecd51c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8257,7 +8258,7 @@ aama:ID202634ae-663f-4e05-bb58-355cdecf3feb a aamas:Muterm ;
 	irq:numSubj irq:SubjSingular ;
 	.
 
-aama:ID61544b9f-6338-41ea-9fb9-018a85680f82 a aamas:Muterm ;
+aama:ID7d654200-2694-4870-ab5a-9325c2aee54e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8271,7 +8272,7 @@ aama:ID61544b9f-6338-41ea-9fb9-018a85680f82 a aamas:Muterm ;
 	irq:numSubj irq:SubjSingular ;
 	.
 
-aama:IDda6381b3-702b-42f7-9e8f-fc142ac219de a aamas:Muterm ;
+aama:IDc76dd2d3-c40c-41e1-a8ee-834ecec9058b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8285,7 +8286,7 @@ aama:IDda6381b3-702b-42f7-9e8f-fc142ac219de a aamas:Muterm ;
 	irq:numSubj irq:SubjSingular ;
 	.
 
-aama:IDdd7a0751-c1d3-4432-9643-75bad9572968 a aamas:Muterm ;
+aama:IDbad8b589-f9a6-4933-810f-5e68995c1066 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8299,7 +8300,7 @@ aama:IDdd7a0751-c1d3-4432-9643-75bad9572968 a aamas:Muterm ;
 	irq:numSubj irq:SubjSingular ;
 	.
 
-aama:ID2ce77bb5-3092-4173-969e-fcff58d07423 a aamas:Muterm ;
+aama:ID7f6614b4-e950-445b-a1f5-8d51b592c711 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8313,7 +8314,7 @@ aama:ID2ce77bb5-3092-4173-969e-fcff58d07423 a aamas:Muterm ;
 	irq:numSubj irq:SubjSingular ;
 	.
 
-aama:ID4d0f8a80-571f-442f-92f8-c602bb211f17 a aamas:Muterm ;
+aama:ID26731ae0-f917-43c7-be64-da4221d94677 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelector ;
 	aamas:morpheme aama:Iraqw-SELECTORAFFPERF ;
 	irq:mood irq:Indicative ;
@@ -8334,7 +8335,7 @@ irq:iraqw-VAffSelectorForms a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 pp.123-154. Mous calls this section “The verbs ‘to be’” rather than “selector”. In any case nearly every sentence in Iraqw contains a selector/”verb to be” whether the complement is nominal or verbal. [Ex:tlee’use a Manda [potters COP Bantu]‘Potters are Bantu’;aníng a goo’—ïim [1.SG BE write-DUR:1.SG]‘I am writing’]" 
 	.
 
-aama:ID9ca388fe-f420-4415-a802-69527f0b169e a aamas:Muterm ;
+aama:ID1a7c3952-f0c7-4e82-8250-6f8fb01df194 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8346,7 +8347,7 @@ aama:ID9ca388fe-f420-4415-a802-69527f0b169e a aamas:Muterm ;
 	irq:selectorCategory irq:Background ;
 	.
 
-aama:ID2442f853-877b-4258-827d-9cbfb42b8177 a aamas:Muterm ;
+aama:IDbc49a192-bcdd-4321-8259-81d0081ff7a7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8358,7 +8359,7 @@ aama:ID2442f853-877b-4258-827d-9cbfb42b8177 a aamas:Muterm ;
 	irq:selectorCategory irq:Concessive ;
 	.
 
-aama:ID611a94a7-5a1a-455b-971b-537734417f26 a aamas:Muterm ;
+aama:IDad0dbc86-2cf8-462d-81cb-317a862dd4f5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8370,7 +8371,7 @@ aama:ID611a94a7-5a1a-455b-971b-537734417f26 a aamas:Muterm ;
 	irq:selectorCategory irq:Conditional ;
 	.
 
-aama:ID9d6b0291-0abb-4bcc-aac7-96c5282f87aa a aamas:Muterm ;
+aama:IDed9103d3-54c8-4009-bdaa-283b1c25fb7c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8382,7 +8383,7 @@ aama:ID9d6b0291-0abb-4bcc-aac7-96c5282f87aa a aamas:Muterm ;
 	irq:selectorCategory irq:Consecutive ;
 	.
 
-aama:IDbca79bcb-d2c9-4683-821d-53d42fa7223b a aamas:Muterm ;
+aama:ID65221c3b-a938-47c2-8bc0-97fe006e508d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8394,7 +8395,7 @@ aama:IDbca79bcb-d2c9-4683-821d-53d42fa7223b a aamas:Muterm ;
 	irq:selectorCategory irq:Consecutive2 ;
 	.
 
-aama:IDacb1d960-88c0-4df9-9e9a-3ecea28fcbc4 a aamas:Muterm ;
+aama:IDe6e89e05-04d1-4423-aa70-3d4cd0402ba5 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8406,7 +8407,7 @@ aama:IDacb1d960-88c0-4df9-9e9a-3ecea28fcbc4 a aamas:Muterm ;
 	irq:selectorCategory irq:Directive ;
 	.
 
-aama:ID5e64219a-a491-4eea-a9cb-4117a0891e0f a aamas:Muterm ;
+aama:ID30798ea7-30b2-4367-afb3-1fd28d90f784 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8418,7 +8419,7 @@ aama:ID5e64219a-a491-4eea-a9cb-4117a0891e0f a aamas:Muterm ;
 	irq:selectorCategory irq:Expectational ;
 	.
 
-aama:ID941a813f-c952-4dc5-9900-7ce927eb5ba3 a aamas:Muterm ;
+aama:ID3af766e1-1a73-4cf9-a89a-ae4b778969aa a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8430,7 +8431,7 @@ aama:ID941a813f-c952-4dc5-9900-7ce927eb5ba3 a aamas:Muterm ;
 	irq:selectorCategory irq:Instrumental ;
 	.
 
-aama:ID4ad1951b-505a-4552-8a9d-369d838d459f a aamas:Muterm ;
+aama:IDaf0dbb02-b3c4-49be-b851-6c29223ce38e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8442,7 +8443,7 @@ aama:ID4ad1951b-505a-4552-8a9d-369d838d459f a aamas:Muterm ;
 	irq:selectorCategory irq:Interrogative ;
 	.
 
-aama:IDb915d404-9e9a-461c-b45e-363ce651a1c4 a aamas:Muterm ;
+aama:ID99c9bc18-af28-4f1a-8a42-93ba41d0d7ef a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8454,7 +8455,7 @@ aama:IDb915d404-9e9a-461c-b45e-363ce651a1c4 a aamas:Muterm ;
 	irq:selectorCategory irq:Past ;
 	.
 
-aama:IDeae8f866-1a4e-43f3-8f12-e6196d62242e a aamas:Muterm ;
+aama:ID4e15206a-a03e-4d43-b7ce-7fcd62fecac3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8466,7 +8467,7 @@ aama:IDeae8f866-1a4e-43f3-8f12-e6196d62242e a aamas:Muterm ;
 	irq:selectorCategory irq:Perfect ;
 	.
 
-aama:IDde691d94-6219-42fd-8dd6-f9f3aa36a473 a aamas:Muterm ;
+aama:ID625484ed-1ea4-4b87-84e6-824cc1270576 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8478,7 +8479,7 @@ aama:IDde691d94-6219-42fd-8dd6-f9f3aa36a473 a aamas:Muterm ;
 	irq:selectorCategory irq:Prohibitive ;
 	.
 
-aama:ID97ea38f8-6f3b-4b49-993a-94be7eecc966 a aamas:Muterm ;
+aama:ID58048af3-8420-482c-b16e-39c91d3577f9 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8490,7 +8491,7 @@ aama:ID97ea38f8-6f3b-4b49-993a-94be7eecc966 a aamas:Muterm ;
 	irq:selectorCategory irq:SelCatC ;
 	.
 
-aama:ID1033b129-428d-4a9e-abe6-2158bc5adf9d a aamas:Muterm ;
+aama:ID93d301a5-6695-4a20-8b6c-e497f3fd91f7 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF1 ;
 	irq:mood irq:Indicative ;
@@ -8509,7 +8510,7 @@ irq:iraqw-VAffSelectorForms2 a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.130 (9).The template note is: persObe + selBE + selMood + selTense" 
 	.
 
-aama:ID1d273802-c3d6-4dc9-b826-7fc4b629dc92 a aamas:Muterm ;
+aama:IDfaae3524-3bdf-4286-bfdb-ae62ff34a0fa a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8525,7 +8526,7 @@ aama:ID1d273802-c3d6-4dc9-b826-7fc4b629dc92 a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:ID2decdaf4-92d2-46f4-a32a-81a34fe47fa3 a aamas:Muterm ;
+aama:ID5fb0742a-e20b-4f9e-847d-b3d39cbf1c4d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8541,7 +8542,7 @@ aama:ID2decdaf4-92d2-46f4-a32a-81a34fe47fa3 a aamas:Muterm ;
 	irq:selectorBE irq:Dependent ;
 	.
 
-aama:IDef636677-ef50-4516-8d0e-7d5edbe5a104 a aamas:Muterm ;
+aama:IDfb23b253-988c-41a5-adde-802d2b66f0c8 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8557,7 +8558,7 @@ aama:IDef636677-ef50-4516-8d0e-7d5edbe5a104 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:IDc8b09e69-e2c3-432f-87e2-85fff8b05ed9 a aamas:Muterm ;
+aama:ID6f0a4933-98a8-4ab7-95cd-91a9b3cc0955 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8573,7 +8574,7 @@ aama:IDc8b09e69-e2c3-432f-87e2-85fff8b05ed9 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:ID239e98fc-5fe5-430b-ba8e-95bc01a2a346 a aamas:Muterm ;
+aama:ID704d774e-c422-4c04-91fa-85e6d074cc45 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8589,7 +8590,7 @@ aama:ID239e98fc-5fe5-430b-ba8e-95bc01a2a346 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:ID49fdbb9a-773b-4591-aeeb-1152732c2595 a aamas:Muterm ;
+aama:IDda1a259e-49de-4745-ac09-3edcbde5cf79 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8605,7 +8606,7 @@ aama:ID49fdbb9a-773b-4591-aeeb-1152732c2595 a aamas:Muterm ;
 	irq:selectorBE irq:Independent ;
 	.
 
-aama:ID1e0cc6e8-b6d0-4789-b3e5-7ba0521e6a53 a aamas:Muterm ;
+aama:IDe45a89fc-1561-4e6c-9cc9-836e7addf7d0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VAffSelectorForms2 ;
 	aamas:morpheme aama:Iraqw-SELECTORFORMSAFF2 ;
 	irq:persObj irq:Person3 ;
@@ -8628,7 +8629,7 @@ irq:iraqw-VConj3Aff a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1%%2. Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)" 
 	.
 
-aama:IDcc3493c8-26d5-4176-b1a3-ffad1a1a888b a aamas:Muterm ;
+aama:ID7e6bc47e-a86e-462c-979d-c4474ddd3d8d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8640,7 +8641,7 @@ aama:IDcc3493c8-26d5-4176-b1a3-ffad1a1a888b a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:ID822c2d1f-dc69-4be7-bea1-5a9b23d83cb6 a aamas:Muterm ;
+aama:IDcd3bc619-b26b-4c09-8940-ff09b9ad8a0c a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8652,7 +8653,7 @@ aama:ID822c2d1f-dc69-4be7-bea1-5a9b23d83cb6 a aamas:Muterm ;
 	irq:conjClass irq:Conj3a ;
 	.
 
-aama:IDc43472e3-6e8d-4c77-b2be-78d745955487 a aamas:Muterm ;
+aama:IDb040c95a-e876-49d8-9e68-5e7eb35ebb9e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8664,7 +8665,7 @@ aama:IDc43472e3-6e8d-4c77-b2be-78d745955487 a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:ID5db416e0-774a-4e1c-a1d3-6b3134e89e2b a aamas:Muterm ;
+aama:ID55eebd43-5703-49da-b24f-15f33453345e a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8676,7 +8677,7 @@ aama:ID5db416e0-774a-4e1c-a1d3-6b3134e89e2b a aamas:Muterm ;
 	irq:conjClass irq:Conj3b ;
 	.
 
-aama:IDea258cf8-4f7d-4f17-a4e2-a0312b69cf28 a aamas:Muterm ;
+aama:IDe2087fe2-2fb5-4d56-9d40-bae81180c831 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8688,7 +8689,7 @@ aama:IDea258cf8-4f7d-4f17-a4e2-a0312b69cf28 a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:IDfd50ac29-bd27-4d3a-aee2-f26d40343ac3 a aamas:Muterm ;
+aama:ID0930b914-2bca-4257-be2a-1e204a8f7ee3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8700,7 +8701,7 @@ aama:IDfd50ac29-bd27-4d3a-aee2-f26d40343ac3 a aamas:Muterm ;
 	irq:conjClass irq:Conj3c ;
 	.
 
-aama:IDce494ed3-09c4-4032-91e0-c960ccda31c3 a aamas:Muterm ;
+aama:ID471e9833-8603-47ce-a253-b9174f03671a a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8712,7 +8713,7 @@ aama:IDce494ed3-09c4-4032-91e0-c960ccda31c3 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:IDff6f7848-7cd8-433c-86e3-6fbef4e37e41 a aamas:Muterm ;
+aama:ID6ba92cbc-82bb-474f-abdc-72fb38850558 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8724,7 +8725,7 @@ aama:IDff6f7848-7cd8-433c-86e3-6fbef4e37e41 a aamas:Muterm ;
 	irq:conjClass irq:Conj3d ;
 	.
 
-aama:ID1107a3a2-0ff5-4b1a-a42a-474660e574e9 a aamas:Muterm ;
+aama:ID2f2d29e8-0d72-49f1-a0e3-77b78bc7b52b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8736,7 +8737,7 @@ aama:ID1107a3a2-0ff5-4b1a-a42a-474660e574e9 a aamas:Muterm ;
 	irq:conjClass irq:Conj3e ;
 	.
 
-aama:IDf5f08cfc-5c60-45aa-a8b3-9040d3e560c5 a aamas:Muterm ;
+aama:ID550c9333-b64e-4b79-856a-747f98ecb1a3 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VConj3Aff ;
 	aamas:morpheme aama:Iraqw-VCONJ3AFF ;
 	irq:number irq:Singular ;
@@ -8755,7 +8756,7 @@ irq:iraqw-VDervStemSuff a aamas:MuTermcluster ;
 	rdfs:comment "Mous1993 p.170-202." 
 	.
 
-aama:ID264d6d84-5133-453f-97d7-0243f040c3b1 a aamas:Muterm ;
+aama:IDa7dc19e7-8c0e-4b03-9288-ca73992f4071 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8764,7 +8765,7 @@ aama:ID264d6d84-5133-453f-97d7-0243f040c3b1 a aamas:Muterm ;
 	irq:derivedStem irq:Causative ;
 	.
 
-aama:ID865b8bf4-4877-4186-aa33-d94b16b33217 a aamas:Muterm ;
+aama:ID0247c8a5-fd04-47b4-845e-c155363034ee a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8773,7 +8774,7 @@ aama:ID865b8bf4-4877-4186-aa33-d94b16b33217 a aamas:Muterm ;
 	irq:derivedStem irq:Durative ;
 	.
 
-aama:ID7e50875f-0be0-491d-b66e-a14fe60035d2 a aamas:Muterm ;
+aama:IDc71d6eb2-c5e4-4819-beba-46b64bb06c1d a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8782,7 +8783,7 @@ aama:ID7e50875f-0be0-491d-b66e-a14fe60035d2 a aamas:Muterm ;
 	irq:derivedStem irq:Factitive1 ;
 	.
 
-aama:ID9790c9b2-3b8c-4701-87cb-78ed332fa90f a aamas:Muterm ;
+aama:ID378a95d5-b0db-42da-be79-2eab32856735 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8791,7 +8792,7 @@ aama:ID9790c9b2-3b8c-4701-87cb-78ed332fa90f a aamas:Muterm ;
 	irq:derivedStem irq:Factitive2 ;
 	.
 
-aama:IDdff7a633-7c1e-47bb-a5c0-32417e6b28e9 a aamas:Muterm ;
+aama:ID944ec0c0-aeea-41eb-aab9-1b35f94735c2 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8800,7 +8801,7 @@ aama:IDdff7a633-7c1e-47bb-a5c0-32417e6b28e9 a aamas:Muterm ;
 	irq:derivedStem irq:Habitual ;
 	.
 
-aama:ID4684b74b-6ba3-4895-9547-911cf3e327af a aamas:Muterm ;
+aama:ID830e6f98-88db-4ccb-9d89-7d6daa54bb34 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8809,7 +8810,7 @@ aama:ID4684b74b-6ba3-4895-9547-911cf3e327af a aamas:Muterm ;
 	irq:derivedStem irq:Inchoative ;
 	.
 
-aama:IDd42ccd66-6c6c-4323-9854-62f52c13b088 a aamas:Muterm ;
+aama:ID448d7370-e3ec-40e8-a103-0f25dedd8c85 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8818,7 +8819,7 @@ aama:IDd42ccd66-6c6c-4323-9854-62f52c13b088 a aamas:Muterm ;
 	irq:derivedStem irq:Middel ;
 	.
 
-aama:ID2b8878be-5785-490b-8fe1-2cbe8c10c6a1 a aamas:Muterm ;
+aama:ID9e5e8174-64af-48d5-ba93-af0edbc2a4aa a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VDervStemSuff ;
 	aamas:morpheme aama:Iraqw-DERVSTEMSUFF ;
 	irq:pos irq:Verb ;
@@ -8836,7 +8837,7 @@ irq:iraqw-VInfinitive a aamas:MuTermcluster ;
             formation of the main clause negative and interrogative tenses." 
 	.
 
-aama:IDd47fc595-ace3-4ac0-8038-cf785d557dc0 a aamas:Muterm ;
+aama:ID2e2c6845-ef41-46c7-8e10-09192cac1dc0 a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VInfinitive ;
 	aamas:morpheme aama:Iraqw-INFINITIVESUFF ;
 	irq:pos irq:Verb ;
@@ -8845,7 +8846,7 @@ aama:IDd47fc595-ace3-4ac0-8038-cf785d557dc0 a aamas:Muterm ;
 	irq:tam irq:Past ;
 	.
 
-aama:ID6f0c9477-074b-43a0-9401-291a873ef049 a aamas:Muterm ;
+aama:ID6219fa88-809d-4db8-9cb6-07eade6a3f9b a aamas:Muterm ;
 	aamas:lang aama:Iraqw ;	aamas:memberOf irq:iraqw-VInfinitive ;
 	aamas:morpheme aama:Iraqw-INFINITIVESUFF ;
 	irq:pos irq:Verb ;
