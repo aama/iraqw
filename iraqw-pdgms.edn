@@ -1,9 +1,10 @@
 {
 :lang :iraqw
 :sgpref "irq"
+:subfamily "South Cushitic Rift"
 :datasource "Mous1993"
 :geodemoURL "http://www.ethnologue.com/language/irk"
-:geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in "
+:geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in Tanzania 'Manyara region: Mbulu district, highlands southwest of Arusha in the north; Singida region near Manyara border; small areas in Arusha and Dodoma regions'."
 :schemata {
 :category [:Case]
 	  :conjClass [:Conj1, :Conj2, :Conj2a, :Conj2b, :Conj3a, :Conj3b, :Conj3c, :Conj3d, :Conj3e, :Irreg, :Person1, :Person2, :CC2a, :CC2b, :CC3a, :CC3b, :CC3c, :CC3d, :CC3e]
