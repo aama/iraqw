@@ -5,12 +5,11 @@
 :datasource "Mous1993"
 :geodemoURL "http://www.ethnologue.com/language/irk"
 :geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in Tanzania 'Manyara region: Mbulu district, highlands southwest of Arusha in the north; Singida region near Manyara border; small areas in Arusha and Dodoma regions'."
- :schemata {:formativeClass [:Selector :SelectorForms ],
- :formativehClass [:Selector],
- :formativeClass [:SelectorForms],
-            :conjClass [:Conj1  :Conj2 :Conj2a :Conj2b :Conj3a :Conj3b :Conj3c :Conj3d :Conj3e :Irreg],
+ :schemata {:vmorphClass [:DervStemSuff  :FiniteStemFormation3a :SubjMarker :VCONJ3AF :FiniteStemFormation3b :FiniteStemFormation3c :FiniteStemFormation3d :FiniteStemFormation3e :InfinitiveSuff :Participle],
+            :smorphClass [:SELECTORAFFPERF :SelBE :SelBEImpersHit :SelBENom :SelBEObj :SelBEVerb :SelectorForms :SelectorForms2],
+            :conjClass [:Conj1 :Conj2 :Conj2a :Conj2b :Conj3a :Conj3b :Conj3c :Conj3d :Conj3e :Irreg],
             :demonstrative [:Far :Midway :Near1 :Near2],
-            :derivedStem [:Causative :Durative :Factitive1 :Factitive2 :Habitual :Inchoative :Middel :Verbaliser],
+            :derivedStem [:Causative :Durative :Factitive1 :Factitive2 :Habitual :Inchoative :Middle :Verbaliser],
             :form [:Full :Short],
             :gender [:Common :Fem :Masc],
             :genderHead [:HeadCommon :HeadFem :HeadMasc :HeadNeut],
@@ -18,24 +17,22 @@
             :imprtvClass [:Base :Hither :HitherObj :Object],
             :mood [:Indicative :Interrog :Subjunctive],
             :numHead [:HeadPlural :HeadSingular],
-            :numObj [:Common :ObjNumC :ObjPlural :ObjSingular],
-            :numSubj [:Plural :Singular :SubjNumC :SubjPlural :SubjSingular],
-            :number [:Common :NumC :Plural :Singular],
-            :persObj [:Compmon :ObjPerson1 :ObjPerson2 :ObjPerson3 :ObjReciprocal :Person3 :Reciprocal],
-            :persSubj [:ObjPerson1 :ObjPerson2 :ObjPerson3 :SubjImpersonal :SubjPerson1 :SubjPerson3 :SubjPersonC :SubjReciprocal :Impersonal :Reciprocal :SubjCommon],
-            :person [:Common :Person1 :Person2 :Person3 :PersonC],
+            :numObj [:ObjNumC :ObjPlural :ObjSingular],
+            :number [:NumC :Plural :Singular],
+            :persObj [:ObjPerson1 :ObjPerson2 :ObjPerson3 :ObjPersonC :ObjReciprocal],
+            :person [:Impersonal :Person1 :Person2 :Person3 :PersonC :Reciprocal],
             :polarity [:Affirmative :Negative],
-            :pos [:Pronoun :Verb],
+            :pos [:Pronoun :Verb :Selector],
             :possHead [:HeadC :HeadNoun :HeadPro],
             :proClass [:Independent :Object :Pers_dem :Possessive],
             :selectorBE [:Copula :Dependent :Hither :Independent :Locative :ObjRel :SelCommon :SubjRel],
-            :selectorCategory [:Background :Concessive :Conditional :Consecutive :Consecutive2 :Directive :Expectational :Instrumental :Interrogative :Past :Perfect :Prohibitive :SelCatC :reason],
+            :selectorCategory [:Background :Concessive :Conditional :Consecutive :Consecutive2 :Directive :Expectational :Instrumental :Interrogative :Past :Perfect :Prohibitive :Reason :SelCatC],
             :selectorClass [:Case :SelBE :SelMood :SelTense],
             :selectorMood [:Concessive :Conditional :SelMoodC],
             :selectorTense [:Background :Consecutive :Consecutive2 :Expectational :Past :Perfect :SelTenseC],
             :tam [:Imperative :Past :Present]
-            :pdgmType [:DervStemSuff :Finite :Participle :SelBE :SelBEImpersHit :SelBENom :SelBEObj :SelBEVerb :SelectorForms :SelectorForms2 :SubjMarker :FiniteStemFormation :InfinitiveSuff :PRO :SELECTORAFFPERF :VCONJ3AF]}
-:pclass {:pngClass [:person :number :gender :genderHead :genderObj :numHead :numObj :numSubj :persObj :persSubj :possHead :selectorBE :selectorCategory :selectorClass :selectorMood :selectorTense],
+            :pdgmType [:Finite :PRO :SEL :VOther]}
+:pclass {:pngClass [:person :number :gender :genderHead :genderObj :numHead :numObj :number :persObj :person :possHead :selectorBE :selectorCategory :selectorClass :selectorMood :selectorTense],
           :synsemClass [:case :category :demonstrative :derivedStem :imprtvClass :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :form],
           :otherClass []}
@@ -186,7 +183,7 @@
              :pos :Verb,
              :tam :Present}
     :terms [[:number :person :token :token-note-selector],
-            [:Singular :Common "a deer" "a"],
+            [:Singular :PersonC "a deer" "a"],
             [:Singular :Person3 "i deer" "i"],
             [:Plural :Person3 "i dayá'" "i"]]
     }
@@ -282,8 +279,9 @@
     }
     {:label "iraqw-VConj3aAffPresStemFormation-oh"
     :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :FiniteStemFormation
-    :common {:conjClass :Conj3a,
+    :pdgmType :VOther
+    :common {:vmorphClass :FiniteStemFormation3a
+             :conjClass :Conj3a,
              :lexeme :oh,
              :mood :Indicative,
              :polarity :Affirmative,
@@ -318,8 +316,9 @@
     }
     {:label "iraqw-VConj3bAffPresStemFormation-eehar"
     :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :FiniteStemFormation
-    :common {:conjClass :Conj3b,
+    :pdgmType :VOther
+    :common {:vmorphClass :FiniteStemFormation3b
+             :conjClass :Conj3b,
              :lexeme :eehar,
              :mood :Indicative,
              :polarity :Affirmative,
@@ -336,8 +335,9 @@
     }
     {:label "iraqw-VConj3cAffPresStemFormation-law"
     :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :FiniteStemFormation
-    :common {:conjClass :Conj3c,
+    :pdgmType :VOther
+    :common {:vmorphClass :FiniteStemFormation3c
+             :conjClass :Conj3c,
              :lexeme :law,
              :mood :Indicative,
              :polarity :Affirmative,
@@ -354,8 +354,9 @@
     }
     {:label "iraqw-VConj3dAffPresStemFormation-aay"
     :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :FiniteStemFormation
-    :common {:conjClass :Conj3d,
+    :pdgmType :VOther
+    :common {:vmorphClass :FiniteStemFormation3d
+             :conjClass :Conj3d,
              :lexeme :ʔaay,
              :mood :Indicative,
              :polarity :Affirmative,
@@ -458,8 +459,9 @@
     }
     {:label "iraqw-VConj3eAffPresStemFormation-doohl"
     :note "Mous1993 p.155 (20). [Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)]"
-    :pdgmType :FiniteStemFormation
-    :common {:conjClass :Conj3e,
+    :pdgmType :VOther
+    :common {:vmorphClass :FiniteStemFormation3e
+             :conjClass :Conj3e,
              :lexeme :doohl,
              :mood :Indicative,
              :polarity :Affirmative,
@@ -570,7 +572,7 @@
              :token-note-selector :SelC,
              :mood :Subjunctive,
              :tam :Past,
-             :number :Common}
+             :number :NumC}
     :terms [[:token],
             ["-i"]]
     }
@@ -646,8 +648,9 @@
     }
     {:label "iraqw-VParticiple-doohl"
     :note "Mous1993 pp.165-166."
-    :pdgmType :Participle
-    :common {:lexeme :doohl,
+    :pdgmType :VOther
+    :common {:vmorphClass :Participle
+             :lexeme :doohl,
              :pos :Verb}
     :terms [[:genderHead :numHead :possHead :token],
             [:HeadCommon :HeadPlural :HeadPro "doohlá'"],
@@ -848,8 +851,9 @@
     }
     {:label "iraqw-VAffPresSubjMarker"
     :note "Mous1993 p.159 (27). See 159-161 and (28)."
-    :pdgmType :SubjMarker
-    :common {:mood :Indicative,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarker
+             :mood :Indicative,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Present}
@@ -906,81 +910,81 @@
     }
     {:label "iraqw-VAffSelBE"
     :note "Mous1993 p.143 (13,14). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms. The perfect form of the hither is na."
-    :pdgmType :SelBE
+    :pdgmType :SEL
     :common {:mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :Selector}
-    :terms [[:genderObj :numObj :numSubj :persObj :persSubj :selectorBE :token],
-            [:ObjCommon :ObjNumC :SubjNumC :Reciprocal :Reciprocal :SelCommon "ta"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson1 :SubjImpersonal :SelCommon "ta"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson1 :SubjPersonC :SelCommon "ta"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson2 :SubjImpersonal :SelCommon "tunda"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson2 :SubjPersonC :SelCommon "na"],
-            [:ObjCommon :ObjSingular :SubjNumC :ObjPerson1 :SubjImpersonal :SelCommon "ta"],
-            [:ObjCommon :ObjSingular :SubjNumC :ObjPerson1 :SubjPersonC :SelCommon "iga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ka"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ta"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Independent "ga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "ga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "nga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "nga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "ka"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "nga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Hither "nga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Independent "aga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :SubjRel "ga"],
-            [:ObjFem :ObjSingular :SubjNumC :ObjPerson2 :SubjImpersonal :SelCommon "ta"],
-            [:ObjFem :ObjSingular :SubjNumC :ObjPerson2 :SubjPersonC :SelCommon "iga"],
-            [:ObjMasc :Common :Plural :ObjPerson3 :SubjPerson3 :SubjRel "ngwa"],
-            [:ObjMasc :Common :Singular :ObjPerson3 :SubjPerson1 :Dependent "ngwa"],
-            [:ObjMasc :Common :Singular :ObjPerson3 :SubjPerson3 :SubjRel "gwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :ObjRel "twa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "kwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Dependent "ngwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Independent "gwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "kwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Hither "ngwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Independent "ugwa"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :SubjRel "gwa"],
-            [:ObjMasc :ObjSingular :SubjNumC :ObjPerson2 :SubjImpersonal :SelCommon "ta"],
-            [:ObjMasc :ObjSingular :SubjNumC :ObjPerson2 :SubjPersonC :SelCommon "ugwa"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ka"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ta"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Independent "ga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "ga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "nga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "nga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "ka"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Dependent "nga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Hither "nga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :Independent "iga"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPersonC :SubjRel "ga"]]
+             :pos :Selector,
+             :smorphClass :SelBE}
+    :terms [[:genderObj :numObj :number :persObj :person :selectorBE :token],
+            [:ObjCommon :ObjNumC :NumC :ObjReciprocal :Reciprocal :SelCommon "ta"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :Impersonal :SelCommon "ta"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :PersonC :SelCommon "ta"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :Impersonal :SelCommon "tunda"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :PersonC :SelCommon "na"],
+            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :Impersonal :SelCommon "ta"],
+            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :PersonC :SelCommon "iga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "nga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "nga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "aga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"],
+            [:ObjFem :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ta"],
+            [:ObjFem :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "iga"],
+            [:ObjMasc :ObjNumC :Plural :ObjPerson3 :Person3 :SubjRel "ngwa"],
+            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person1 :Dependent "ngwa"],
+            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person3 :SubjRel "gwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :ObjRel "twa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "kwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Dependent "ngwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "kwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "ugwa"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gwa"],
+            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ta"],
+            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "ugwa"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "nga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "nga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "iga"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"]]
     }
     {:label "iraqw-VAffSelBEImpersHit"
     :note "Mous1993 p.127 (8). impersonal = ‘impersonal’;HIT = ‘hither’"
-    :pdgmType :SelBEImpersHit
-    :common {:persSubj :Impersonal,
+    :pdgmType :SEL
+    :common {:person :Impersonal,
              :numObj :ObjNumC,
              :selectorBE :Hither,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :Selector
-             :numSubj :SubjNumC,
+             :smorphClass :SelBEImpersHit,
+             :pos :Selector
+             :number :NumC,
              :mood :Indicative}
     :terms [[:genderObj :persObj :token],
-            [:ObjCommon :Common "Ti-ndi"],
-            [:ObjFem :Person3 "ki-ngi"],
-            [:ObjMasc :Person3 "ku-ngu"],
-            [:ObjNeut :Person3 "ki-ngi"]]
+            [:ObjCommon :ObjPersonC "Ti-ndi"],
+            [:ObjFem :ObjPerson3 "ki-ngi"],
+            [:ObjMasc :ObjPerson3 "ku-ngu"],
+            [:ObjNeut :ObjPerson3 "ki-ngi"]]
     }
     {:label "iraqw-VAffSelBENom"
     :note "Mous1993 p.125 (4)"
-    :pdgmType :SelBENom
+    :pdgmType :SEL
     :common {:mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :Selector}
+             :smorphClass :SelBENom
+             :pos :Selector}
     :terms [[:selectorBE :person :token],
             [:Copula :Person3 "a"],
             [:Copula :PersonC "a"],
@@ -991,66 +995,66 @@
     }
     {:label "iraqw-VAffSelBEObj"
     :note "Mous1993 p.127 (6,7). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms."
-    :pdgmType :SelBEObj
+    :pdgmType :SEL
     :common {:mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :Selector}
-    :terms [[:genderObj :numObj :numSubj :persObj :persSubj :selectorBE :token],
-            [:ObjCommon :ObjNumC :SubjNumC :ObjReciprocal :SubjReciprocal :SelCommon "ti"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson1 :SubjCommon :SelCommon "ti"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson1 :SubjImpersonal :SelCommon "ti"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson2 :SubjCommon :SelCommon "nu"],
-            [:ObjCommon :ObjPlural :SubjNumC :ObjPerson2 :SubjImpersonal :SelCommon "tundu"],
-            [:ObjCommon :ObjSingular :SubjNumC :ObjPerson1 :SubjCommon :SelCommon "i"],
-            [:ObjCommon :ObjSingular :SubjNumC :ObjPerson1 :SubjImpersonal :SelCommon "ti"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ngi"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ka"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ngi"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Hither "ngi"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Independent "a"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :SubjRel "ga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ka"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ta"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Independent "ga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "ga"],
-            [:ObjFem :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "ngi"],
-            [:ObjFem :ObjSingular :SubjNumC :ObjPerson2 :SubjCommon :SelCommon "i"],
-            [:ObjFem :ObjSingular :SubjNumC :ObjPerson2 :SubjImpersonal :SelCommon "ti"],
-            [:ObjMasc :Common :Plural :ObjPerson3 :SubjPerson3 :SubjRel "ngu"],
-            [:ObjMasc :Common :Singular :ObjPerson3 :SubjPerson1 :Dependent "ngu"],
-            [:ObjMasc :Common :Singular :ObjPerson3 :SubjPerson3 :SubjRel "gu"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ku"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Independent "u"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :SelCommon "ngu"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :SubjRel "gu"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :ObjRel "tu"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ku"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Dependent "ngu"],
-            [:ObjMasc :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Independent "gu"],
-            [:ObjMasc :ObjSingular :SubjNumC :ObjPerson2 :SubjCommon :SelCommon "u"],
-            [:ObjMasc :ObjSingular :SubjNumC :ObjPerson2 :SubjImpersonal :SelCommon "tu"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ngi"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ki"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Dependent "ngi"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Hither "ngi"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :Independent "i"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjCommon :SubjRel "gi"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ki"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjImpersonal :SelCommon "ti"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :Independent "gi"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "gi"],
-            [:ObjNeut :ObjNumC :SubjNumC :ObjPerson3 :SubjPerson3 :SubjRel "ngi"]]
+             :smorphClass :SelBEObj,
+             :pos :Selector}
+    :terms [[:genderObj :numObj :number :persObj :person :selectorBE :token],
+            [:ObjCommon :ObjNumC :NumC :ObjReciprocal :Reciprocal :SelCommon "ti"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :PersonC :SelCommon "ti"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :Impersonal :SelCommon "ti"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :PersonC :SelCommon "nu"],
+            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :Impersonal :SelCommon "tundu"],
+            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :PersonC :SelCommon "i"],
+            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :Impersonal :SelCommon "ti"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngi"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "a"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
+            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ngi"],
+            [:ObjFem :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "i"],
+            [:ObjFem :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ti"],
+            [:ObjMasc :ObjNumC :Plural :ObjPerson3 :Person3 :SubjRel "ngu"],
+            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person1 :Dependent "ngu"],
+            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person3 :SubjRel "gu"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ku"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "u"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SelCommon "ngu"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gu"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :ObjRel "tu"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ku"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Dependent "ngu"],
+            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gu"],
+            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "u"],
+            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "tu"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ki"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngi"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "i"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gi"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ki"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ti"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gi"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "gi"],
+            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ngi"]]
     }
     {:label "iraqw-VAffSelBEVerb"
     :note "Mous1993 p.125 (5). Independent paradigm same as locative."
-    :pdgmType :SelBEVerb
+    :pdgmType :SEL
     :common {:mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :Selector}
+             :smorphClass :SelBEVerb,
+             :pos :Selector}
     :terms [[:selectorBE :number :person :token],
-            [:Dependent :Singular :Common "ta"],
+            [:Dependent :Singular :PersonC "ta"],
             [:Dependent :Singular :Person1 "ni"],
             [:Dependent :Singular :Person3 "i"],
             [:Dependent :Plural :Person1 "ta"],
@@ -1065,33 +1069,33 @@
     }
     {:label "iraqw-VAffSelector"
     :note "Mous1993 p.142 (12)."
-    :pdgmType :SELECTORAFFPERF
+    :pdgmType :SEL
     :common {:mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
+             :smorphClass :SELECTORAFFPERF,
              :selectorTense :Perfect,
-             :formativehClass :Selector}
-    :terms [[:numSubj :persSubj :selectorBE :token],
-            [:SubjPlural :ObjPerson1 :Dependent "ta"],
-            [:SubjPlural :ObjPerson1 :Independent "aga"],
-            [:SubjPlural :ObjPerson2 :Dependent "ta"],
-            [:SubjPlural :ObjPerson2 :Independent "aga"],
-            [:SubjPlural :ObjPerson3 :Dependent "naa"],
-            [:SubjPlural :ObjPerson3 :Independent "naa"],
-            [:SubjSingular :ObjPerson1 :Dependent "na"],
-            [:SubjSingular :ObjPerson1 :Independent "aga"],
-            [:SubjSingular :ObjPerson2 :Dependent "ta"],
-            [:SubjSingular :ObjPerson2 :Independent "aga"],
-            [:SubjSingular :ObjPerson3 :Dependent "aa"],
-            [:SubjSingular :ObjPerson3 :Independent "aa"]]
+             :pos :Selector}
+    :terms [[:number :persObj :selectorBE :token],
+            [:Plural :ObjPerson1 :Dependent "ta"],
+            [:Plural :ObjPerson1 :Independent "aga"],
+            [:Plural :ObjPerson2 :Dependent "ta"],
+            [:Plural :ObjPerson2 :Independent "aga"],
+            [:Plural :ObjPerson3 :Dependent "naa"],
+            [:Plural :ObjPerson3 :Independent "naa"],
+            [:Singular :ObjPerson1 :Dependent "na"],
+            [:Singular :ObjPerson1 :Independent "aga"],
+            [:Singular :ObjPerson2 :Dependent "ta"],
+            [:Singular :ObjPerson2 :Independent "aga"],
+            [:Singular :ObjPerson3 :Dependent "aa"],
+            [:Singular :ObjPerson3 :Independent "aa"]]
     }
     {:label "iraqw-VAffSelectorForms"
     :note "Mous1993 pp.123-154. Mous calls this section “The verbs ‘to be’” rather than “selector”. In any case nearly every sentence in Iraqw contains a selector/”verb to be” whether the complement is nominal or verbal. [Ex:tlee’use a Manda [potters COP Bantu]‘Potters are Bantu’;aníng a goo’—ïim [1.SG BE write-DUR:1.SG]‘I am writing’]"
-    :pdgmType :SelectorForms
+    :pdgmType :SEL
     :common {:mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :SelectorForms}
+             :smorphClass :SelectorForms,
+             :pos :Selector}
     :terms [[:selectorCategory :selectorClass :token],
             [:Background :SelTense "wa"],
             [:Concessive :SelMood "tam"],
@@ -1106,16 +1110,16 @@
             [:Perfect :SelTense "(g)a"],
             [:Prohibitive :SelMood "m"],
             [:SelCatC :SelBE "⊤"],
-            [:reason :Case "s"]]
+            [:Reason :Case "s"]]
     }
     {:label "iraqw-VAffSelectorForms2"
     :note "Mous1993 p.130 (9).The template note is: persObe + selBE + selMood + selTense"
-    :pdgmType :SelectorForms2
-    :common {:persObj :Person3,
+    :pdgmType :SEL
+    :common {:persObj :ObjPerson3,
              :mood :Indicative,
              :polarity :Affirmative,
-             :pos :Verb,
-             :formativeClass :Selector}
+             :smorphClass :SelectorForms2,
+             :pos :Selector}
     :terms [[:selectorBE :selectorMood :selectorTense :token :token-note-sel :token-selTense],
             [:Dependent :SelMoodC :Background " " "ng- + ⊤ + ⊤ + -wa" "ng- + ⊤ + ⊤ + -wa"],
             [:Dependent :SelMoodC :Consecutive2 " " "g- + ⊤ + ⊤ + -ay" "g- + ⊤ + ⊤ + -ay"],
@@ -1127,8 +1131,9 @@
     }
     {:label "iraqw-VConj3Aff"
     :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :VCONJ3AF
-    :common {:number :Singular,
+    :pdgmType  :VOther
+    :common {:vmorphClass :VCONJ3AF
+             :number :Singular,
              :mood :Indicative,
              :polarity :Affirmative,
              :pos :Verb}
@@ -1146,8 +1151,9 @@
     }
     {:label "iraqw-VDervStemSuff"
     :note "Mous1993 p.170-202."
-    :pdgmType :DervStemSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStemSuff
+             :pos :Verb}
     :terms [[:derivedStem :token],
             [:Causative "-s"],
             [:Durative "-m"],
@@ -1155,15 +1161,16 @@
             [:Factitive2 "-uus"],
             [:Habitual "reduplication"],
             [:Inchoative "-uw"],
-            [:Middel "-t"],
+            [:Middle "-t"],
             [:Verbaliser "-uut"]]
     }
     {:label "iraqw-VInfinitive"
     :note "Mous1993 p.167-168. Mous infinitivesuffix can occur after various types of
             subordinate clause with a generalizing or irrealis function. It is also used in the
             formation of the main clause negative and interrogative tenses."
-    :pdgmType :InfinitiveSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :InfinitiveSuff
+             :pos :Verb}
     :terms [[:tam :token],
             [:Past "-i"],
             [:Present "-a"]]
