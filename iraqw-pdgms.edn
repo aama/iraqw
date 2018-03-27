@@ -1,13 +1,11 @@
 {
-:lang :iraqw
-:subfamily "South Cushitic Rift"
-:sgpref "irq"
-:datasource "Mous1993"
-:geodemoURL "http://www.ethnologue.com/language/irk"
-:geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in Tanzania 'Manyara region: Mbulu district, highlands southwest of Arusha in the north; Singida region near Manyara border; small areas in Arusha and Dodoma regions'."
- :schemata {:vmorphClass [:DervStemSuff  :FiniteStemFormation3a :SubjMarker :VCONJ3AF :FiniteStemFormation3b :FiniteStemFormation3c :FiniteStemFormation3d :FiniteStemFormation3e :InfinitiveSuff :Participle],
-            :smorphClass [:SELECTORAFFPERF :SelBE :SelBEImpersHit :SelBENom :SelBEObj :SelBEVerb :SelectorForms :SelectorForms2],
-            :conjClass [:Conj1 :Conj2 :Conj2a :Conj2b :Conj3a :Conj3b :Conj3c :Conj3d :Conj3e :Irreg],
+ :lang :iraqw
+ :subfamily "South Cushitic Rift"
+ :sgpref "irq"
+ :datasource "Mous1993"
+ :geodemoURL "http://www.ethnologue.com/language/irk"
+ :geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in Tanzania 'Manyara region: Mbulu district, highlands southwest of Arusha in the north; Singida region near Manyara border; small areas in Arusha and Dodoma regions'."
+ :schemata {:conjClass [:Conj1 :Conj2 :Conj2a :Conj2b :Conj3a :Conj3b :Conj3c :Conj3d :Conj3e :Irreg],
             :demonstrative [:Far :Midway :Near1 :Near2],
             :derivedStem [:Causative :Durative :Factitive1 :Factitive2 :Habitual :Inchoative :Middle :Verbaliser],
             :form [:Full :Short],
@@ -22,7 +20,7 @@
             :persObj [:ObjPerson1 :ObjPerson2 :ObjPerson3 :ObjPersonC :ObjReciprocal],
             :person [:Impersonal :Person1 :Person2 :Person3 :PersonC :Reciprocal],
             :polarity [:Affirmative :Negative],
-            :pos [:Pronoun :Verb :Selector],
+            :pos [:Pronoun :Verb],
             :possHead [:HeadC :HeadNoun :HeadPro],
             :proClass [:Independent :Object :Pers_dem :Possessive],
             :selectorBE [:Copula :Dependent :Hither :Independent :Locative :ObjRel :SelCommon :SubjRel],
@@ -30,1152 +28,1114 @@
             :selectorClass [:Case :SelBE :SelMood :SelTense],
             :selectorMood [:Concessive :Conditional :SelMoodC],
             :selectorTense [:Background :Consecutive :Consecutive2 :Expectational :Past :Perfect :SelTenseC],
-            :tam [:Imperative :Past :Present]
-            :pdgmType [:Finite :PRO :SEL :VOther]}
-:pclass {:pngClass [:person :number :gender :genderHead :genderObj :numHead :numObj :number :persObj :person :possHead :selectorBE :selectorCategory :selectorClass :selectorMood :selectorTense],
+            :tam [:Imperative :Past :Present],
+            :vmorphClass [:Finite  :SELECTORAFFPERF :SelBE :SelBEImpersHit :SelBENom :SelBEObj :SelBEVerb :SelectorForms :SelectorForms2 :DervStemSuff :FiniteStemFormation3a :FiniteStemFormation3b :FiniteStemFormation3c :FiniteStemFormation3d :FiniteStemFormation3e :InfinitiveSuff :Participle :SubjMarker :VCONJ3AF]
+            }
+ :pclass {:pngClass [:person :number :gender :genderHead :genderObj :numHead :numObj :number :persObj :person :possHead :selectorBE :selectorCategory :selectorClass :selectorMood :selectorTense],
           :synsemClass [:case :category :demonstrative :derivedStem :imprtvClass :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :form],
           :otherClass []}
-:morphemes{:PROPOSS {:gloss "[x]", :lemma "[y]"},
-           :VCONJ3AFF {:gloss "[x]", :lemma "[y]"},
-           :PROOBJ {:gloss "[x]", :lemma "[y]"},
-           :PROIND {:gloss "[x]", :lemma "[y]"},
-           :SELECTORBENOM {:gloss "[x]", :lemma "[y]"},
-           :SELECTORBEOBJ {:gloss "[x]", :lemma "[y]"},
-           :SUBJMARKER {:gloss "[x]", :lemma "[y]"},
-           :PRODEM {:gloss "[x]", :lemma "[y]"},
-           :SELECTORAFFPERF {:gloss "[x]", :lemma "[y]"},
-           :INFINITIVESUFF {:gloss "[x]", :lemma "[y]"},
-           :SELECTORBEAFF {:gloss "[x]", :lemma "[y]"},
-           :SELECTORFORMSAFF2 {:gloss "[x]", :lemma "[y]"},
-           :SELECTORBEVERBAFF {:gloss "[x]", :lemma "[y]"},
-           :SELECTORBEIMPERSHIT {:gloss "[x]", :lemma "[y]"},
-           :SELECTORFORMSAFF1 {:gloss "[x]", :lemma "[y]"},
-           :DERVSTEMSUFF {:gloss "[x]", :lemma "[y]"}}
-:lexemes{:xwaylu {:lemma "xwayluw-", :gloss "give birth", :conjClass :CC2b, :pos :Verb},
-           :tlaw {:lemma "tlaw-", :gloss "leave", :conjClass :Person2, :pos :Verb},
-           :koom {:lemma "koom-", :gloss "have", :conjClass :Person1, :pos :Verb},
-           :firiim {:lemma "firiim-", :gloss "ask", :conjClass :Person1, :pos :Verb},
-           :eehar {:lemma "eehar-", :gloss "follow", :conjClass :CC3b, :pos :Verb},
-           :ʔaay {:gloss "[x]", :lemma "[y]"},
-           :maw {:lemma "maw-", :gloss "leave", :conjClass :CC2a, :pos :Verb},
-           :tsaweer {:lemma "tsaweer-", :gloss "strangle", :conjClass :CC3b, :pos :Verb},
-           :oh {:lemma "oh-", :gloss "seize", :conjClass :CC3a, :pos :Verb},
-           :laaq {:lemma "laaq-", :gloss "show", :conjClass :CC3e, :pos :Verb},
-           :laaw {:lemma "laaw-", :gloss "go to cultivate", :conjClass :CC3c, :pos :Verb},
-           :i {:lemma "i", :gloss "DIRective", :category :Case, :pos :Verb},
-           :deer {:lemma "deer-", :gloss "be present", :conjClass :Person2, :pos :Verb},
-           :huuw {:lemma "huuw-", :gloss "bring", :conjClass :CC3c, :pos :Verb},
-           :looh {:lemma "looh-", :gloss "move", :conjClass :CC3a, :pos :Verb},
-           :kah {:lemma "kah-", :gloss "say"},
-           :law {:gloss "[x]", :lemma "[y]"},
-           :doohl {:lemma "doohl-", :gloss "dig", :conjClass :CC3e, :pos :Verb},
-           :ʕaay {:lemma "ʕaay-", :gloss "eat", :conjClass :CC3d, :pos :Verb}}
-:lxterms [
-    {:label "iraqw-VAffImprtvMarker-doohl"
-    :note "Mous1993 p.164 (32,33)."
-    :pdgmType :Finite
-    :common {:lexeme :doohl,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:imprtvClass :number :token :token-note-suffix],
-            [:Base :Singular "dóohl" "-Ø"],
-            [:Base :Plural "doohlé'" "-é'"],
-            [:Hither :Singular "doohláng" "-áng"],
-            [:Hither :Plural "doohlaré'" "-aré'"],
-            [:Object :Singular "doohleek" "-eek"],
-            [:Object :Plural "doohlaak" "-aak"]]
-    }
-    {:label "iraqw-VAffImprtvMarker-huuw"
-    :note "Mous1993 p.164 (32,33)."
-    :pdgmType :Finite
-    :common {:imprtvClass :HitherObj,
-             :lexeme :huuw,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:number :token :token-note-suffix],
-            [:Singular "huwang" "-ang"],
-            [:Plural "huware'" "-are'"]]
-    }
-    {:label "iraqw-VConj1AffPres-koom"
-    :note "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all  verbs with inchoative suffix -uw). Minimal selector as in
+ :lexemes{:xwaylu {:lemma "xwayluw-", :gloss "give birth", :conjClass :CC2b, :pos :Verb},
+          :tlaw {:lemma "tlaw-", :gloss "leave", :conjClass :Person2, :pos :Verb},
+          :koom {:lemma "koom-", :gloss "have", :conjClass :Person1, :pos :Verb},
+          :firiim {:lemma "firiim-", :gloss "ask", :conjClass :Person1, :pos :Verb},
+          :eehar {:lemma "eehar-", :gloss "follow", :conjClass :CC3b, :pos :Verb},
+          :ʔaay {:gloss "[x]", :lemma "[y]"},
+          :maw {:lemma "maw-", :gloss "leave", :conjClass :CC2a, :pos :Verb},
+          :tsaweer {:lemma "tsaweer-", :gloss "strangle", :conjClass :CC3b, :pos :Verb},
+          :oh {:lemma "oh-", :gloss "seize", :conjClass :CC3a, :pos :Verb},
+          :laaq {:lemma "laaq-", :gloss "show", :conjClass :CC3e, :pos :Verb},
+          :laaw {:lemma "laaw-", :gloss "go to cultivate", :conjClass :CC3c, :pos :Verb},
+          :i {:lemma "i", :gloss "DIRective", :category :Case, :pos :Verb},
+          :deer {:lemma "deer-", :gloss "be present", :conjClass :Person2, :pos :Verb},
+          :huuw {:lemma "huuw-", :gloss "bring", :conjClass :CC3c, :pos :Verb},
+          :looh {:lemma "looh-", :gloss "move", :conjClass :CC3a, :pos :Verb},
+          :kah {:lemma "kah-", :gloss "say"},
+          :law {:gloss "[x]", :lemma "[y]"},
+          :doohl {:lemma "doohl-", :gloss "dig", :conjClass :CC3e, :pos :Verb},
+          :ʕaay {:lemma "ʕaay-", :gloss "eat", :conjClass :CC3d, :pos :Verb}}
+ :termclusters [
+                {:label "iraqw-VAffImprtvMarker-doohl"
+                 :note "Mous1993 p.164 (32,33)."
+                 :common {:vmorphclass :Finite
+                          :lexeme :doohl,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:imprtvClass :number :token :token-note-suffix],
+                         [:Base :Singular "dóohl" "-Ø"],
+                         [:Base :Plural "doohlé'" "-é'"],
+                         [:Hither :Singular "doohláng" "-áng"],
+                         [:Hither :Plural "doohlaré'" "-aré'"],
+                         [:Object :Singular "doohleek" "-eek"],
+                         [:Object :Plural "doohlaak" "-aak"]]
+                 }
+                {:label "iraqw-VAffImprtvMarker-huuw"
+                 :note "Mous1993 p.164 (32,33)."
+                 :common {:vmorphclass :Finite
+                          :imprtvClass :HitherObj,
+                          :lexeme :huuw,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token :token-note-suffix],
+                         [:Singular "huwang" "-ang"],
+                         [:Plural "huware'" "-are'"]]
+                 }
+                {:label "iraqw-VConj1AffPres-koom"
+                 :note "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all  verbs with inchoative suffix -uw). Minimal selector as in
             iraqw-VPresConj3e-doohl."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :koom,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "kóom"],
-            [:Singular :Person2 :Common "kóon"],
-            [:Singular :Person3 :Masc "kón"],
-            [:Singular :Person3 :Fem "kóon"],
-            [:Plural :Person1 :Common "koomáan"],
-            [:Plural :Person2 :Common "koondá'"],
-            [:Plural :Person3 :Common "koná'"]]
-    }
-    {:label "iraqw-VConj1NegPastTenseFormation2-firiim"
-    :note "Mous1993 p.169 (35)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :firiim,
-             :mood :Indicative,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "firiimiiká"],
-            [:Singular :Person2 :Common "firiindiiká"],
-            [:Singular :Person3 :Masc "firniiká ~ firinká < firniká < firin-i-ká"],
-            [:Singular :Person3 :Fem "(?)"],
-            [:Plural :Person1 :Common "firiimaaniiká"],
-            [:Plural :Person2 :Common "firiindiiká"],
-            [:Plural :Person3 :Common "firiniiká"]]
-    }
-    {:label "iraqw-VConj1NegPresTenseFormation1-firiim"
-    :note "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule,which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :firiim,
-             :mood :Indicative,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "firiimaaká"],
-            [:Singular :Person2 :Common "firiindaaká"],
-            [:Singular :Person3 :Masc "firnaká ~ firinká"],
-            [:Singular :Person3 :Fem "firiindaaká (?)"],
-            [:Plural :Person1 :Common "firiimaanaaká"],
-            [:Plural :Person2 :Common "finiindaaká"],
-            [:Plural :Person3 :Common "firinaaká"]]
-    }
-    {:label "iraqw-VConj2AffPast-tlaw"
-    :note "Mous1993 p.170 (36)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :tlaw,
-             :mood :Interrog,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :Person1 "ga tlâwi" "ga"],
-            [:Singular :Person2 "ga tlêeri" "ga"],
-            [:Singular :Person3 "aa tlâyi" "aa"],
-            [:Plural :Person1 "na tlawâani" "na"],
-            [:Plural :Person2 "ga tleerîi" "ga"],
-            [:Plural :Person3 "na tlâyi" "na"]]
-    }
-    {:label "iraqw-VConj2AffPres-deer"
-    :note "Mous1993 p.163 (31)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :deer,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :PersonC "a deer" "a"],
-            [:Singular :Person3 "i deer" "i"],
-            [:Plural :Person3 "i dayá'" "i"]]
-    }
-    {:label "iraqw-VConj2NegPastTenseFormation2-tlaw"
-    :note "Mous1993 p.169 (35)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :tlaw,
-             :mood :Indicative,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "tlawiiká"],
-            [:Singular :Person2 :Common "tleeriiká"],
-            [:Singular :Person3 :Masc "tlayká < tlay-i-ká"],
-            [:Singular :Person3 :Fem "(?)"],
-            [:Plural :Person1 :Common "tlawaaniiká"],
-            [:Plural :Person2 :Common "tleeriiiká"],
-            [:Plural :Person3 :Common "tlayiiká"]]
-    }
-    {:label "iraqw-VConj2NegPresTenseFormation1-tlaw"
-    :note "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule,which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :tlaw,
-             :mood :Indicative,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "tlawaaká"],
-            [:Singular :Person2 :Common "tleeraaká"],
-            [:Singular :Person3 :Masc "tlayká < tlay-a-ká"],
-            [:Singular :Person3 :Fem "(?)"],
-            [:Plural :Person1 :Common "tlawaanaaká"],
-            [:Plural :Person2 :Common "tleeraaaká"],
-            [:Plural :Person3 :Common "tlayaaká"]]
-    }
-    {:label "iraqw-VConj2aAffPres-maw"
-    :note "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all verbs with inchoative suffix -uw). Minimal selector as in iraqw-VPresConj3e-doohl."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2a,
-             :lexeme :maw,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "máw"],
-            [:Singular :Person2 :Common "mëer"],
-            [:Singular :Person3 :Masc "máy"],
-            [:Singular :Person3 :Fem "méer"],
-            [:Plural :Person1 :Common "mawáan"],
-            [:Plural :Person2 :Common "meerá'"],
-            [:Plural :Person3 :Common "mayä'"]]
-    }
-    {:label "iraqw-VConj2bAffPres-xwaylu"
-    :note "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all verbs with inchoative suffix -uw). Minimal selector as in iraqw-VPresConj3e-doohl."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2b,
-             :lexeme :xwaylu,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "xwaylúw"],
-            [:Singular :Person2 :Common "xwaylúur"],
-            [:Singular :Person3 :Masc "xwaylúy"],
-            [:Singular :Person3 :Fem "xwaylúur"],
-            [:Plural :Person1 :Common "xwayluwáan"],
-            [:Plural :Person2 :Common "xwayluurá'"],
-            [:Plural :Person3 :Common "xwayluyá'"]]
-    }
-    {:label "iraqw-VConj3aAffPres-looh"
-    :note "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person singular.(p.157) See (25) p. 158,for verbs with vowel shortening preceding the 1.PL suffix,and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below."
-    :pdgmType :Finite
-    :common {:conjClass :Conj3a,
-             :lexeme :looh,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "loh"],
-            [:Singular :Person2 :Common "lót"],
-            [:Singular :Person3 :Masc "loh"],
-            [:Singular :Person3 :Fem "lót"],
-            [:Plural :Person1 :Common "looháan"],
-            [:Plural :Person2 :Common "lotá'"],
-            [:Plural :Person3 :Common "lohiyá~ lohír"]]
-    }
-    {:label "iraqw-VConj3aAffPresStemFormation-oh"
-    :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :VOther
-    :common {:vmorphClass :FiniteStemFormation3a
-             :conjClass :Conj3a,
-             :lexeme :oh,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "óh"],
-            [:Singular :Person2 :Common "ót"],
-            [:Singular :Person3 :Masc "oh"],
-            [:Singular :Person3 :Fem "ót"],
-            [:Plural :Person1 :Common "oháan"],
-            [:Plural :Person2 :Common "otá'"],
-            [:Plural :Person3 :Common "ohiyá ~ ohír"]]
-    }
-    {:label "iraqw-VConj3bAffPres-tsaweer"
-    :note "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person singular.(p.157) See (25) p. 158,for verbs with vowel shortening preceding the 1.PL suffix,and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below."
-    :pdgmType :Finite
-    :common {:conjClass :Conj3b,
-             :lexeme :tsaweer,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "tsawéer"],
-            [:Singular :Person2 :Common "tsawét"],
-            [:Singular :Person3 :Masc "tsaweer"],
-            [:Singular :Person3 :Fem "tsawét"],
-            [:Plural :Person1 :Common "tsaweeráan"],
-            [:Plural :Person2 :Common "tsawetá'"],
-            [:Plural :Person3 :Common "tsaweeriyá~ tsaweerír"]]
-    }
-    {:label "iraqw-VConj3bAffPresStemFormation-eehar"
-    :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :VOther
-    :common {:vmorphClass :FiniteStemFormation3b
-             :conjClass :Conj3b,
-             :lexeme :eehar,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "eehár"],
-            [:Singular :Person2 :Common "eehát"],
-            [:Singular :Person3 :Masc "eehar"],
-            [:Singular :Person3 :Fem "eehát"],
-            [:Plural :Person1 :Common "eeharáan"],
-            [:Plural :Person2 :Common "eehatá'"],
-            [:Plural :Person3 :Common "eehariyá ~ eeharír"]]
-    }
-    {:label "iraqw-VConj3cAffPresStemFormation-law"
-    :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :VOther
-    :common {:vmorphClass :FiniteStemFormation3c
-             :conjClass :Conj3c,
-             :lexeme :law,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "läaw"],
-            [:Singular :Person2 :Common "láb"],
-            [:Singular :Person3 :Masc "laaw"],
-            [:Singular :Person3 :Fem "láb"],
-            [:Plural :Person1 :Common "laawáan"],
-            [:Plural :Person2 :Common "labá'"],
-            [:Plural :Person3 :Common "laawiyá~ laawír"]]
-    }
-    {:label "iraqw-VConj3dAffPresStemFormation-aay"
-    :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType :VOther
-    :common {:vmorphClass :FiniteStemFormation3d
-             :conjClass :Conj3d,
-             :lexeme :ʔaay,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ʕáay"],
-            [:Singular :Person2 :Common "ʕág"],
-            [:Singular :Person3 :Masc "ʕaay"],
-            [:Singular :Person3 :Fem "ʕág"],
-            [:Plural :Person1 :Common "ʕaayáan"],
-            [:Plural :Person2 :Common "ʕagá'"],
-            [:Plural :Person3 :Common "ʕaayiyá ~ ʕaayír"]]
-    }
-    {:label "iraqw-VConj3eAffImprtvTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :gender :Common,
-             :lexeme :doohl,
-             :person :Person2,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Imperative}
-    :terms [[:number :token],
-            [:Singular "dóohl"],
-            [:Plural "dohlé'"]]
-    }
-    {:label "iraqw-VConj3eAffPast-doohl"
-    :note "Mous1993 p.170 (36)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :lexeme :doohl,
-             :mood :Interrog,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :Person1 "ga dôohli" "ga"],
-            [:Singular :Person2 "ga dôhli" "ga"],
-            [:Singular :Person3 "aa dôohli" "aa"],
-            [:Plural :Person1 "na doohlâani" "na"],
-            [:Plural :Person2 "ga dohlîi" "ga"],
-            [:Plural :Person3 "na doohlî'i" "na"]]
-    }
-    {:label "iraqw-VConj3eAffPastTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :lexeme :doohl,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token :token-note-selector],
-            [:Singular :Person1 :Common "aga dóohl" "aga"],
-            [:Singular :Person2 :Common "aga dóhl" "aga"],
-            [:Singular :Person3 :Masc "aa dóohl" "aa"],
-            [:Singular :Person3 :Fem "aa dóhl" "aa"],
-            [:Plural :Person1 :Common "aga doohláan" "aga"],
-            [:Plural :Person2 :Common "aga dohlé'" "aga"],
-            [:Plural :Person3 :Common "aa doohliyé ~ doohlír" "aa"]]
-    }
-    {:label "iraqw-VConj3eAffPres-laaw"
-    :note "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person  singular.(p.157) See (25) p. 158,for verbs with vowel shortening preceding the 1.PL   suffix,and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below."
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :lexeme :laaw,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "láaq"],
-            [:Singular :Person2 :Common "láq"],
-            [:Singular :Person3 :Masc "laaq"],
-            [:Singular :Person3 :Fem "láq"],
-            [:Plural :Person1 :Common "laqáan"],
-            [:Plural :Person2 :Common "laqá'"],
-            [:Plural :Person3 :Common "laaqiyá~ laaqír"]]
-    }
-    {:label "iraqw-VConj3eAffPresQTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :gender :Common,
-             :lexeme :doohl,
-             :mood :Interrog,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :Person1 "a dôohla" "a"],
-            [:Singular :Person2 "a dôhla" "a"],
-            [:Singular :Person3 "i dôohli" "i"],
-            [:Plural :Person1 "a doohlâana" "a"],
-            [:Plural :Person2 "a dohlâ'a" "a"],
-            [:Plural :Person3 "i doohlîi'a" "i"]]
-    }
-    {:label "iraqw-VConj3eAffPresStemFormation-doohl"
-    :note "Mous1993 p.155 (20). [Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)]"
-    :pdgmType :VOther
-    :common {:vmorphClass :FiniteStemFormation3e
-             :conjClass :Conj3e,
-             :lexeme :doohl,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token :token-note-selector],
-            [:Singular :Person1 :Common "a dóohl" "a"],
-            [:Singular :Person2 :Common "a dóhl" "a"],
-            [:Singular :Person3 :Masc "i doohl" "i"],
-            [:Singular :Person3 :Fem "i dóhl" "i"],
-            [:Plural :Person1 :Common "a doohláan" "a"],
-            [:Plural :Person2 :Common "a dohlá'" "a"],
-            [:Plural :Person3 :Common "i doohliyá ~ doohlír" "i"]]
-    }
-    {:label "iraqw-VConj3eAffRelPastTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :polarity :Affirmative,
-             :conjClass :Conj3e,
-             :lexeme :doohl,
-             :pos :Verb,
-             :person :PersonC,
-             :token-note-selector :ta-,
-             :mood :Subjunctive,
-             :tam :Past}
-    :terms [[:token],
-            ["ta- past"]]
-    }
-    {:label "iraqw-VConj3eAffRelPresTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :lexeme :doohl,
-             :mood :Subjunctive,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token :token-note-selector],
-            [:Singular :Person1 :Common "ni doohl" "ni"],
-            [:Singular :Person2 :Common "ta dohl" "ta"],
-            [:Singular :Person3 :Masc "i doohli" "i"],
-            [:Singular :Person3 :Fem "i dohl" "i"],
-            [:Plural :Person1 :Common "ta doohlaan" "ta"],
-            [:Plural :Person2 :Common "ta dohla'" "ta"],
-            [:Plural :Person3 :Common "i doiya ~ doohlir" "i"]]
-    }
-    {:label "iraqw-VConj3eNegImprtvTenseFormation-doohl"
-    :note "Mous1993 p. 164 (32,33) [Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká]"
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :polarity :Negative,
-             :conjClass :Conj3e,
-             :lexeme :doohl,
-             :pos :Verb,
-             :person :Person2,
-             :token-note-selector :M-,
-             :mood :Indicative,
-             :tam :Imperative}
-    :terms [[:number :token :token-note-suffix],
-            [:Singular "m- doohlaar" "-aar"],
-            [:Plural "m- doohlara'" "-ara'"]]
-    }
-    {:label "iraqw-VConj3eNegPastTenseFormation-doohl"
-    :note "Mous1993 p.162 (30) [p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká]"
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :lexeme :doohl,
-             :mood :Indicative,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token :token-note-selector],
-            [:Singular :Person1 :Common "aga dóohl+i+ká => doohliiká" "aga"],
-            [:Singular :Person2 :Common "aga dóhl+i+ká => dohlká" "aga"],
-            [:Singular :Person3 :Masc "aa dóohl+i+ká => doohliiká" "aa"],
-            [:Singular :Person3 :Fem "aa dóhl+i+ká => dohlká" "aa"],
-            [:Plural :Person1 :Common "aga doohláan+i+ká => doohlaaniiká" "aga"],
-            [:Plural :Person2 :Common "aga dohlé+i+ká => doohliiiká" "aga"],
-            [:Plural :Person3 :Common "aa doohliyé +i+ká => doohliiiiká" "aa"]]
-    }
-    {:label "iraqw-VConj3eNegPresTenseFormation1-doohl"
-    :note "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule,which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3."
-    :pdgmType :Finite
-    :common {:conjClass :Conj3e,
-             :lexeme :doohl,
-             :mood :Indicative,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token :token-note-selector],
-            [:Singular :Person1 :Common "a dóohl+a+ká => doohlaaká" "a"],
-            [:Singular :Person2 :Common "a dóhl+a+ká => dohlká" "a"],
-            [:Singular :Person3 :Masc "i doohl+i+ká => doohliiká" "i"],
-            [:Singular :Person3 :Fem "i dóhl+i+ká => dohlká" "i"],
-            [:Plural :Person1 :Common "a doohláan+a+ká => doohlaanaaká" "a"],
-            [:Plural :Person2 :Common "a dohlá+a+ká => dohlaaaká" "a"],
-            [:Plural :Person3 :Common "i doohliyá +i+ká => doohliiaaká" "i"]]
-    }
-    {:label "iraqw-VConj3eSubordPastTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :polarity :Affirmative,
-             :conjClass :Conj3e,
-             :lexeme :doohl,
-             :pos :Verb,
-             :token-note-selector :SelC,
-             :mood :Subjunctive,
-             :tam :Past,
-             :number :NumC}
-    :terms [[:token],
-            ["-i"]]
-    }
-    {:label "iraqw-VConj3eSubordPresTenseFormation-doohl"
-    :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :polarity :Affirmative,
-             :conjClass :Conj3e,
-             :lexeme :doohl,
-             :pos :Verb,
-             :token-note-selector :Common,
-             :mood :Subjunctive,
-             :tam :Present,
-             :number :NumC}
-    :terms [[:person :token],
-            [:Person3 "-a/-i[conj 3"],
-            [:PersonC "-a"]]
-    }
-    {:label "iraqw-VIndicativeConj1AffPast-firiim"
-    :note "Mous1993 p.162 (29)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :firiim,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "aga firíim"],
-            [:Singular :Person2 :Common "aga firíin"],
-            [:Singular :Person3 :Masc "aa firín"],
-            [:Singular :Person3 :Fem "aa firíin"],
-            [:Plural :Person1 :Common "aga firiimáan"],
-            [:Plural :Person2 :Common "aga firiindé'"],
-            [:Plural :Person3 :Common "aa firidé'"]]
-    }
-    {:label "iraqw-VIndicativeConj2AffPast-tlaw"
-    :note "Mous1993 p.162 (29)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :tlaw,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "aga tláw"],
-            [:Singular :Person2 :Common "aga tléer"],
-            [:Singular :Person3 :Masc "aa tláy"],
-            [:Singular :Person3 :Fem "aa tléer"],
-            [:Plural :Person1 :Common "aga tlawáam"],
-            [:Plural :Person2 :Common "aga tleeré"],
-            [:Plural :Person3 :Common "aa tlayé"]]
-    }
-    {:label "iraqw-VIrregAffPres-kah"
-    :note "Mous1993 p.163 (31)."
-    :pdgmType :Finite
-    :common {:conjClass :Irreg,
-             :lexeme :kah,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :gender :token :token-note-selector],
-            [:Singular :Person1 :Common "a káh" "a"],
-            [:Singular :Person2 :Common "a kát" "a"],
-            [:Singular :Person3 :Masc "i káhi ~ káy" "i"],
-            [:Singular :Person3 :Fem "i kát" "i"],
-            [:Plural :Person1 :Common "a kaha" "a"],
-            [:Plural :Person2 :Common "a katá'" "a"],
-            [:Plural :Person3 :Common "i kahír" "i"]]
-    }
-    {:label "iraqw-VParticiple-doohl"
-    :note "Mous1993 pp.165-166."
-    :pdgmType :VOther
-    :common {:vmorphClass :Participle
-             :lexeme :doohl,
-             :pos :Verb}
-    :terms [[:genderHead :numHead :possHead :token],
-            [:HeadCommon :HeadPlural :HeadPro "doohlá'"],
-            [:HeadFem :HeadPlural :HeadNoun "doohl"],
-            [:HeadFem :HeadSingular :HeadC "doohl"],
-            [:HeadMasc :HeadPlural :HeadNoun "dóohl"],
-            [:HeadMasc :HeadSingular :HeadC "dóohl"],
-            [:HeadNeut :HeadPlural :HeadNoun "doohlá'"],
-            [:HeadNeut :HeadSingular :HeadC "doohlá'"]]
-    }
-    {:label "iraqw-VQConj1AffPast-firiim"
-    :note "Mous1993 p.170 (36)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :firiim,
-             :mood :Interrog,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :Person1 "ga firîimi" "ga"],
-            [:Singular :Person2 "ga firîindi" "ga"],
-            [:Singular :Person3 "aa fîrni" "aa"],
-            [:Plural :Person1 "na firiimâni" "na"],
-            [:Plural :Person2 "ga firiindîi" "ga"],
-            [:Plural :Person3 "na fîrni" "na"]]
-    }
-    {:label "iraqw-VQConj1AffPres-firiim"
-    :note "Mous1993 p.170 (36)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :firiim,
-             :mood :Interrog,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :Person1 "a firîima" "a"],
-            [:Singular :Person2 "a firîinda" "a"],
-            [:Singular :Person3 "i fîrna" "i"],
-            [:Plural :Person1 "a firiimâna" "a"],
-            [:Plural :Person2 "a firiindâa" "a"],
-            [:Plural :Person3 "i firnâa" "i"]]
-    }
-    {:label "iraqw-VQConj2AffPast-tlaw"
-    :note "Mous1993 p.170 (36)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :tlaw,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:number :person :token :token-note-selector],
-            [:Singular :Person1 "a tlâwa" "a"],
-            [:Singular :Person2 "a tlêera" "a"],
-            [:Singular :Person3 "i tlâya" "i"],
-            [:Plural :Person1 "a tlawâana" "a"],
-            [:Plural :Person2 "a tleerâa" "a"],
-            [:Plural :Person3 "i tlâya" "i"]]
-    }
-    {:label "iraqw-VSubjunctiveConj1AffPast-firiim"
-    :note "Mous1993 p.162 (30)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj1,
-             :lexeme :firiim,
-             :mood :Subjunctive,
-             :polarity :Affirmative,
-             :tam :Present,
-             :pos :Verb}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ni firiim"],
-            [:Singular :Person2 :Common "ta firiin"],
-            [:Singular :Person3 :Masc "i firin"],
-            [:Singular :Person3 :Fem "i firiin"],
-            [:Plural :Person1 :Common "ta firiiman"],
-            [:Plural :Person2 :Common "ta firiinda'"],
-            [:Plural :Person3 :Common "i firina'"]]
-    }
-    {:label "iraqw-VSubjunctiveConj2AffPast-tlaw"
-    :note "Mous1993 p.162 (30)."
-    :pdgmType :Finite
-    :common {:conjClass :Conj2,
-             :lexeme :tlaw,
-             :mood :Subjunctive,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Past}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ni tlaw"],
-            [:Singular :Person2 :Common "ta tleer"],
-            [:Singular :Person3 :Masc "i tlay"],
-            [:Singular :Person3 :Fem "i tleer"],
-            [:Plural :Person1 :Common "ta tlawaan"],
-            [:Plural :Person2 :Common "ta tleera'"],
-            [:Plural :Person3 :Common "i tlaya'"]]
-    }
-]
-:muterms [
-    {:label "iraqw-PInd"
-    :note "Mous1993 p.112"
-    :pdgmType :PRO
-    :common {:pos :Pronoun,
-             :proClass :Independent}
-    :terms [[:form :number :person :gender :token],
-            [:Full :Singular :Person1 :Common "aníng"],
-            [:Full :Singular :Person2 :Masc "kúung"],
-            [:Full :Singular :Person2 :Fem "kíing"],
-            [:Full :Plural :Person1 :Common "atén"],
-            [:Full :Plural :Person2 :Common "kuungá’"],
-            [:Full :Plural :Person3 :Common "inós"],
-            [:Full :Plural :Person3 :Common "ino’ín"],
-            [:Short :Singular :Person1 :Common "án"],
-            [:Short :Singular :Person2 :Masc "kú"],
-            [:Short :Singular :Person2 :Fem "kí"],
-            [:Short :Plural :Person1 :Common "át"],
-            [:Short :Plural :Person2 :Common "⊤"],
-            [:Short :Plural :Person3 :Common "ís"],
-            [:Short :Plural :Person3 :Common "inín"]]
-    }
-    {:label "iraqw-PObj"
-    :note "Mous1993 p.114"
-    :pdgmType :PRO
-    :common {:pos :Pronoun,
-             :proClass :Object}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "i"],
-            [:Singular :Person2 :Masc "u"],
-            [:Singular :Person2 :Fem "i"],
-            [:Singular :Person3 :Masc "u"],
-            [:Singular :Person3 :Fem "i"],
-            [:Plural :Person1 :Common "ti"],
-            [:Plural :Person2 :Common "nu"],
-            [:Plural :Person3 :Common "i"]]
-    }
-    {:label "iraqw-PPers_dem"
-    :note "Mous1993 p.113. The demonstratives are:near1 í~ká,near2 síng,mid qá’,far
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :koom,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "kóom"],
+                         [:Singular :Person2 :Common "kóon"],
+                         [:Singular :Person3 :Masc "kón"],
+                         [:Singular :Person3 :Fem "kóon"],
+                         [:Plural :Person1 :Common "koomáan"],
+                         [:Plural :Person2 :Common "koondá'"],
+                         [:Plural :Person3 :Common "koná'"]]
+                 }
+                {:label "iraqw-VConj1NegPastTenseFormation2-firiim"
+                 :note "Mous1993 p.169 (35)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :firiim,
+                          :mood :Indicative,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "firiimiiká"],
+                         [:Singular :Person2 :Common "firiindiiká"],
+                         [:Singular :Person3 :Masc "firniiká ~ firinká < firniká < firin-i-ká"],
+                         [:Singular :Person3 :Fem "(?)"],
+                         [:Plural :Person1 :Common "firiimaaniiká"],
+                         [:Plural :Person2 :Common "firiindiiká"],
+                         [:Plural :Person3 :Common "firiniiká"]]
+                 }
+                {:label "iraqw-VConj1NegPresTenseFormation1-firiim"
+                 :note "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule,which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :firiim,
+                          :mood :Indicative,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "firiimaaká"],
+                         [:Singular :Person2 :Common "firiindaaká"],
+                         [:Singular :Person3 :Masc "firnaká ~ firinká"],
+                         [:Singular :Person3 :Fem "firiindaaká (?)"],
+                         [:Plural :Person1 :Common "firiimaanaaká"],
+                         [:Plural :Person2 :Common "finiindaaká"],
+                         [:Plural :Person3 :Common "firinaaká"]]
+                 }
+                {:label "iraqw-VConj2AffPast-tlaw"
+                 :note "Mous1993 p.170 (36)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :tlaw,
+                          :mood :Interrog,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :Person1 "ga tlâwi" "ga"],
+                         [:Singular :Person2 "ga tlêeri" "ga"],
+                         [:Singular :Person3 "aa tlâyi" "aa"],
+                         [:Plural :Person1 "na tlawâani" "na"],
+                         [:Plural :Person2 "ga tleerîi" "ga"],
+                         [:Plural :Person3 "na tlâyi" "na"]]
+                 }
+                {:label "iraqw-VConj2AffPres-deer"
+                 :note "Mous1993 p.163 (31)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :deer,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :PersonC "a deer" "a"],
+                         [:Singular :Person3 "i deer" "i"],
+                         [:Plural :Person3 "i dayá'" "i"]]
+                 }
+                {:label "iraqw-VConj2NegPastTenseFormation2-tlaw"
+                 :note "Mous1993 p.169 (35)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :tlaw,
+                          :mood :Indicative,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "tlawiiká"],
+                         [:Singular :Person2 :Common "tleeriiká"],
+                         [:Singular :Person3 :Masc "tlayká < tlay-i-ká"],
+                         [:Singular :Person3 :Fem "(?)"],
+                         [:Plural :Person1 :Common "tlawaaniiká"],
+                         [:Plural :Person2 :Common "tleeriiiká"],
+                         [:Plural :Person3 :Common "tlayiiká"]]
+                 }
+                {:label "iraqw-VConj2NegPresTenseFormation1-tlaw"
+                 :note "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule,which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :tlaw,
+                          :mood :Indicative,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "tlawaaká"],
+                         [:Singular :Person2 :Common "tleeraaká"],
+                         [:Singular :Person3 :Masc "tlayká < tlay-a-ká"],
+                         [:Singular :Person3 :Fem "(?)"],
+                         [:Plural :Person1 :Common "tlawaanaaká"],
+                         [:Plural :Person2 :Common "tleeraaaká"],
+                         [:Plural :Person3 :Common "tlayaaká"]]
+                 }
+                {:label "iraqw-VConj2aAffPres-maw"
+                 :note "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all verbs with inchoative suffix -uw). Minimal selector as in iraqw-VPresConj3e-doohl."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2a,
+                          :lexeme :maw,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "máw"],
+                         [:Singular :Person2 :Common "mëer"],
+                         [:Singular :Person3 :Masc "máy"],
+                         [:Singular :Person3 :Fem "méer"],
+                         [:Plural :Person1 :Common "mawáan"],
+                         [:Plural :Person2 :Common "meerá'"],
+                         [:Plural :Person3 :Common "mayä'"]]
+                 }
+                {:label "iraqw-VConj2bAffPres-xwaylu"
+                 :note "Mous1993 p.156 (21) Conj 1:verbs eding in -m- in 1 sg (includes all verbs ending in durative derivational suffix -m). Conj 2:verbs ending in -Vw- in 1 sg (includes all verbs with inchoative suffix -uw). Minimal selector as in iraqw-VPresConj3e-doohl."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2b,
+                          :lexeme :xwaylu,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "xwaylúw"],
+                         [:Singular :Person2 :Common "xwaylúur"],
+                         [:Singular :Person3 :Masc "xwaylúy"],
+                         [:Singular :Person3 :Fem "xwaylúur"],
+                         [:Plural :Person1 :Common "xwayluwáan"],
+                         [:Plural :Person2 :Common "xwayluurá'"],
+                         [:Plural :Person3 :Common "xwayluyá'"]]
+                 }
+                {:label "iraqw-VConj3aAffPres-looh"
+                 :note "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person singular.(p.157) See (25) p. 158,for verbs with vowel shortening preceding the 1.PL suffix,and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3a,
+                          :lexeme :looh,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "loh"],
+                         [:Singular :Person2 :Common "lót"],
+                         [:Singular :Person3 :Masc "loh"],
+                         [:Singular :Person3 :Fem "lót"],
+                         [:Plural :Person1 :Common "looháan"],
+                         [:Plural :Person2 :Common "lotá'"],
+                         [:Plural :Person3 :Common "lohiyá~ lohír"]]
+                 }
+                {:label "iraqw-VConj3aAffPresStemFormation-oh"
+                 :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
+                 :common {:vmorphClass :FiniteStemFormation3a
+                          :conjClass :Conj3a,
+                          :lexeme :oh,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "óh"],
+                         [:Singular :Person2 :Common "ót"],
+                         [:Singular :Person3 :Masc "oh"],
+                         [:Singular :Person3 :Fem "ót"],
+                         [:Plural :Person1 :Common "oháan"],
+                         [:Plural :Person2 :Common "otá'"],
+                         [:Plural :Person3 :Common "ohiyá ~ ohír"]]
+                 }
+                {:label "iraqw-VConj3bAffPres-tsaweer"
+                 :note "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person singular.(p.157) See (25) p. 158,for verbs with vowel shortening preceding the 1.PL suffix,and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3b,
+                          :lexeme :tsaweer,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "tsawéer"],
+                         [:Singular :Person2 :Common "tsawét"],
+                         [:Singular :Person3 :Masc "tsaweer"],
+                         [:Singular :Person3 :Fem "tsawét"],
+                         [:Plural :Person1 :Common "tsaweeráan"],
+                         [:Plural :Person2 :Common "tsawetá'"],
+                         [:Plural :Person3 :Common "tsaweeriyá~ tsaweerír"]]
+                 }
+                {:label "iraqw-VConj3bAffPresStemFormation-eehar"
+                 :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
+                 :common {:vmorphClass :FiniteStemFormation3b
+                          :conjClass :Conj3b,
+                          :lexeme :eehar,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "eehár"],
+                         [:Singular :Person2 :Common "eehát"],
+                         [:Singular :Person3 :Masc "eehar"],
+                         [:Singular :Person3 :Fem "eehát"],
+                         [:Plural :Person1 :Common "eeharáan"],
+                         [:Plural :Person2 :Common "eehatá'"],
+                         [:Plural :Person3 :Common "eehariyá ~ eeharír"]]
+                 }
+                {:label "iraqw-VConj3cAffPresStemFormation-law"
+                 :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
+                 :common {:vmorphClass :FiniteStemFormation3c
+                          :conjClass :Conj3c,
+                          :lexeme :law,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "läaw"],
+                         [:Singular :Person2 :Common "láb"],
+                         [:Singular :Person3 :Masc "laaw"],
+                         [:Singular :Person3 :Fem "láb"],
+                         [:Plural :Person1 :Common "laawáan"],
+                         [:Plural :Person2 :Common "labá'"],
+                         [:Plural :Person3 :Common "laawiyá~ laawír"]]
+                 }
+                {:label "iraqw-VConj3dAffPresStemFormation-aay"
+                 :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
+                 :common {:vmorphClass :FiniteStemFormation3d
+                          :conjClass :Conj3d,
+                          :lexeme :ʔaay,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ʕáay"],
+                         [:Singular :Person2 :Common "ʕág"],
+                         [:Singular :Person3 :Masc "ʕaay"],
+                         [:Singular :Person3 :Fem "ʕág"],
+                         [:Plural :Person1 :Common "ʕaayáan"],
+                         [:Plural :Person2 :Common "ʕagá'"],
+                         [:Plural :Person3 :Common "ʕaayiyá ~ ʕaayír"]]
+                 }
+                {:label "iraqw-VConj3eAffImprtvTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :gender :Common,
+                          :lexeme :doohl,
+                          :person :Person2,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Imperative}
+                 :terms [[:number :token],
+                         [:Singular "dóohl"],
+                         [:Plural "dohlé'"]]
+                 }
+                {:label "iraqw-VConj3eAffPast-doohl"
+                 :note "Mous1993 p.170 (36)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :mood :Interrog,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :Person1 "ga dôohli" "ga"],
+                         [:Singular :Person2 "ga dôhli" "ga"],
+                         [:Singular :Person3 "aa dôohli" "aa"],
+                         [:Plural :Person1 "na doohlâani" "na"],
+                         [:Plural :Person2 "ga dohlîi" "ga"],
+                         [:Plural :Person3 "na doohlî'i" "na"]]
+                 }
+                {:label "iraqw-VConj3eAffPastTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token :token-note-selector],
+                         [:Singular :Person1 :Common "aga dóohl" "aga"],
+                         [:Singular :Person2 :Common "aga dóhl" "aga"],
+                         [:Singular :Person3 :Masc "aa dóohl" "aa"],
+                         [:Singular :Person3 :Fem "aa dóhl" "aa"],
+                         [:Plural :Person1 :Common "aga doohláan" "aga"],
+                         [:Plural :Person2 :Common "aga dohlé'" "aga"],
+                         [:Plural :Person3 :Common "aa doohliyé ~ doohlír" "aa"]]
+                 }
+                {:label "iraqw-VConj3eAffPres-laaw"
+                 :note "Mous1993 p.158 (24). In general the vowel of the final sylable in class III verbs is long in the first and third persons singular and short in the second person  singular.(p.157) See (25) p. 158,for verbs with vowel shortening preceding the 1.PL   suffix,and (26) p. 159 for verbs with short vs long stem vowel for 3.SG.M subjunctive. Verbs ending in -h- with a long stem vowel shorten it word-finally (cf. long vowel in pl 1 of looh- below."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :lexeme :laaw,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "láaq"],
+                         [:Singular :Person2 :Common "láq"],
+                         [:Singular :Person3 :Masc "laaq"],
+                         [:Singular :Person3 :Fem "láq"],
+                         [:Plural :Person1 :Common "laqáan"],
+                         [:Plural :Person2 :Common "laqá'"],
+                         [:Plural :Person3 :Common "laaqiyá~ laaqír"]]
+                 }
+                {:label "iraqw-VConj3eAffPresQTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :gender :Common,
+                          :lexeme :doohl,
+                          :mood :Interrog,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :Person1 "a dôohla" "a"],
+                         [:Singular :Person2 "a dôhla" "a"],
+                         [:Singular :Person3 "i dôohli" "i"],
+                         [:Plural :Person1 "a doohlâana" "a"],
+                         [:Plural :Person2 "a dohlâ'a" "a"],
+                         [:Plural :Person3 "i doohlîi'a" "i"]]
+                 }
+                {:label "iraqw-VConj3eAffPresStemFormation-doohl"
+                 :note "Mous1993 p.155 (20). [Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)]"
+                 :common {:vmorphClass :FiniteStemFormation3e
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token :token-note-selector],
+                         [:Singular :Person1 :Common "a dóohl" "a"],
+                         [:Singular :Person2 :Common "a dóhl" "a"],
+                         [:Singular :Person3 :Masc "i doohl" "i"],
+                         [:Singular :Person3 :Fem "i dóhl" "i"],
+                         [:Plural :Person1 :Common "a doohláan" "a"],
+                         [:Plural :Person2 :Common "a dohlá'" "a"],
+                         [:Plural :Person3 :Common "i doohliyá ~ doohlír" "i"]]
+                 }
+                {:label "iraqw-VConj3eAffRelPastTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :gender :Common,
+                          :polarity :Affirmative,
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :pos :Verb,
+                          :person :PersonC,
+                          :token-note-selector :ta-,
+                          :mood :Subjunctive,
+                          :tam :Past}
+                 :terms [[:token],
+                         ["ta- past"]]
+                 }
+                {:label "iraqw-VConj3eAffRelPresTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :mood :Subjunctive,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token :token-note-selector],
+                         [:Singular :Person1 :Common "ni doohl" "ni"],
+                         [:Singular :Person2 :Common "ta dohl" "ta"],
+                         [:Singular :Person3 :Masc "i doohli" "i"],
+                         [:Singular :Person3 :Fem "i dohl" "i"],
+                         [:Plural :Person1 :Common "ta doohlaan" "ta"],
+                         [:Plural :Person2 :Common "ta dohla'" "ta"],
+                         [:Plural :Person3 :Common "i doiya ~ doohlir" "i"]]
+                 }
+                {:label "iraqw-VConj3eNegImprtvTenseFormation-doohl"
+                 :note "Mous1993 p. 164 (32,33) [Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká]"
+                 :common {:vmorphclass :Finite
+                          :gender :Common,
+                          :polarity :Negative,
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :pos :Verb,
+                          :person :Person2,
+                          :token-note-selector :M-,
+                          :mood :Indicative,
+                          :tam :Imperative}
+                 :terms [[:number :token :token-note-suffix],
+                         [:Singular "m- doohlaar" "-aar"],
+                         [:Plural "m- doohlara'" "-ara'"]]
+                 }
+                {:label "iraqw-VConj3eNegPastTenseFormation-doohl"
+                 :note "Mous1993 p.162 (30) [p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká]"
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :mood :Indicative,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token :token-note-selector],
+                         [:Singular :Person1 :Common "aga dóohl+i+ká => doohliiká" "aga"],
+                         [:Singular :Person2 :Common "aga dóhl+i+ká => dohlká" "aga"],
+                         [:Singular :Person3 :Masc "aa dóohl+i+ká => doohliiká" "aa"],
+                         [:Singular :Person3 :Fem "aa dóhl+i+ká => dohlká" "aa"],
+                         [:Plural :Person1 :Common "aga doohláan+i+ká => doohlaaniiká" "aga"],
+                         [:Plural :Person2 :Common "aga dohlé+i+ká => doohliiiká" "aga"],
+                         [:Plural :Person3 :Common "aa doohliyé +i+ká => doohliiiiká" "aa"]]
+                 }
+                {:label "iraqw-VConj3eNegPresTenseFormation1-doohl"
+                 :note "Mous1993 p.169 (34). The negative tenses are formed from the present or past plus infinitive with suffix -ká. The vowel preceding -ká is lengthened. This rule applies after the syllable reduction rule,which deletes the short vowel of a syllable between two syllables with short vowls;see rule (4) in 2.3."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :mood :Indicative,
+                          :polarity :Negative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token :token-note-selector],
+                         [:Singular :Person1 :Common "a dóohl+a+ká => doohlaaká" "a"],
+                         [:Singular :Person2 :Common "a dóhl+a+ká => dohlká" "a"],
+                         [:Singular :Person3 :Masc "i doohl+i+ká => doohliiká" "i"],
+                         [:Singular :Person3 :Fem "i dóhl+i+ká => dohlká" "i"],
+                         [:Plural :Person1 :Common "a doohláan+a+ká => doohlaanaaká" "a"],
+                         [:Plural :Person2 :Common "a dohlá+a+ká => dohlaaaká" "a"],
+                         [:Plural :Person3 :Common "i doohliyá +i+ká => doohliiaaká" "i"]]
+                 }
+                {:label "iraqw-VConj3eSubordPastTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :gender :Common,
+                          :polarity :Affirmative,
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :pos :Verb,
+                          :token-note-selector :SelC,
+                          :mood :Subjunctive,
+                          :tam :Past,
+                          :number :NumC}
+                 :terms [[:token],
+                         ["-i"]]
+                 }
+                {:label "iraqw-VConj3eSubordPresTenseFormation-doohl"
+                 :note "Mous1993 p.155 ff (20). *neg pres = pres [low-tone+syll-red+V-length]+subord+ká. **neg past = past [low-tone+syll-red+V-length]+subord+ká"
+                 :common {:vmorphclass :Finite
+                          :gender :Common,
+                          :polarity :Affirmative,
+                          :conjClass :Conj3e,
+                          :lexeme :doohl,
+                          :pos :Verb,
+                          :token-note-selector :Common,
+                          :mood :Subjunctive,
+                          :tam :Present,
+                          :number :NumC}
+                 :terms [[:person :token],
+                         [:Person3 "-a/-i[conj 3"],
+                         [:PersonC "-a"]]
+                 }
+                {:label "iraqw-VIndicativeConj1AffPast-firiim"
+                 :note "Mous1993 p.162 (29)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :firiim,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "aga firíim"],
+                         [:Singular :Person2 :Common "aga firíin"],
+                         [:Singular :Person3 :Masc "aa firín"],
+                         [:Singular :Person3 :Fem "aa firíin"],
+                         [:Plural :Person1 :Common "aga firiimáan"],
+                         [:Plural :Person2 :Common "aga firiindé'"],
+                         [:Plural :Person3 :Common "aa firidé'"]]
+                 }
+                {:label "iraqw-VIndicativeConj2AffPast-tlaw"
+                 :note "Mous1993 p.162 (29)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :tlaw,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "aga tláw"],
+                         [:Singular :Person2 :Common "aga tléer"],
+                         [:Singular :Person3 :Masc "aa tláy"],
+                         [:Singular :Person3 :Fem "aa tléer"],
+                         [:Plural :Person1 :Common "aga tlawáam"],
+                         [:Plural :Person2 :Common "aga tleeré"],
+                         [:Plural :Person3 :Common "aa tlayé"]]
+                 }
+                {:label "iraqw-VIrregAffPres-kah"
+                 :note "Mous1993 p.163 (31)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Irreg,
+                          :lexeme :kah,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :gender :token :token-note-selector],
+                         [:Singular :Person1 :Common "a káh" "a"],
+                         [:Singular :Person2 :Common "a kát" "a"],
+                         [:Singular :Person3 :Masc "i káhi ~ káy" "i"],
+                         [:Singular :Person3 :Fem "i kát" "i"],
+                         [:Plural :Person1 :Common "a kaha" "a"],
+                         [:Plural :Person2 :Common "a katá'" "a"],
+                         [:Plural :Person3 :Common "i kahír" "i"]]
+                 }
+                {:label "iraqw-VParticiple-doohl"
+                 :note "Mous1993 pp.165-166."
+                 :common {:vmorphClass :Participle
+                          :lexeme :doohl,
+                          :pos :Verb}
+                 :terms [[:genderHead :numHead :possHead :token],
+                         [:HeadCommon :HeadPlural :HeadPro "doohlá'"],
+                         [:HeadFem :HeadPlural :HeadNoun "doohl"],
+                         [:HeadFem :HeadSingular :HeadC "doohl"],
+                         [:HeadMasc :HeadPlural :HeadNoun "dóohl"],
+                         [:HeadMasc :HeadSingular :HeadC "dóohl"],
+                         [:HeadNeut :HeadPlural :HeadNoun "doohlá'"],
+                         [:HeadNeut :HeadSingular :HeadC "doohlá'"]]
+                 }
+                {:label "iraqw-VQConj1AffPast-firiim"
+                 :note "Mous1993 p.170 (36)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :firiim,
+                          :mood :Interrog,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :Person1 "ga firîimi" "ga"],
+                         [:Singular :Person2 "ga firîindi" "ga"],
+                         [:Singular :Person3 "aa fîrni" "aa"],
+                         [:Plural :Person1 "na firiimâni" "na"],
+                         [:Plural :Person2 "ga firiindîi" "ga"],
+                         [:Plural :Person3 "na fîrni" "na"]]
+                 }
+                {:label "iraqw-VQConj1AffPres-firiim"
+                 :note "Mous1993 p.170 (36)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :firiim,
+                          :mood :Interrog,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :Person1 "a firîima" "a"],
+                         [:Singular :Person2 "a firîinda" "a"],
+                         [:Singular :Person3 "i fîrna" "i"],
+                         [:Plural :Person1 "a firiimâna" "a"],
+                         [:Plural :Person2 "a firiindâa" "a"],
+                         [:Plural :Person3 "i firnâa" "i"]]
+                 }
+                {:label "iraqw-VQConj2AffPast-tlaw"
+                 :note "Mous1993 p.170 (36)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :tlaw,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:number :person :token :token-note-selector],
+                         [:Singular :Person1 "a tlâwa" "a"],
+                         [:Singular :Person2 "a tlêera" "a"],
+                         [:Singular :Person3 "i tlâya" "i"],
+                         [:Plural :Person1 "a tlawâana" "a"],
+                         [:Plural :Person2 "a tleerâa" "a"],
+                         [:Plural :Person3 "i tlâya" "i"]]
+                 }
+                {:label "iraqw-VSubjunctiveConj1AffPast-firiim"
+                 :note "Mous1993 p.162 (30)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj1,
+                          :lexeme :firiim,
+                          :mood :Subjunctive,
+                          :polarity :Affirmative,
+                          :tam :Present,
+                          :pos :Verb}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ni firiim"],
+                         [:Singular :Person2 :Common "ta firiin"],
+                         [:Singular :Person3 :Masc "i firin"],
+                         [:Singular :Person3 :Fem "i firiin"],
+                         [:Plural :Person1 :Common "ta firiiman"],
+                         [:Plural :Person2 :Common "ta firiinda'"],
+                         [:Plural :Person3 :Common "i firina'"]]
+                 }
+                {:label "iraqw-VSubjunctiveConj2AffPast-tlaw"
+                 :note "Mous1993 p.162 (30)."
+                 :common {:vmorphclass :Finite
+                          :conjClass :Conj2,
+                          :lexeme :tlaw,
+                          :mood :Subjunctive,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Past}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "ni tlaw"],
+                         [:Singular :Person2 :Common "ta tleer"],
+                         [:Singular :Person3 :Masc "i tlay"],
+                         [:Singular :Person3 :Fem "i tleer"],
+                         [:Plural :Person1 :Common "ta tlawaan"],
+                         [:Plural :Person2 :Common "ta tleera'"],
+                         [:Plural :Person3 :Common "i tlaya'"]]
+                 }
+                {:label "iraqw-PInd"
+                 :note "Mous1993 p.112"
+                 :common {:pos :Pronoun,
+                          :proClass :Independent}
+                 :terms [[:form :number :person :gender :token],
+                         [:Full :Singular :Person1 :Common "aníng"],
+                         [:Full :Singular :Person2 :Masc "kúung"],
+                         [:Full :Singular :Person2 :Fem "kíing"],
+                         [:Full :Plural :Person1 :Common "atén"],
+                         [:Full :Plural :Person2 :Common "kuungá’"],
+                         [:Full :Plural :Person3 :Common "inós"],
+                         [:Full :Plural :Person3 :Common "ino’ín"],
+                         [:Short :Singular :Person1 :Common "án"],
+                         [:Short :Singular :Person2 :Masc "kú"],
+                         [:Short :Singular :Person2 :Fem "kí"],
+                         [:Short :Plural :Person1 :Common "át"],
+                         [:Short :Plural :Person2 :Common "⊤"],
+                         [:Short :Plural :Person3 :Common "ís"],
+                         [:Short :Plural :Person3 :Common "inín"]]
+                 }
+                {:label "iraqw-PObj"
+                 :note "Mous1993 p.114"
+                 :common {:pos :Pronoun,
+                          :proClass :Object}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "i"],
+                         [:Singular :Person2 :Masc "u"],
+                         [:Singular :Person2 :Fem "i"],
+                         [:Singular :Person3 :Masc "u"],
+                         [:Singular :Person3 :Fem "i"],
+                         [:Plural :Person1 :Common "ti"],
+                         [:Plural :Person2 :Common "nu"],
+                         [:Plural :Person3 :Common "i"]]
+                 }
+                {:label "iraqw-PPers_dem"
+                 :note "Mous1993 p.113. The demonstratives are:near1 í~ká,near2 síng,mid qá’,far
             dá’."
-    :pdgmType :PRO
-    :common {:pos :Pronoun,
-             :proClass :Pers_dem}
-    :terms [[:demonstrative :number :person :gender :token],
-            [:Far :Singular :Person1 :Masc "anídá’"],
-            [:Far :Singular :Person1 :Fem "anídá’"],
-            [:Far :Singular :Person2 :Masc "kúdá’"],
-            [:Far :Singular :Person2 :Fem "kídá’"],
-            [:Far :Singular :Person3 :Masc "inósudá’"],
-            [:Far :Singular :Person3 :Fem "ínsadá’"],
-            [:Far :Plural :Person1 :Common "aténadá’"],
-            [:Far :Plural :Person2 :Common "kuungádá’"],
-            [:Far :Plural :Person3 :Common "ino’ínadá’"],
-            [:Midway :Singular :Person1 :Masc "aníqá’"],
-            [:Midway :Singular :Person1 :Fem "aníqá’"],
-            [:Midway :Singular :Person2 :Masc "kúqá’"],
-            [:Midway :Singular :Person2 :Fem "kíqá’"],
-            [:Midway :Singular :Person3 :Masc "inósuqá’"],
-            [:Midway :Singular :Person3 :Fem "ínsaqá’"],
-            [:Midway :Plural :Person1 :Common "aténaqá’"],
-            [:Midway :Plural :Person2 :Common "kuungáqá’"],
-            [:Midway :Plural :Person3 :Common "ino’ínaqá’"],
-            [:Near1 :Singular :Person1 :Masc "aníwí"],
-            [:Near1 :Singular :Person1 :Fem "anírí"],
-            [:Near1 :Singular :Person2 :Masc "⊤"],
-            [:Near1 :Singular :Person2 :Fem "⊤"],
-            [:Near1 :Singular :Person3 :Masc "inósuwí"],
-            [:Near1 :Singular :Person3 :Fem "ínsarí"],
-            [:Near1 :Plural :Person1 :Common "aténaká"],
-            [:Near1 :Plural :Person2 :Common "⊤"],
-            [:Near1 :Plural :Person3 :Common "ino’ínaká"],
-            [:Near2 :Singular :Person1 :Masc "anísíng"],
-            [:Near2 :Singular :Person1 :Fem "anísíng"],
-            [:Near2 :Singular :Person2 :Masc "kúsíng"],
-            [:Near2 :Singular :Person2 :Fem "kísíng"],
-            [:Near2 :Singular :Person3 :Masc "inósusíng"],
-            [:Near2 :Singular :Person3 :Fem "ínsasíng"],
-            [:Near2 :Plural :Person1 :Common "aténasíng"],
-            [:Near2 :Plural :Person2 :Common "kuungásíng"],
-            [:Near2 :Plural :Person3 :Common "ino’ínasíng"]]
-    }
-    {:label "iraqw-PPoss"
-    :note "Mous1993 p.115"
-    :pdgmType :PRO
-    :common {:pos :Pronoun,
-             :proClass :Possessive}
-    :terms [[:genderHead :number :person :token :token-note],
-            [:HeadFem :Singular :Person1 "twe’ée’" "to+e’ée’"],
-            [:HeadFem :Singular :Person2 "tók" "to+k"],
-            [:HeadFem :Singular :Person3 "tós" "to+s"],
-            [:HeadFem :Plural :Person1 "torén" "to+ren"],
-            [:HeadFem :Plural :Person2 "tohúng" "to+hung"],
-            [:HeadFem :Plural :Person3 "to’ín" "to+’in"],
-            [:HeadMasc :Singular :Person1 "kwe’ée’" "ko+e’ée’"],
-            [:HeadMasc :Singular :Person2 "kók" "ko+k"],
-            [:HeadMasc :Singular :Person3 "kós" "ko+s"],
-            [:HeadMasc :Plural :Person1 "korén" "ko+ren"],
-            [:HeadMasc :Plural :Person2 "kohúng" "ko+hung"],
-            [:HeadMasc :Plural :Person3 "ko’ín" "ko+’in"]]
-    }
-    {:label "iraqw-VAffPresSubjMarker"
-    :note "Mous1993 p.159 (27). See 159-161 and (28)."
-    :pdgmType :VOther
-    :common {:vmorphClass :SubjMarker
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :Present}
-    :terms [[:conjClass :number :person :gender :token],
-            [:Conj1 :Singular :Person1 :Common "VVm"],
-            [:Conj1 :Singular :Person2 :Common "VVn"],
-            [:Conj1 :Singular :Person3 :Masc "Vn"],
-            [:Conj1 :Singular :Person3 :Fem "VVn"],
-            [:Conj1 :Plural :Person1 :Common "VVmaan"],
-            [:Conj1 :Plural :Person2 :Common "_NULL"],
-            [:Conj1 :Plural :Person3 :Common "_NULL"],
-            [:Conj2 :Singular :Person1 :Common "aw"],
-            [:Conj2 :Singular :Person2 :Common "eer"],
-            [:Conj2 :Singular :Person3 :Masc "ay"],
-            [:Conj2 :Singular :Person3 :Fem "eer"],
-            [:Conj2 :Plural :Person1 :Common "awaan"],
-            [:Conj2 :Plural :Person2 :Common "_NULL"],
-            [:Conj2 :Plural :Person3 :Common "_NULL"],
-            [:Conj3a :Singular :Person1 :Common "Vh"],
-            [:Conj3a :Singular :Person2 :Common "Vt"],
-            [:Conj3a :Singular :Person3 :Masc "Vh"],
-            [:Conj3a :Singular :Person3 :Fem "Vt"],
-            [:Conj3a :Plural :Person1 :Common "Vhaan"],
-            [:Conj3a :Plural :Person2 :Common "_NULL"],
-            [:Conj3a :Plural :Person3 :Common "Vha~ hir"],
-            [:Conj3b :Singular :Person1 :Common "(V)Vr"],
-            [:Conj3b :Singular :Person2 :Common "Vt"],
-            [:Conj3b :Singular :Person3 :Masc "VVr"],
-            [:Conj3b :Singular :Person3 :Fem "Vt"],
-            [:Conj3b :Plural :Person1 :Common "Vraan"],
-            [:Conj3b :Plural :Person2 :Common "_NULL"],
-            [:Conj3b :Plural :Person3 :Common "Vriya ~ Vrir"],
-            [:Conj3c :Singular :Person1 :Common "VVw"],
-            [:Conj3c :Singular :Person2 :Common "Vb"],
-            [:Conj3c :Singular :Person3 :Masc "VVw"],
-            [:Conj3c :Singular :Person3 :Fem "Vb"],
-            [:Conj3c :Plural :Person1 :Common "VVwaan"],
-            [:Conj3c :Plural :Person2 :Common "_NULL"],
-            [:Conj3c :Plural :Person3 :Common "VVwiya ~ VVwir"],
-            [:Conj3d :Singular :Person1 :Common "VVy"],
-            [:Conj3d :Singular :Person2 :Common "Vg"],
-            [:Conj3d :Singular :Person3 :Masc "VVy"],
-            [:Conj3d :Singular :Person3 :Fem "Vg"],
-            [:Conj3d :Plural :Person1 :Common "VVyaan"],
-            [:Conj3d :Plural :Person2 :Common "_NULL"],
-            [:Conj3d :Plural :Person3 :Common "VVyiya ~ VVyir"],
-            [:Conj3e :Singular :Person1 :Common "VVC"],
-            [:Conj3e :Singular :Person2 :Common "VC"],
-            [:Conj3e :Singular :Person3 :Masc "VVC"],
-            [:Conj3e :Singular :Person3 :Fem "VC"],
-            [:Conj3e :Plural :Person1 :Common "VVCaan"],
-            [:Conj3e :Plural :Person2 :Common "_NULL"],
-            [:Conj3e :Plural :Person3 :Common "VVCiya ~ VVCir"]]
-    }
-    {:label "iraqw-VAffSelBE"
-    :note "Mous1993 p.143 (13,14). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms. The perfect form of the hither is na."
-    :pdgmType :SEL
-    :common {:mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Selector,
-             :smorphClass :SelBE}
-    :terms [[:genderObj :numObj :number :persObj :person :selectorBE :token],
-            [:ObjCommon :ObjNumC :NumC :ObjReciprocal :Reciprocal :SelCommon "ta"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :Impersonal :SelCommon "ta"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :PersonC :SelCommon "ta"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :Impersonal :SelCommon "tunda"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :PersonC :SelCommon "na"],
-            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :Impersonal :SelCommon "ta"],
-            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :PersonC :SelCommon "iga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "nga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "nga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "aga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"],
-            [:ObjFem :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ta"],
-            [:ObjFem :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "iga"],
-            [:ObjMasc :ObjNumC :Plural :ObjPerson3 :Person3 :SubjRel "ngwa"],
-            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person1 :Dependent "ngwa"],
-            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person3 :SubjRel "gwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :ObjRel "twa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "kwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Dependent "ngwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "kwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "ugwa"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gwa"],
-            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ta"],
-            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "ugwa"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "nga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "nga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "iga"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"]]
-    }
-    {:label "iraqw-VAffSelBEImpersHit"
-    :note "Mous1993 p.127 (8). impersonal = ‘impersonal’;HIT = ‘hither’"
-    :pdgmType :SEL
-    :common {:person :Impersonal,
-             :numObj :ObjNumC,
-             :selectorBE :Hither,
-             :polarity :Affirmative,
-             :smorphClass :SelBEImpersHit,
-             :pos :Selector
-             :number :NumC,
-             :mood :Indicative}
-    :terms [[:genderObj :persObj :token],
-            [:ObjCommon :ObjPersonC "Ti-ndi"],
-            [:ObjFem :ObjPerson3 "ki-ngi"],
-            [:ObjMasc :ObjPerson3 "ku-ngu"],
-            [:ObjNeut :ObjPerson3 "ki-ngi"]]
-    }
-    {:label "iraqw-VAffSelBENom"
-    :note "Mous1993 p.125 (4)"
-    :pdgmType :SEL
-    :common {:mood :Indicative,
-             :polarity :Affirmative,
-             :smorphClass :SelBENom
-             :pos :Selector}
-    :terms [[:selectorBE :person :token],
-            [:Copula :Person3 "a"],
-            [:Copula :PersonC "a"],
-            [:Dependent :Person3 "ta"],
-            [:Dependent :PersonC "ta"],
-            [:Locative :Person3 "p1"],
-            [:Locative :PersonC "a"]]
-    }
-    {:label "iraqw-VAffSelBEObj"
-    :note "Mous1993 p.127 (6,7). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms."
-    :pdgmType :SEL
-    :common {:mood :Indicative,
-             :polarity :Affirmative,
-             :smorphClass :SelBEObj,
-             :pos :Selector}
-    :terms [[:genderObj :numObj :number :persObj :person :selectorBE :token],
-            [:ObjCommon :ObjNumC :NumC :ObjReciprocal :Reciprocal :SelCommon "ti"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :PersonC :SelCommon "ti"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson1 :Impersonal :SelCommon "ti"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :PersonC :SelCommon "nu"],
-            [:ObjCommon :ObjPlural :NumC :ObjPerson2 :Impersonal :SelCommon "tundu"],
-            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :PersonC :SelCommon "i"],
-            [:ObjCommon :ObjSingular :NumC :ObjPerson1 :Impersonal :SelCommon "ti"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngi"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "a"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
-            [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ngi"],
-            [:ObjFem :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "i"],
-            [:ObjFem :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ti"],
-            [:ObjMasc :ObjNumC :Plural :ObjPerson3 :Person3 :SubjRel "ngu"],
-            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person1 :Dependent "ngu"],
-            [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person3 :SubjRel "gu"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ku"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "u"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SelCommon "ngu"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gu"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :ObjRel "tu"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ku"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Dependent "ngu"],
-            [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gu"],
-            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "u"],
-            [:ObjMasc :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "tu"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ki"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngi"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "i"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gi"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ki"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ti"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gi"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "gi"],
-            [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ngi"]]
-    }
-    {:label "iraqw-VAffSelBEVerb"
-    :note "Mous1993 p.125 (5). Independent paradigm same as locative."
-    :pdgmType :SEL
-    :common {:mood :Indicative,
-             :polarity :Affirmative,
-             :smorphClass :SelBEVerb,
-             :pos :Selector}
-    :terms [[:selectorBE :number :person :token],
-            [:Dependent :Singular :PersonC "ta"],
-            [:Dependent :Singular :Person1 "ni"],
-            [:Dependent :Singular :Person3 "i"],
-            [:Dependent :Plural :Person1 "ta"],
-            [:Dependent :Plural :Person2 "ta"],
-            [:Dependent :Plural :Person3 "i"],
-            [:Independent :Singular :Person1 "a"],
-            [:Independent :Singular :Person2 "a"],
-            [:Independent :Singular :Person3 "i"],
-            [:Independent :Plural :Person1 "a"],
-            [:Independent :Plural :Person2 "a"],
-            [:Independent :Plural :Person3 "i"]]
-    }
-    {:label "iraqw-VAffSelector"
-    :note "Mous1993 p.142 (12)."
-    :pdgmType :SEL
-    :common {:mood :Indicative,
-             :polarity :Affirmative,
-             :smorphClass :SELECTORAFFPERF,
-             :selectorTense :Perfect,
-             :pos :Selector}
-    :terms [[:number :persObj :selectorBE :token],
-            [:Plural :ObjPerson1 :Dependent "ta"],
-            [:Plural :ObjPerson1 :Independent "aga"],
-            [:Plural :ObjPerson2 :Dependent "ta"],
-            [:Plural :ObjPerson2 :Independent "aga"],
-            [:Plural :ObjPerson3 :Dependent "naa"],
-            [:Plural :ObjPerson3 :Independent "naa"],
-            [:Singular :ObjPerson1 :Dependent "na"],
-            [:Singular :ObjPerson1 :Independent "aga"],
-            [:Singular :ObjPerson2 :Dependent "ta"],
-            [:Singular :ObjPerson2 :Independent "aga"],
-            [:Singular :ObjPerson3 :Dependent "aa"],
-            [:Singular :ObjPerson3 :Independent "aa"]]
-    }
-    {:label "iraqw-VAffSelectorForms"
-    :note "Mous1993 pp.123-154. Mous calls this section “The verbs ‘to be’” rather than “selector”. In any case nearly every sentence in Iraqw contains a selector/”verb to be” whether the complement is nominal or verbal. [Ex:tlee’use a Manda [potters COP Bantu]‘Potters are Bantu’;aníng a goo’—ïim [1.SG BE write-DUR:1.SG]‘I am writing’]"
-    :pdgmType :SEL
-    :common {:mood :Indicative,
-             :polarity :Affirmative,
-             :smorphClass :SelectorForms,
-             :pos :Selector}
-    :terms [[:selectorCategory :selectorClass :token],
-            [:Background :SelTense "wa"],
-            [:Concessive :SelMood "tam"],
-            [:Conditional :SelMood "bar"],
-            [:Consecutive :SelTense "ri"],
-            [:Consecutive2 :SelTense "ay"],
-            [:Directive :Case "i"],
-            [:Expectational :SelTense "neut"],
-            [:Instrumental :Case "r"],
-            [:Interrogative :SelMood "m"],
-            [:Past :SelTense "na"],
-            [:Perfect :SelTense "(g)a"],
-            [:Prohibitive :SelMood "m"],
-            [:SelCatC :SelBE "⊤"],
-            [:Reason :Case "s"]]
-    }
-    {:label "iraqw-VAffSelectorForms2"
-    :note "Mous1993 p.130 (9).The template note is: persObe + selBE + selMood + selTense"
-    :pdgmType :SEL
-    :common {:persObj :ObjPerson3,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :smorphClass :SelectorForms2,
-             :pos :Selector}
-    :terms [[:selectorBE :selectorMood :selectorTense :token :token-note-sel :token-selTense],
-            [:Dependent :SelMoodC :Background " " "ng- + ⊤ + ⊤ + -wa" "ng- + ⊤ + ⊤ + -wa"],
-            [:Dependent :SelMoodC :Consecutive2 " " "g- + ⊤ + ⊤ + -ay" "g- + ⊤ + ⊤ + -ay"],
-            [:Independent :Concessive :SelTenseC " " "ng- + ⊤ + tam + ⊤" "ng- + ⊤ + tam + ⊤"],
-            [:Independent :Conditional :SelTenseC " " "ng- + ⊤ + bar + ⊤" "ng- + ⊤ + bar + ⊤"],
-            [:Independent :SelMoodC :Consecutive " " "g- + ⊤ + ⊤ + -ri" "g- + ⊤ + ⊤ + -ri"],
-            [:Independent :SelMoodC :Expectational " " "g- + ⊤ + ⊤ + -n" "g- + ⊤ + ⊤ + -n"],
-            [:Independent :SelMoodC :Past " " "g- + ⊤ + ⊤ + -na" "g- + ⊤ + ⊤ + -na"]]
-    }
-    {:label "iraqw-VConj3Aff"
-    :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
-    :pdgmType  :VOther
-    :common {:vmorphClass :VCONJ3AF
-             :number :Singular,
-             :mood :Indicative,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:conjClass :person :token],
-            [:Conj3a :Person1 "h"],
-            [:Conj3a :Person2 "t"],
-            [:Conj3b :Person1 "r"],
-            [:Conj3b :Person2 "t"],
-            [:Conj3c :Person1 "w"],
-            [:Conj3c :Person2 "b"],
-            [:Conj3d :Person1 "y"],
-            [:Conj3d :Person2 "g"],
-            [:Conj3e :Person1 "C-other"],
-            [:Conj3e :Person2 "C-other"]]
-    }
-    {:label "iraqw-VDervStemSuff"
-    :note "Mous1993 p.170-202."
-    :pdgmType :VOther
-    :common {:vmorphClass :DervStemSuff
-             :pos :Verb}
-    :terms [[:derivedStem :token],
-            [:Causative "-s"],
-            [:Durative "-m"],
-            [:Factitive1 "-ees"],
-            [:Factitive2 "-uus"],
-            [:Habitual "reduplication"],
-            [:Inchoative "-uw"],
-            [:Middle "-t"],
-            [:Verbaliser "-uut"]]
-    }
-    {:label "iraqw-VInfinitive"
-    :note "Mous1993 p.167-168. Mous infinitivesuffix can occur after various types of
+                 :common {:pos :Pronoun,
+                          :proClass :Pers_dem}
+                 :terms [[:demonstrative :number :person :gender :token],
+                         [:Far :Singular :Person1 :Masc "anídá’"],
+                         [:Far :Singular :Person1 :Fem "anídá’"],
+                         [:Far :Singular :Person2 :Masc "kúdá’"],
+                         [:Far :Singular :Person2 :Fem "kídá’"],
+                         [:Far :Singular :Person3 :Masc "inósudá’"],
+                         [:Far :Singular :Person3 :Fem "ínsadá’"],
+                         [:Far :Plural :Person1 :Common "aténadá’"],
+                         [:Far :Plural :Person2 :Common "kuungádá’"],
+                         [:Far :Plural :Person3 :Common "ino’ínadá’"],
+                         [:Midway :Singular :Person1 :Masc "aníqá’"],
+                         [:Midway :Singular :Person1 :Fem "aníqá’"],
+                         [:Midway :Singular :Person2 :Masc "kúqá’"],
+                         [:Midway :Singular :Person2 :Fem "kíqá’"],
+                         [:Midway :Singular :Person3 :Masc "inósuqá’"],
+                         [:Midway :Singular :Person3 :Fem "ínsaqá’"],
+                         [:Midway :Plural :Person1 :Common "aténaqá’"],
+                         [:Midway :Plural :Person2 :Common "kuungáqá’"],
+                         [:Midway :Plural :Person3 :Common "ino’ínaqá’"],
+                         [:Near1 :Singular :Person1 :Masc "aníwí"],
+                         [:Near1 :Singular :Person1 :Fem "anírí"],
+                         [:Near1 :Singular :Person2 :Masc "⊤"],
+                         [:Near1 :Singular :Person2 :Fem "⊤"],
+                         [:Near1 :Singular :Person3 :Masc "inósuwí"],
+                         [:Near1 :Singular :Person3 :Fem "ínsarí"],
+                         [:Near1 :Plural :Person1 :Common "aténaká"],
+                         [:Near1 :Plural :Person2 :Common "⊤"],
+                         [:Near1 :Plural :Person3 :Common "ino’ínaká"],
+                         [:Near2 :Singular :Person1 :Masc "anísíng"],
+                         [:Near2 :Singular :Person1 :Fem "anísíng"],
+                         [:Near2 :Singular :Person2 :Masc "kúsíng"],
+                         [:Near2 :Singular :Person2 :Fem "kísíng"],
+                         [:Near2 :Singular :Person3 :Masc "inósusíng"],
+                         [:Near2 :Singular :Person3 :Fem "ínsasíng"],
+                         [:Near2 :Plural :Person1 :Common "aténasíng"],
+                         [:Near2 :Plural :Person2 :Common "kuungásíng"],
+                         [:Near2 :Plural :Person3 :Common "ino’ínasíng"]]
+                 }
+                {:label "iraqw-PPoss"
+                 :note "Mous1993 p.115"
+                 :common {:pos :Pronoun,
+                          :proClass :Possessive}
+                 :terms [[:genderHead :number :person :token :token-note],
+                         [:HeadFem :Singular :Person1 "twe’ée’" "to+e’ée’"],
+                         [:HeadFem :Singular :Person2 "tók" "to+k"],
+                         [:HeadFem :Singular :Person3 "tós" "to+s"],
+                         [:HeadFem :Plural :Person1 "torén" "to+ren"],
+                         [:HeadFem :Plural :Person2 "tohúng" "to+hung"],
+                         [:HeadFem :Plural :Person3 "to’ín" "to+’in"],
+                         [:HeadMasc :Singular :Person1 "kwe’ée’" "ko+e’ée’"],
+                         [:HeadMasc :Singular :Person2 "kók" "ko+k"],
+                         [:HeadMasc :Singular :Person3 "kós" "ko+s"],
+                         [:HeadMasc :Plural :Person1 "korén" "ko+ren"],
+                         [:HeadMasc :Plural :Person2 "kohúng" "ko+hung"],
+                         [:HeadMasc :Plural :Person3 "ko’ín" "ko+’in"]]
+                 }
+                {:label "iraqw-VAffPresSubjMarker"
+                 :note "Mous1993 p.159 (27). See 159-161 and (28)."
+                 :common {:vmorphClass :SubjMarker
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :tam :Present}
+                 :terms [[:conjClass :number :person :gender :token],
+                         [:Conj1 :Singular :Person1 :Common "VVm"],
+                         [:Conj1 :Singular :Person2 :Common "VVn"],
+                         [:Conj1 :Singular :Person3 :Masc "Vn"],
+                         [:Conj1 :Singular :Person3 :Fem "VVn"],
+                         [:Conj1 :Plural :Person1 :Common "VVmaan"],
+                         [:Conj1 :Plural :Person2 :Common "_NULL"],
+                         [:Conj1 :Plural :Person3 :Common "_NULL"],
+                         [:Conj2 :Singular :Person1 :Common "aw"],
+                         [:Conj2 :Singular :Person2 :Common "eer"],
+                         [:Conj2 :Singular :Person3 :Masc "ay"],
+                         [:Conj2 :Singular :Person3 :Fem "eer"],
+                         [:Conj2 :Plural :Person1 :Common "awaan"],
+                         [:Conj2 :Plural :Person2 :Common "_NULL"],
+                         [:Conj2 :Plural :Person3 :Common "_NULL"],
+                         [:Conj3a :Singular :Person1 :Common "Vh"],
+                         [:Conj3a :Singular :Person2 :Common "Vt"],
+                         [:Conj3a :Singular :Person3 :Masc "Vh"],
+                         [:Conj3a :Singular :Person3 :Fem "Vt"],
+                         [:Conj3a :Plural :Person1 :Common "Vhaan"],
+                         [:Conj3a :Plural :Person2 :Common "_NULL"],
+                         [:Conj3a :Plural :Person3 :Common "Vha~ hir"],
+                         [:Conj3b :Singular :Person1 :Common "(V)Vr"],
+                         [:Conj3b :Singular :Person2 :Common "Vt"],
+                         [:Conj3b :Singular :Person3 :Masc "VVr"],
+                         [:Conj3b :Singular :Person3 :Fem "Vt"],
+                         [:Conj3b :Plural :Person1 :Common "Vraan"],
+                         [:Conj3b :Plural :Person2 :Common "_NULL"],
+                         [:Conj3b :Plural :Person3 :Common "Vriya ~ Vrir"],
+                         [:Conj3c :Singular :Person1 :Common "VVw"],
+                         [:Conj3c :Singular :Person2 :Common "Vb"],
+                         [:Conj3c :Singular :Person3 :Masc "VVw"],
+                         [:Conj3c :Singular :Person3 :Fem "Vb"],
+                         [:Conj3c :Plural :Person1 :Common "VVwaan"],
+                         [:Conj3c :Plural :Person2 :Common "_NULL"],
+                         [:Conj3c :Plural :Person3 :Common "VVwiya ~ VVwir"],
+                         [:Conj3d :Singular :Person1 :Common "VVy"],
+                         [:Conj3d :Singular :Person2 :Common "Vg"],
+                         [:Conj3d :Singular :Person3 :Masc "VVy"],
+                         [:Conj3d :Singular :Person3 :Fem "Vg"],
+                         [:Conj3d :Plural :Person1 :Common "VVyaan"],
+                         [:Conj3d :Plural :Person2 :Common "_NULL"],
+                         [:Conj3d :Plural :Person3 :Common "VVyiya ~ VVyir"],
+                         [:Conj3e :Singular :Person1 :Common "VVC"],
+                         [:Conj3e :Singular :Person2 :Common "VC"],
+                         [:Conj3e :Singular :Person3 :Masc "VVC"],
+                         [:Conj3e :Singular :Person3 :Fem "VC"],
+                         [:Conj3e :Plural :Person1 :Common "VVCaan"],
+                         [:Conj3e :Plural :Person2 :Common "_NULL"],
+                         [:Conj3e :Plural :Person3 :Common "VVCiya ~ VVCir"]]
+                 }
+                {:label "iraqw-VAffSelBE"
+                 :note "Mous1993 p.143 (13,14). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms. The perfect form of the hither is na."
+                 :common {:mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb,
+                          :vmorphclass :SelBE}
+                 :terms [[:genderObj :numObj :number :persObj :person :selectorBE :token],
+                         [:ObjCommon :ObjNumC :NumC :ObjReciprocal :Reciprocal :SelCommon "ta"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson1 :Impersonal :SelCommon "ta"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson1 :PersonC :SelCommon "ta"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson2 :Impersonal :SelCommon "tunda"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson2 :PersonC :SelCommon "na"],
+                         [:ObjCommon :ObjSingular :NumC :ObjPerson1 :Impersonal :SelCommon "ta"],
+                         [:ObjCommon :ObjSingular :NumC :ObjPerson1 :PersonC :SelCommon "iga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "nga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "nga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "aga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"],
+                         [:ObjFem :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ta"],
+                         [:ObjFem :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "iga"],
+                         [:ObjMasc :ObjNumC :Plural :ObjPerson3 :Person3 :SubjRel "ngwa"],
+                         [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person1 :Dependent "ngwa"],
+                         [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person3 :SubjRel "gwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :ObjRel "twa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "kwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Dependent "ngwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "kwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "ugwa"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gwa"],
+                         [:ObjMasc :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ta"],
+                         [:ObjMasc :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "ugwa"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "nga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "nga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "nga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "iga"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"]]
+                 }
+                {:label "iraqw-VAffSelBEImpersHit"
+                 :note "Mous1993 p.127 (8). impersonal = ‘impersonal’;HIT = ‘hither’"
+                 :common {:person :Impersonal,
+                          :numObj :ObjNumC,
+                          :selectorBE :Hither,
+                          :polarity :Affirmative,
+                          :vmorphclass :SelBEImpersHit,
+                          :pos :Verb
+                          :number :NumC,
+                          :mood :Indicative}
+                 :terms [[:genderObj :persObj :token],
+                         [:ObjCommon :ObjPersonC "Ti-ndi"],
+                         [:ObjFem :ObjPerson3 "ki-ngi"],
+                         [:ObjMasc :ObjPerson3 "ku-ngu"],
+                         [:ObjNeut :ObjPerson3 "ki-ngi"]]
+                 }
+                {:label "iraqw-VAffSelBENom"
+                 :note "Mous1993 p.125 (4)"
+                 :common {:mood :Indicative,
+                          :polarity :Affirmative,
+                          :vmorphclass :SelBENom
+                          :pos :Verb}
+                 :terms [[:selectorBE :person :token],
+                         [:Copula :Person3 "a"],
+                         [:Copula :PersonC "a"],
+                         [:Dependent :Person3 "ta"],
+                         [:Dependent :PersonC "ta"],
+                         [:Locative :Person3 "p1"],
+                         [:Locative :PersonC "a"]]
+                 }
+                {:label "iraqw-VAffSelBEObj"
+                 :note "Mous1993 p.127 (6,7). impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131 (10) gives reverse index by form for all iraqw-VSelector paradigms."
+                 :common {:mood :Indicative,
+                          :polarity :Affirmative,
+                          :vmorphclass :SelBEObj,
+                          :pos :Verb}
+                 :terms [[:genderObj :numObj :number :persObj :person :selectorBE :token],
+                         [:ObjCommon :ObjNumC :NumC :ObjReciprocal :Reciprocal :SelCommon "ti"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson1 :PersonC :SelCommon "ti"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson1 :Impersonal :SelCommon "ti"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson2 :PersonC :SelCommon "nu"],
+                         [:ObjCommon :ObjPlural :NumC :ObjPerson2 :Impersonal :SelCommon "tundu"],
+                         [:ObjCommon :ObjSingular :NumC :ObjPerson1 :PersonC :SelCommon "i"],
+                         [:ObjCommon :ObjSingular :NumC :ObjPerson1 :Impersonal :SelCommon "ti"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ka"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngi"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "a"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "ga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ka"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ta"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "ga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ga"],
+                         [:ObjFem :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ngi"],
+                         [:ObjFem :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "i"],
+                         [:ObjFem :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "ti"],
+                         [:ObjMasc :ObjNumC :Plural :ObjPerson3 :Person3 :SubjRel "ngu"],
+                         [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person1 :Dependent "ngu"],
+                         [:ObjMasc :ObjNumC :Singular :ObjPerson3 :Person3 :SubjRel "gu"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ku"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "u"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SelCommon "ngu"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gu"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :ObjRel "tu"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ku"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Dependent "ngu"],
+                         [:ObjMasc :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gu"],
+                         [:ObjMasc :ObjSingular :NumC :ObjPerson2 :PersonC :SelCommon "u"],
+                         [:ObjMasc :ObjSingular :NumC :ObjPerson2 :Impersonal :SelCommon "tu"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ki"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Dependent "ngi"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Hither "ngi"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :Independent "i"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :PersonC :SubjRel "gi"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ki"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Impersonal :SelCommon "ti"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :Independent "gi"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "gi"],
+                         [:ObjNeut :ObjNumC :NumC :ObjPerson3 :Person3 :SubjRel "ngi"]]
+                 }
+                {:label "iraqw-VAffSelBEVerb"
+                 :note "Mous1993 p.125 (5). Independent paradigm same as locative."
+                 :common {:mood :Indicative,
+                          :polarity :Affirmative,
+                          :vmorphclass :SelBEVerb,
+                          :pos :Verb}
+                 :terms [[:selectorBE :number :person :token],
+                         [:Dependent :Singular :PersonC "ta"],
+                         [:Dependent :Singular :Person1 "ni"],
+                         [:Dependent :Singular :Person3 "i"],
+                         [:Dependent :Plural :Person1 "ta"],
+                         [:Dependent :Plural :Person2 "ta"],
+                         [:Dependent :Plural :Person3 "i"],
+                         [:Independent :Singular :Person1 "a"],
+                         [:Independent :Singular :Person2 "a"],
+                         [:Independent :Singular :Person3 "i"],
+                         [:Independent :Plural :Person1 "a"],
+                         [:Independent :Plural :Person2 "a"],
+                         [:Independent :Plural :Person3 "i"]]
+                 }
+                {:label "iraqw-VAffSelector"
+                 :note "Mous1993 p.142 (12)."
+                 :common {:mood :Indicative,
+                          :polarity :Affirmative,
+                          :vmorphclass :SELECTORAFFPERF,
+                          :selectorTense :Perfect,
+                          :pos :Verb}
+                 :terms [[:number :persObj :selectorBE :token],
+                         [:Plural :ObjPerson1 :Dependent "ta"],
+                         [:Plural :ObjPerson1 :Independent "aga"],
+                         [:Plural :ObjPerson2 :Dependent "ta"],
+                         [:Plural :ObjPerson2 :Independent "aga"],
+                         [:Plural :ObjPerson3 :Dependent "naa"],
+                         [:Plural :ObjPerson3 :Independent "naa"],
+                         [:Singular :ObjPerson1 :Dependent "na"],
+                         [:Singular :ObjPerson1 :Independent "aga"],
+                         [:Singular :ObjPerson2 :Dependent "ta"],
+                         [:Singular :ObjPerson2 :Independent "aga"],
+                         [:Singular :ObjPerson3 :Dependent "aa"],
+                         [:Singular :ObjPerson3 :Independent "aa"]]
+                 }
+                {:label "iraqw-VAffSelectorForms"
+                 :note "Mous1993 pp.123-154. Mous calls this section “The verbs ‘to be’” rather than “selector”. In any case nearly every sentence in Iraqw contains a selector/”verb to be” whether the complement is nominal or verbal. [Ex:tlee’use a Manda [potters COP Bantu]‘Potters are Bantu’;aníng a goo’—ïim [1.SG BE write-DUR:1.SG]‘I am writing’]"
+                 :common {:mood :Indicative,
+                          :polarity :Affirmative,
+                          :vmorphclass :SelectorForms,
+                          :pos :Verb}
+                 :terms [[:selectorCategory :selectorClass :token],
+                         [:Background :SelTense "wa"],
+                         [:Concessive :SelMood "tam"],
+                         [:Conditional :SelMood "bar"],
+                         [:Consecutive :SelTense "ri"],
+                         [:Consecutive2 :SelTense "ay"],
+                         [:Directive :Case "i"],
+                         [:Expectational :SelTense "neut"],
+                         [:Instrumental :Case "r"],
+                         [:Interrogative :SelMood "m"],
+                         [:Past :SelTense "na"],
+                         [:Perfect :SelTense "(g)a"],
+                         [:Prohibitive :SelMood "m"],
+                         [:SelCatC :SelBE "⊤"],
+                         [:Reason :Case "s"]]
+                 }
+                {:label "iraqw-VAffSelectorForms2"
+                 :note "Mous1993 p.130 (9).The template note is: persObe + selBE + selMood + selTense"
+                 :common {:persObj :ObjPerson3,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :vmorphclass :SelectorForms2,
+                          :pos :Verb}
+                 :terms [[:selectorBE :selectorMood :selectorTense :token :token-note-sel :token-selTense],
+                         [:Dependent :SelMoodC :Background " " "ng- + ⊤ + ⊤ + -wa" "ng- + ⊤ + ⊤ + -wa"],
+                         [:Dependent :SelMoodC :Consecutive2 " " "g- + ⊤ + ⊤ + -ay" "g- + ⊤ + ⊤ + -ay"],
+                         [:Independent :Concessive :SelTenseC " " "ng- + ⊤ + tam + ⊤" "ng- + ⊤ + tam + ⊤"],
+                         [:Independent :Conditional :SelTenseC " " "ng- + ⊤ + bar + ⊤" "ng- + ⊤ + bar + ⊤"],
+                         [:Independent :SelMoodC :Consecutive " " "g- + ⊤ + ⊤ + -ri" "g- + ⊤ + ⊤ + -ri"],
+                         [:Independent :SelMoodC :Expectational " " "g- + ⊤ + ⊤ + -n" "g- + ⊤ + ⊤ + -n"],
+                         [:Independent :SelMoodC :Past " " "g- + ⊤ + ⊤ + -na" "g- + ⊤ + ⊤ + -na"]]
+                 }
+                {:label "iraqw-VConj3Aff"
+                 :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
+                 :pdgmType  :VOther
+                 :common {:vmorphClass :VCONJ3AF
+                          :number :Singular,
+                          :mood :Indicative,
+                          :polarity :Affirmative,
+                          :pos :Verb}
+                 :terms [[:conjClass :person :token],
+                         [:Conj3a :Person1 "h"],
+                         [:Conj3a :Person2 "t"],
+                         [:Conj3b :Person1 "r"],
+                         [:Conj3b :Person2 "t"],
+                         [:Conj3c :Person1 "w"],
+                         [:Conj3c :Person2 "b"],
+                         [:Conj3d :Person1 "y"],
+                         [:Conj3d :Person2 "g"],
+                         [:Conj3e :Person1 "C-other"],
+                         [:Conj3e :Person2 "C-other"]]
+                 }
+                {:label "iraqw-VDervStemSuff"
+                 :note "Mous1993 p.170-202."
+                 :common {:vmorphClass :DervStemSuff
+                          :pos :Verb}
+                 :terms [[:derivedStem :token],
+                         [:Causative "-s"],
+                         [:Durative "-m"],
+                         [:Factitive1 "-ees"],
+                         [:Factitive2 "-uus"],
+                         [:Habitual "reduplication"],
+                         [:Inchoative "-uw"],
+                         [:Middle "-t"],
+                         [:Verbaliser "-uut"]]
+                 }
+                {:label "iraqw-VInfinitive"
+                 :note "Mous1993 p.167-168. Mous infinitivesuffix can occur after various types of
             subordinate clause with a generalizing or irrealis function. It is also used in the
             formation of the main clause negative and interrogative tenses."
-    :pdgmType :VOther
-    :common {:vmorphClass :InfinitiveSuff
-             :pos :Verb}
-    :terms [[:tam :token],
-            [:Past "-i"],
-            [:Present "-a"]]
-    }
-]
-}
- 
- 
+                 :common {:vmorphClass :InfinitiveSuff
+                          :pos :Verb}
+                 :terms [[:tam :token],
+                         [:Past "-i"],
+                         [:Present "-a"]]
+                 }
+                ]
+ }
+
+
