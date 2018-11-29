@@ -5,8 +5,7 @@
  :datasource "Mous1993"
  :geodemoURL "http://www.ethnologue.com/language/irk"
  :geodemoTXT "Varieties and subdialects of the South Cushitic language Iraqw are spoken in Tanzania 'Manyara region: Mbulu district, highlands southwest of Arusha in the north; Singida region near Manyara border; small areas in Arusha and Dodoma regions'."
- :schemata {:lexeme [:deer  :doohl :eehar :firiim :huuw :kah :koom :laaw :law :looh :maw :oh :tlaw :tsaweer :xwaylu :ʔaay],
- :conjClass [:Conj1 :Conj2 :Conj2a :Conj2b :Conj3a :Conj3b :Conj3c :Conj3d :Conj3e :Irreg],
+ :schemata { :conjClass [:Conj1 :Conj2 :Conj2a :Conj2b :Conj3a :Conj3b :Conj3c :Conj3d :Conj3e :Irreg],
  :demonstrative [:Far :Midway :Near1 :Near2],
  :derivedStem [:Causative :Durative :Factitive1 :Factitive2 :Habitual :Inchoative :Middel :Verbaliser],
  :form [:Full :Short],
@@ -39,25 +38,26 @@
           :synsemClass [:case :category :demonstrative :derivedStem :imprtvClass :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :form],
           :otherClass []}
- :lexemes{:xwaylu {:lemma "xwayluw-", :gloss "give birth", :conjClass :CC2b, :pos :Verb},
-          :tlaw {:lemma "tlaw-", :gloss "leave", :conjClass :Person2, :pos :Verb},
-          :koom {:lemma "koom-", :gloss "have", :conjClass :Person1, :pos :Verb},
-          :firiim {:lemma "firiim-", :gloss "ask", :conjClass :Person1, :pos :Verb},
-          :eehar {:lemma "eehar-", :gloss "follow", :conjClass :CC3b, :pos :Verb},
-          :ʔaay {:gloss "[x]", :lemma "[y]"},
-          :maw {:lemma "maw-", :gloss "leave", :conjClass :CC2a, :pos :Verb},
-          :tsaweer {:lemma "tsaweer-", :gloss "strangle", :conjClass :CC3b, :pos :Verb},
-          :oh {:lemma "oh-", :gloss "seize", :conjClass :CC3a, :pos :Verb},
-          :laaq {:lemma "laaq-", :gloss "show", :conjClass :CC3e, :pos :Verb},
-          :laaw {:lemma "laaw-", :gloss "go to cultivate", :conjClass :CC3c, :pos :Verb},
-          :i {:lemma "i", :gloss "DIRective", :category :Case, :pos :Verb},
-          :deer {:lemma "deer-", :gloss "be present", :conjClass :Person2, :pos :Verb},
-          :huuw {:lemma "huuw-", :gloss "bring", :conjClass :CC3c, :pos :Verb},
-          :looh {:lemma "looh-", :gloss "move", :conjClass :CC3a, :pos :Verb},
-          :kah {:lemma "kah-", :gloss "say"},
-          :law {:gloss "[x]", :lemma "[y]"},
-          :doohl {:lemma "doohl-", :gloss "dig", :conjClass :CC3e, :pos :Verb},
-          :ʕaay {:lemma "ʕaay-", :gloss "eat", :conjClass :CC3d, :pos :Verb}}
+ :lexemes {
+:deer   {:pos :Verb, :lemma "deer-", :gloss "be present", :conjClass :Person2},
+:doohl   {:pos :Verb, :lemma "doohl-", :gloss "dig", :conjClass :CC3e},
+:eehar   {:pos :Verb, :lemma "eehar-", :gloss "follow", :conjClass :CC3b},
+:firiim   {:pos :Verb, :lemma "firiim-", :gloss "ask", :conjClass :Person1},
+:huuw   {:pos :Verb, :lemma "huuw-", :gloss "bring", :conjClass :CC3c},
+:i   {:pos :Verb, :lemma "i", :gloss "DIRective", :category :Case},
+:kah   {:pos :Verb, :lemma "kah-", :gloss "say", },
+:koom   {:pos :Verb, :lemma "koom-", :gloss "have", :conjClass :Person1},
+:laaq   {:pos :Verb, :lemma "laaq-", :gloss "show", :conjClass :CC3e},
+:laaw   {:pos :Verb, :lemma "laaw-", :gloss "go to cultivate", :conjClass :CC3c},
+:law   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:looh   {:pos :Verb, :lemma "looh-", :gloss "move", :conjClass :CC3a},
+:maw   {:pos :Verb, :lemma "maw-", :gloss "leave", :conjClass :CC2a},
+:oh   {:pos :Verb, :lemma "oh-", :gloss "seize", :conjClass :CC3a},
+:tlaw   {:pos :Verb, :lemma "tlaw-", :gloss "leave", :conjClass :Person2},
+:tsaweer   {:pos :Verb, :lemma "tsaweer-", :gloss "strangle", :conjClass :CC3b},
+:xwaylu   {:pos :Verb, :lemma "xwayluw-", :gloss "give birth", :conjClass :CC2b},
+:ʕaay   {:pos :Verb, :lemma "ʕaay-", :gloss "eat", :conjClass :CC3d},
+}
  :termclusters [
                 {:label "iraqw-VAffImprtvMarker-doohl"
                  :note "Mous1993 p.164 (32,33)."
@@ -339,7 +339,7 @@
                 {:label "iraqw-VConj3dAffPresStemFormation-aay"
                  :note "Mous1993 p.156 (22) Conj 3:all verbs not belonging to Conj 1,2. (See iraqw-VPresConj3Sg1-2.) Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants. (Minimal selector as in iraqw-VPresConj3e-doohl.)"
                  :common {:conjClass :Conj3d,
-                          :lexeme :ʔaay,
+                          :lexeme :ʕaay,
                           :mood :Indicative,
                           :polarity :Affirmative,
                           :pos :Verb,
