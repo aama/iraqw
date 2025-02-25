@@ -1,8 +1,19 @@
 {
   "lang": "iraqw",
-  "subfamily": "Cushitic South Rift",
+  "subfamily": "cushitic south rift",
   "lgpref": "irq",
   "datasource": "Mous, Maarten. 1993. A Grammar of Iraqw. Kuschitische Sprachstudien, 9. Hamburg: Helmut Buske Verlag. [M93]",
+  "transcription": { 
+    "Consonants": {
+      "general": "AAMA transcription table",
+      "special": [
+        "'hh' = 'ħ'",
+        "'sl' = 'ɬ' ",
+        "'tl' = 'tɬ'",
+        "'ng' = 'ŋ'"
+        ]},
+    "Vowels": "i e a o u; ii ee aa oo uu",
+    "Tone": " 'á' high; 'a' low"},
   "datasourceNotes": "",
   "geodemoURL": "http://www.ethnologue.com/language/irk",
   "geodemoTXT": "Varieties and subdialects of the South Cushitic language Iraqw are spoken in Tanzania ZZManyara region: Mbulu district, highlands southwest of Arusha in the north; Singida region near Manyara border; small areas in Arusha and Dodoma regionsZZ.",
@@ -89,7 +100,6 @@
     "DervStemSuff",
     "Infinitive",
     "Participle",
-    "SelBE",
     "StemFormation",
     "SubjMarker",
     "VerbFinalC"
@@ -166,7 +176,12 @@
     "Pers_dem",
     "Possessive"
   ],
+  "proForm": [
+    "Full",
+    "Short"
+  ],
   "selClass": [
+    "SelBE",
     "SelBEImpersHit",
     "SelBENom",
     "SelBEObj",
@@ -288,8 +303,8 @@
   },
   "law": {
     "pos": "Verb",
-    "lemma": "[y]",
-    "gloss": "[x]"
+    "lemma": "law",
+    "gloss": "hit"
   },
   "looh": {
     "pos": "Verb",
@@ -341,7 +356,8 @@
     "note": "M93p.112",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Independent"
+      "proClass": "Independent",
+      "proForm": "Full"
     },
     "terms": [
       ["form" ,"number" ,"person" ,"gender" ,"token"],
@@ -351,12 +367,24 @@
       ["Full" ,"Plural" ,"Person1" ,"Common" ,"atén"],
       ["Full" ,"Plural" ,"Person2" ,"Common" ,"kuungá’"],
       ["Full" ,"Plural" ,"Person3" ,"Common" ,"inós"],
-      ["Full" ,"Plural" ,"Person3" ,"Common" ,"ino’ín"],
+      ["Full" ,"Plural" ,"Person3" ,"Common" ,"ino’ín"]
+    ]
+  },
+  {
+    "label": "irq-Pronoun",
+    "note": "M93p.112",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "proForm": "Short"
+    },
+    "terms": [
+      ["form" ,"number" ,"person" ,"gender" ,"token"],
       ["Short" ,"Singular" ,"Person1" ,"Common" ,"án"],
       ["Short" ,"Singular" ,"Person2" ,"Masc" ,"kú"],
       ["Short" ,"Singular" ,"Person2" ,"Fem" ,"kí"],
       ["Short" ,"Plural" ,"Person1" ,"Common" ,"át"],
-      ["Short" ,"Plural" ,"Person2" ,"Common" ,"⊤"],
+      ["Short" ,"Plural" ,"Person2" ,"Common" ,"!!"],
       ["Short" ,"Plural" ,"Person3" ,"Common" ,"ís"],
       ["Short" ,"Plural" ,"Person3" ,"Common" ,"inín"]
     ]
@@ -397,7 +425,18 @@
       ["Far" ,"Singular" ,"Person3" ,"Fem" ,"ínsadá’"],
       ["Far" ,"Plural" ,"Person1" ,"Common" ,"aténadá’"],
       ["Far" ,"Plural" ,"Person2" ,"Common" ,"kuungádá’"],
-      ["Far" ,"Plural" ,"Person3" ,"Common" ,"ino’ínadá’"],
+      ["Far" ,"Plural" ,"Person3" ,"Common" ,"ino’ínadá’"]
+    ]
+  },
+  {
+    "label": "irq-Pronoun",
+    "note": "M93p.113 :: The demonstratives are:near1 í~ká,near2 síng,mid qá’,far dá’.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Pers_dem"
+    },
+    "terms": [
+      ["demonstrative" ,"number" ,"person" ,"gender" ,"token"],
       ["Midway" ,"Singular" ,"Person1" ,"Masc" ,"aníqá’"],
       ["Midway" ,"Singular" ,"Person1" ,"Fem" ,"aníqá’"],
       ["Midway" ,"Singular" ,"Person2" ,"Masc" ,"kúqá’"],
@@ -406,16 +445,38 @@
       ["Midway" ,"Singular" ,"Person3" ,"Fem" ,"ínsaqá’"],
       ["Midway" ,"Plural" ,"Person1" ,"Common" ,"aténaqá’"],
       ["Midway" ,"Plural" ,"Person2" ,"Common" ,"kuungáqá’"],
-      ["Midway" ,"Plural" ,"Person3" ,"Common" ,"ino’ínaqá’"],
+      ["Midway" ,"Plural" ,"Person3" ,"Common" ,"ino’ínaqá’"]
+    ]
+  },
+  {
+    "label": "irq-Pronoun",
+    "note": "M93p.113 :: The demonstratives are:near1 í~ká,near2 síng,mid qá’,far dá’.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Pers_dem"
+    },
+    "terms": [
+      ["demonstrative" ,"number" ,"person" ,"gender" ,"token"],
       ["Near1" ,"Singular" ,"Person1" ,"Masc" ,"aníwí"],
       ["Near1" ,"Singular" ,"Person1" ,"Fem" ,"anírí"],
-      ["Near1" ,"Singular" ,"Person2" ,"Masc" ,"⊤"],
-      ["Near1" ,"Singular" ,"Person2" ,"Fem" ,"⊤"],
+      ["Near1" ,"Singular" ,"Person2" ,"Masc" ,"!!"],
+      ["Near1" ,"Singular" ,"Person2" ,"Fem" ,"!!"],
       ["Near1" ,"Singular" ,"Person3" ,"Masc" ,"inósuwí"],
       ["Near1" ,"Singular" ,"Person3" ,"Fem" ,"ínsarí"],
       ["Near1" ,"Plural" ,"Person1" ,"Common" ,"aténaká"],
-      ["Near1" ,"Plural" ,"Person2" ,"Common" ,"⊤"],
-      ["Near1" ,"Plural" ,"Person3" ,"Common" ,"ino’ínaká"],
+      ["Near1" ,"Plural" ,"Person2" ,"Common" ,"!!"],
+      ["Near1" ,"Plural" ,"Person3" ,"Common" ,"ino’ínaká"]
+    ]
+  },
+  {
+    "label": "irq-Pronoun",
+    "note": "M93p.113 :: The demonstratives are:near1 í~ká,near2 síng,mid qá’,far dá’.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Pers_dem"
+    },
+    "terms": [
+      ["demonstrative" ,"number" ,"person" ,"gender" ,"token"],
       ["Near2" ,"Singular" ,"Person1" ,"Masc" ,"anísíng"],
       ["Near2" ,"Singular" ,"Person1" ,"Fem" ,"anísíng"],
       ["Near2" ,"Singular" ,"Person2" ,"Masc" ,"kúsíng"],
@@ -441,7 +502,18 @@
       ["HeadFem" ,"Singular" ,"Person3" ,"tós" ,"to+s"],
       ["HeadFem" ,"Plural" ,"Person1" ,"torén" ,"to+ren"],
       ["HeadFem" ,"Plural" ,"Person2" ,"tohúng" ,"to+hung"],
-      ["HeadFem" ,"Plural" ,"Person3" ,"to’ín" ,"to+’in"],
+      ["HeadFem" ,"Plural" ,"Person3" ,"to’ín" ,"to+’in"]
+    ]
+  },
+  {
+    "label": "irq-Pronoun",
+    "note": "M93p.115",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Possessive"
+    },
+    "terms": [
+      ["genderHead" ,"number" ,"person" ,"token" ,"token-note"],
       ["HeadMasc" ,"Singular" ,"Person1" ,"kwe’ée’" ,"ko+e’ée’"],
       ["HeadMasc" ,"Singular" ,"Person2" ,"kók" ,"ko+k"],
       ["HeadMasc" ,"Singular" ,"Person3" ,"kós" ,"ko+s"],
@@ -594,7 +666,7 @@
       ["Past" ,"SelTense" ,"na"],
       ["Perfect" ,"SelTense" ,"(g)a"],
       ["Prohibitive" ,"SelMood" ,"m"],
-      ["SelCatC" ,"SelBE" ,"⊤"],
+      ["SelCatC" ,"SelBE" ,"!!"],
       ["reason" ,"Case" ,"s"]
     ]
   },
@@ -609,14 +681,14 @@
       "selClass": "SelectorForms2"
     },
     "terms": [
-      ["selectorBE" ,"selectorMood" ,"selectorTense" ,"token" ,"token-note-sel" ,"token-selTense"],
-      ["Dependent" ,"SelMoodC" ,"Background" ," " ,"ng- + ⊤ + ⊤ + -wa" ,"ng- + ⊤ + ⊤ + -wa"],
-      ["Dependent" ,"SelMoodC" ,"Consecutive2" ," " ,"g- + ⊤ + ⊤ + -ay" ,"g- + ⊤ + ⊤ + -ay"],
-      ["Independent" ,"Concessive" ,"SelTenseC" ," " ,"ng- + ⊤ + tam + ⊤" ,"ng- + ⊤ + tam + ⊤"],
-      ["Independent" ,"Conditional" ,"SelTenseC" ," " ,"ng- + ⊤ + bar + ⊤" ,"ng- + ⊤ + bar + ⊤"],
-      ["Independent" ,"SelMoodC" ,"Consecutive" ," " ,"g- + ⊤ + ⊤ + -ri" ,"g- + ⊤ + ⊤ + -ri"],
-      ["Independent" ,"SelMoodC" ,"Expectational" ," " ,"g- + ⊤ + ⊤ + -n" ,"g- + ⊤ + ⊤ + -n"],
-      ["Independent" ,"SelMoodC" ,"Past" ," " ,"g- + ⊤ + ⊤ + -na" ,"g- + ⊤ + ⊤ + -na"]
+      ["selectorBE" ,"selectorMood" ,"selectorTense" ,"token" ,"token-CInit"],
+      ["Dependent" ,"SelMoodC" ,"Background" ,"-wa" ,"ng-"],
+      ["Dependent" ,"SelMoodC" ,"Consecutive2" ," -ay" ,"g- "],
+      ["Independent" ,"Concessive" ,"SelTenseC" ,"tam " ,"ng-"],
+      ["Independent" ,"Conditional" ,"SelTenseC" ,"bar" ,"ng- "],
+      ["Independent" ,"SelMoodC" ,"Consecutive" ,"-ri" ,"g-"],
+      ["Independent" ,"SelMoodC" ,"Expectational" ,"-n" ,"g-"],
+      ["Independent" ,"SelMoodC" ,"Past" ,"-na" ,"g-"]
     ]
   },
   {
@@ -1334,64 +1406,13 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-DervStemSuff-",
-    "note": "M93p.170-202",
-    "common": {
-      "pos": "Verb",
-      "morphClass": "DervStemSuff"
-    },
-    "terms": [
-      ["derivedStem" ,"token"],
-      ["Causative" ,"-s"],
-      ["Durative" ,"-m"],
-      ["Factitive1" ,"-ees"],
-      ["Factitive2" ,"-uus"],
-      ["Habitual" ,"reduplication"],
-      ["Inchoative" ,"-uw"],
-      ["Middel" ,"-t"],
-      ["Verbaliser" ,"-uut"]
-    ]
-  },
-  {
-    "label": "irq-Verbmorph-Infinitive-",
-    "note": "M93p.167-168 :: Mous infinitivesuffix can occur after various types of subordinate clause with a generalizing or irrealis function. It is also used in the formation of the main clause negative and interrogative tenses.",
-    "common": {
-      "pos": "Verb",
-      "morphClass": "Infinitive"
-    },
-    "terms": [
-      ["tam" ,"token"],
-      ["Past" ,"-i"],
-      ["Present" ,"-a"]
-    ]
-  },
-  {
-    "label": "irq-Verbmorph-Participle--doohl-",
-    "note": "M93pp.165-166",
-    "common": {
-      "lexeme": "doohl",
-      "pos": "Verb",
-      "morphClass": "Participle"
-    },
-    "terms": [
-      ["genderHead" ,"numHead" ,"possHead" ,"token"],
-      ["HeadCommon" ,"HeadPlural" ,"HeadPro" ,"doohlá'"],
-      ["HeadFem" ,"HeadPlural" ,"HeadNoun" ,"doohl"],
-      ["HeadFem" ,"HeadSingular" ,"HeadC" ,"doohl"],
-      ["HeadMasc" ,"HeadPlural" ,"HeadNoun" ,"dóohl"],
-      ["HeadMasc" ,"HeadSingular" ,"HeadC" ,"dóohl"],
-      ["HeadNeut" ,"HeadPlural" ,"HeadNoun" ,"doohlá'"],
-      ["HeadNeut" ,"HeadSingular" ,"HeadC" ,"doohlá'"]
-    ]
-  },
-  {
-    "label": "irq-Verbmorph-SelBE-IndicativeAffirmative",
+    "label": "irq-VerbSelBEIndicativeAffirmative",
     "note": "M93p.143(13,14) :: impersonal = ‘impersonal’;HIT = ‘hither’;REC = reciprocal. p. 131(10) gives reverse index by form for all iraqw-VSelector paradigms :: The perfect form of the hither is na.",
     "common": {
       "mood": "Indicative",
       "polarity": "Affirmative",
       "pos": "Verb",
-      "morphClass": "SelBE"
+      "selClass": "SelBE"
     },
     "terms": [
       ["genderObj" ,"numObj" ,"numSubj" ,"persObj" ,"persSubj" ,"selectorBE" ,"token"],
@@ -1442,7 +1463,58 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-StemFormation-Conj3a-oh-PresentIndicativeAffirmative",
+    "label": "irq-morphVerb-DervStemSuff",
+    "note": "M93p.170-202",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "DervStemSuff"
+    },
+    "terms": [
+      ["derivedStem" ,"token"],
+      ["Causative" ,"-s"],
+      ["Durative" ,"-m"],
+      ["Factitive1" ,"-ees"],
+      ["Factitive2" ,"-uus"],
+      ["Habitual" ,"reduplication"],
+      ["Inchoative" ,"-uw"],
+      ["Middel" ,"-t"],
+      ["Verbaliser" ,"-uut"]
+    ]
+  },
+  {
+    "label": "irq-morphVerb-Infinitive",
+    "note": "M93p.167-168 :: Mous infinitivesuffix can occur after various types of subordinate clause with a generalizing or irrealis function. It is also used in the formation of the main clause negative and interrogative tenses.",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "Infinitive"
+    },
+    "terms": [
+      ["tam" ,"token"],
+      ["Past" ,"-i"],
+      ["Present" ,"-a"]
+    ]
+  },
+  {
+    "label": "irq-morphVerb-Participle-doohl-",
+    "note": "M93pp.165-166",
+    "common": {
+      "lexeme": "doohl",
+      "pos": "Verb",
+      "morphClass": "Participle"
+    },
+    "terms": [
+      ["genderHead" ,"numHead" ,"possHead" ,"token"],
+      ["HeadCommon" ,"HeadPlural" ,"HeadPro" ,"doohlá'"],
+      ["HeadFem" ,"HeadPlural" ,"HeadNoun" ,"doohl"],
+      ["HeadFem" ,"HeadSingular" ,"HeadC" ,"doohl"],
+      ["HeadMasc" ,"HeadPlural" ,"HeadNoun" ,"dóohl"],
+      ["HeadMasc" ,"HeadSingular" ,"HeadC" ,"dóohl"],
+      ["HeadNeut" ,"HeadPlural" ,"HeadNoun" ,"doohlá'"],
+      ["HeadNeut" ,"HeadSingular" ,"HeadC" ,"doohlá'"]
+    ]
+  },
+  {
+    "label": "irq-morphVerb-StemFormationConj3a-oh-PresentIndicativeAffirmative",
     "note": "M93p.156(22) :: Conj 3:all verbs not belonging to Conj 1,2.(See iraqw-VPresConj3Sg1-2.) :: Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants.(Minimal selector as in iraqw-VPresConj3e-doohl.)",
     "common": {
       "conjClass": "Conj3a",
@@ -1465,7 +1537,7 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-StemFormation-Conj3b-eehar-PresentIndicativeAffirmative",
+    "label": "irq-morphVerb-StemFormationConj3b-eehar-PresentIndicativeAffirmative",
     "note": "M93p.156(22) :: Conj 3:all verbs not belonging to Conj 1,2.(See iraqw-VPresConj3Sg1-2.) :: Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants.(Minimal selector as in iraqw-VPresConj3e-doohl.)",
     "common": {
       "conjClass": "Conj3b",
@@ -1488,7 +1560,7 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-StemFormation-Conj3c-law-PresentIndicativeAffirmative",
+    "label": "irq-morphVerb-StemFormationConj3c-law-PresentIndicativeAffirmative",
     "note": "M93p.156(22) :: Conj 3:all verbs not belonging to Conj 1,2.(See iraqw-VPresConj3Sg1-2.) :: Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants.(Minimal selector as in iraqw-VPresConj3e-doohl.)",
     "common": {
       "conjClass": "Conj3c",
@@ -1511,7 +1583,7 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-StemFormation-Conj3d-ʕaay-PresentIndicativeAffirmative",
+    "label": "irq-morphVerb-StemFormationConj3d-ʕaay-PresentIndicativeAffirmative",
     "note": "M93p.156(22) :: Conj 3:all verbs not belonging to Conj 1,2.(See iraqw-VPresConj3Sg1-2.) :: Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants.(Minimal selector as in iraqw-VPresConj3e-doohl.)",
     "common": {
       "conjClass": "Conj3d",
@@ -1534,7 +1606,7 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-StemFormation-Conj3e-doohl-PresentIndicativeAffirmative",
+    "label": "irq-morphVerb-StemFormationConj3e-doohl-PresentIndicativeAffirmative",
     "note": "M93p.155(20) :: [M93p.156(22) :: Conj 3:all verbs not belonging to Conj 1,2.(See iraqw-VPresConj3Sg1-2.) :: Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj3e:verbs ending in other consonants.(Minimal selector as in iraqw-VPresConj3e-doohl.)]",
     "common": {
       "conjClass": "Conj3e",
@@ -1557,7 +1629,7 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-SubjMarker-PresentIndicativeAffirmative",
+    "label": "irq-morphVerb-SubjMarkerPresentIndicativeAffirmative",
     "note": "M93p.159(27) :: See 159-161 and(28).",
     "common": {
       "mood": "Indicative",
@@ -1620,7 +1692,7 @@
     ]
   },
   {
-    "label": "irq-Verbmorph-VerbFinalC-IndicativeAffirmative",
+    "label": "irq-morphVerb-VerbFinalCIndicativeAffirmative",
     "note": "M93p.156(22) :: Conj 3:all verbs not belonging to Conj 1,2. Conj 3a:verbs ending in h with short fowel in final syllable. Conj 3b:verbs in r. Conj 3token-verbs ending in VVw. Conj 3d:verbs ending in VVy. Conj 3e:verbs ending in other consonants.(Minimal selector as in iraqw-VPresConj3e-doohl.)",
     "common": {
       "mood": "Indicative",
